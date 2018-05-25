@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527236001565">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527236459077">
   <folder name="css">
     <file name="site_global.css" crc="3954243874"/>
     <file name="master_a-master.css" crc="3857176779" ref="estimate:index:mail-in:faq:reviews"/>
@@ -7,25 +7,25 @@
     <file name="macbook.css" crc="315408173" ref="macbook"/>
     <file name="nomq_macbook.css" crc="4096705746" ref="macbook"/>
     <file name="iefonts_macbook.css" crc="4113716863" ref="macbook"/>
-    <file name="estimate.css" crc="3887638407" ref="estimate"/>
-    <file name="nomq_estimate.css" crc="3810044156" ref="estimate"/>
+    <file name="estimate.css" crc="175957473" ref="estimate"/>
+    <file name="nomq_estimate.css" crc="27124606" ref="estimate"/>
     <file name="iefonts_estimate.css" crc="4113716863" ref="estimate"/>
     <file name="contact.css" crc="31295482" ref="contact"/>
     <file name="nomq_contact.css" crc="4241917437" ref="contact"/>
     <file name="iefonts_contact.css" crc="4113716863" ref="contact"/>
-    <file name="index.css" crc="3856142600" ref="index"/>
-    <file name="nomq_index.css" crc="132267014" ref="index"/>
+    <file name="index.css" crc="4218385365" ref="index"/>
+    <file name="nomq_index.css" crc="185165902" ref="index"/>
     <file name="iefonts_index.css" crc="4113716863" ref="index"/>
-    <file name="mail-in.css" crc="3847780812" ref="mail-in"/>
-    <file name="nomq_mail-in.css" crc="3927730547" ref="mail-in"/>
+    <file name="mail-in.css" crc="4187624564" ref="mail-in"/>
+    <file name="nomq_mail-in.css" crc="4055456276" ref="mail-in"/>
     <file name="iefonts_mail-in.css" crc="4113716863" ref="mail-in"/>
     <file name="forum.css" crc="349507134" ref="forum"/>
     <file name="store.css" crc="349507134" ref="store"/>
-    <file name="faq.css" crc="4104827147" ref="faq"/>
-    <file name="nomq_faq.css" crc="227608308" ref="faq"/>
+    <file name="faq.css" crc="359037271" ref="faq"/>
+    <file name="nomq_faq.css" crc="536206574" ref="faq"/>
     <file name="iefonts_faq.css" crc="4113716863" ref="faq"/>
-    <file name="reviews.css" crc="4084547504" ref="reviews"/>
-    <file name="nomq_reviews.css" crc="3783811804" ref="reviews"/>
+    <file name="reviews.css" crc="4277572980" ref="reviews"/>
+    <file name="nomq_reviews.css" crc="4151388262" ref="reviews"/>
     <file name="iefonts_reviews.css" crc="4113716863" ref="reviews"/>
     <file name="master_a-master-copy.css" crc="460058630" ref="macbook:contact"/>
     <file name="nomq_preview_master_a-master-copy.css" crc="329510312" ref="macbook:contact"/>
@@ -129,14 +129,14 @@
     </file>
     <file name="extortion-u11691-fr.jpg" crc="3869739740" ref="faq"/>
   </folder>
-  <file name="index.html" crc="8061656" seo="true" mt="1527235814309" redirect="true"/>
+  <file name="index.html" crc="246158339" seo="true" mt="1527236434373" redirect="true"/>
   <file name="macbook.html" crc="50982765" seo="true" mt="1527235931007" redirect="true"/>
-  <file name="reviews.html" crc="93026697" seo="true" mt="1527235814309" redirect="true"/>
-  <file name="mail-in.html" crc="419485923" seo="true" mt="1527235814309" redirect="true"/>
-  <file name="estimate.html" crc="357677157" seo="true" mt="1527235814309" redirect="true"/>
+  <file name="reviews.html" crc="4021022784" seo="true" mt="1527236434017" redirect="true"/>
+  <file name="mail-in.html" crc="3902331522" seo="true" mt="1527236434017" redirect="true"/>
+  <file name="estimate.html" crc="406052495" seo="true" mt="1527236434017" redirect="true"/>
   <file name="blog.html" crc="3952902373" seo="true" mt="1526722395497" redirect="false"/>
   <file name="store.html" crc="63193243" seo="true" mt="1526725599707" redirect="false"/>
   <file name="contact.html" crc="4090874842" seo="true" mt="1527235959239" redirect="true"/>
-  <file name="faq.html" crc="413654964" seo="true" mt="1527235814309" redirect="true"/>
+  <file name="faq.html" crc="3778316381" seo="true" mt="1527236434017" redirect="true"/>
   <file name="forum.html" crc="503521744" seo="true" mt="1526722158453" redirect="false"/>
 </manifest>
