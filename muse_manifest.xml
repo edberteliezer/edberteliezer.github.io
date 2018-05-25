@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527247529782">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527247779618">
   <folder name="css">
     <file name="site_global.css" crc="39585882"/>
     <file name="master_a-master.css" crc="4058384250" ref="index"/>
@@ -13,8 +13,8 @@
     <file name="contact.css" crc="260974223" ref="contact"/>
     <file name="nomq_contact.css" crc="249848817" ref="contact"/>
     <file name="iefonts_contact.css" crc="161578795" ref="contact"/>
-    <file name="index.css" crc="4000597569" ref="index"/>
-    <file name="nomq_index.css" crc="4024908077" ref="index"/>
+    <file name="index.css" crc="3765389862" ref="index"/>
+    <file name="nomq_index.css" crc="3952444733" ref="index"/>
     <file name="iefonts_index.css" crc="161578795" ref="index"/>
     <file name="mail-in.css" crc="4111454820" ref="mail-in"/>
     <file name="nomq_mail-in.css" crc="3802834293" ref="mail-in"/>
@@ -98,7 +98,7 @@
     </file>
     <file name="telephone-u8591-fr.jpg" crc="4160870763" ref="index"/>
     <file name="comic_rich_large-u8603-fr.jpg" crc="458661005" ref="index"/>
-    <file name="retail-photographer-u3530-fr.jpg" crc="267961151" ref="index"/>
+    <file name="retail-photographer-u3530-fr.jpg" crc="4007859016" ref="index"/>
     <file name="blur-close-up-computer-keyboard-459737.jpg" crc="4051043564" ref="macbook">
       <caption webpage="macbook" alt="KEYBOARD"/>
     </file>
@@ -135,7 +135,7 @@
       <caption webpage="faq" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="380521329" seo="true" mt="1527247515361" redirect="true"/>
+  <file name="index.html" crc="495511687" seo="true" mt="1527247767195" redirect="true"/>
   <file name="macbook.html" crc="45988278" seo="true" mt="1527245986001" redirect="true"/>
   <file name="reviews.html" crc="128372166" seo="true" mt="1527245986003" redirect="true"/>
   <file name="mail-in.html" crc="3810085564" seo="true" mt="1527245914322" redirect="true"/>
