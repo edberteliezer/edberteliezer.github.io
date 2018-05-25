@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527263484040">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527263730704">
   <folder name="css">
     <file name="site_global.css" crc="3944448210"/>
     <file name="blog.css" crc="349507134" ref="blog"/>
-    <file name="macbook.css" crc="4224138390" ref="macbook"/>
-    <file name="nomq_macbook.css" crc="3869320269" ref="macbook"/>
+    <file name="macbook.css" crc="448539926" ref="macbook"/>
+    <file name="nomq_macbook.css" crc="3776351715" ref="macbook"/>
     <file name="iefonts_macbook.css" crc="447216002" ref="macbook"/>
     <file name="estimate.css" crc="4040173574" ref="estimate"/>
     <file name="nomq_estimate.css" crc="3887281277" ref="estimate"/>
@@ -25,7 +25,7 @@
     <file name="reviews.css" crc="4129459836" ref="reviews"/>
     <file name="nomq_reviews.css" crc="534343895" ref="reviews"/>
     <file name="iefonts_reviews.css" crc="447216002" ref="reviews"/>
-    <file name="master_a-master-copy.css" crc="401930389" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
+    <file name="master_a-master-copy.css" crc="4149798844" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
     <file name="nomq_preview_master_a-master-copy.css" crc="3827958391" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
   </folder>
   <folder name="scripts">
@@ -77,6 +77,8 @@
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
+      <caption webpage="macbook" alt=""/>
+      <caption webpage="macbook" alt="MENU"/>
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
       <caption webpage="contact" alt=""/>
@@ -132,7 +134,7 @@
     <file name="retail-photographer-u3530-fr2.jpg" crc="4017637410" ref="index"/>
   </folder>
   <file name="index.html" crc="111161571" seo="true" mt="1527263466176" redirect="true"/>
-  <file name="macbook.html" crc="499265960" seo="true" mt="1527263466176" redirect="true"/>
+  <file name="macbook.html" crc="354022244" seo="true" mt="1527263710208" redirect="true"/>
   <file name="reviews.html" crc="480487721" seo="true" mt="1527263466176" redirect="true"/>
   <file name="mail-in.html" crc="4074879792" seo="true" mt="1527263466176" redirect="true"/>
   <file name="estimate.html" crc="446736836" seo="true" mt="1527263466176" redirect="true"/>
