@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527246875292">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527247072674">
   <folder name="css">
     <file name="site_global.css" crc="39585882"/>
     <file name="master_a-master.css" crc="4058384250" ref="index"/>
@@ -13,7 +13,7 @@
     <file name="contact.css" crc="260974223" ref="contact"/>
     <file name="nomq_contact.css" crc="249848817" ref="contact"/>
     <file name="iefonts_contact.css" crc="161578795" ref="contact"/>
-    <file name="index.css" crc="3804163465" ref="index"/>
+    <file name="index.css" crc="3835878102" ref="index"/>
     <file name="nomq_index.css" crc="182244815" ref="index"/>
     <file name="iefonts_index.css" crc="161578795" ref="index"/>
     <file name="mail-in.css" crc="4111454820" ref="mail-in"/>
@@ -71,7 +71,6 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt="MENU"/>
       <caption webpage="index" alt=""/>
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
@@ -136,7 +135,7 @@
       <caption webpage="faq" alt=""/>
     </file>
   </folder>
-  <file name="index.html" crc="3782319041" seo="true" mt="1527246862678" redirect="true"/>
+  <file name="index.html" crc="4236464911" seo="true" mt="1527247060022" redirect="true"/>
   <file name="macbook.html" crc="45988278" seo="true" mt="1527245986001" redirect="true"/>
   <file name="reviews.html" crc="128372166" seo="true" mt="1527245986003" redirect="true"/>
   <file name="mail-in.html" crc="3810085564" seo="true" mt="1527245914322" redirect="true"/>
