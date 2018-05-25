@@ -31,7 +31,7 @@ $form = array(
 		'to' => 'painter@adobe.com'
 	),
 	'fields' => array(
-		'custom_U53547' => array(
+		'custom_U93367' => array(
 			'order' => 1,
 			'type' => 'string',
 			'label' => 'Name',
@@ -50,7 +50,7 @@ $form = array(
 				'format' => 'Field \'Email\' has an invalid email.'
 			)
 		),
-		'custom_U53543' => array(
+		'custom_U93356' => array(
 			'order' => 4,
 			'type' => 'string',
 			'label' => 'What\'s wrong with it?',
@@ -59,7 +59,7 @@ $form = array(
 				'required' => 'Field \'What\'s wrong with it?\' is required.'
 			)
 		),
-		'custom_U53557' => array(
+		'custom_U93361' => array(
 			'order' => 3,
 			'type' => 'string',
 			'label' => 'What do you have?',
