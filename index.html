@@ -18,7 +18,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=3944448210"/>
   <link rel="stylesheet" type="text/css" href="css/master_a-master-copy.css?crc=401930389"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css?crc=4057447599" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?crc=436901373" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_index.css?crc=447216002"/>
@@ -458,13 +458,13 @@ Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_1680', '#bp_944'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#accordionu89033', ['#bp_944'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:true,defaultIndex:-1}); });/* #accordionu89033 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-$('#bp_infinity').one('muse_this_bp_activate', function(){
-$('#u3530').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,0]},{"speed":[0,0.8],"in":[0,Infinity]}], $(this)); /* scroll effect */
-$('#u8625').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,4101.8]},{"speed":[0,0.8],"in":[4101.8,Infinity]}], $(this)); /* scroll effect */
-});/* scroll effects for one breakpoint */
 $('#bp_1680').one('muse_this_bp_activate', function(){
 $('#u3530').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,0]},{"speed":[0,0.8],"in":[0,Infinity]}], $(this)); /* scroll effect */
 $('#u8625').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,4275.15]},{"speed":[0,0.8],"in":[4275.15,Infinity]}], $(this)); /* scroll effect */
+});/* scroll effects for one breakpoint */
+$('#bp_infinity').one('muse_this_bp_activate', function(){
+$('#u3530').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,0]},{"speed":[0,0.8],"in":[0,Infinity]}], $(this)); /* scroll effect */
+$('#u8625').registerBackgroundPositionScrollEffect([{"speed":[0,0.8],"in":[-Infinity,4101.8]},{"speed":[0,0.8],"in":[4101.8,Infinity]}], $(this)); /* scroll effect */
 });/* scroll effects for one breakpoint */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */

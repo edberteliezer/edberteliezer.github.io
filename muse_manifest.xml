@@ -1,31 +1,31 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527263730704">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527265839604">
   <folder name="css">
     <file name="site_global.css" crc="3944448210"/>
     <file name="blog.css" crc="349507134" ref="blog"/>
-    <file name="macbook.css" crc="448539926" ref="macbook"/>
-    <file name="nomq_macbook.css" crc="3776351715" ref="macbook"/>
+    <file name="macbook.css" crc="179188475" ref="macbook"/>
+    <file name="nomq_macbook.css" crc="10239631" ref="macbook"/>
     <file name="iefonts_macbook.css" crc="447216002" ref="macbook"/>
-    <file name="estimate.css" crc="4040173574" ref="estimate"/>
-    <file name="nomq_estimate.css" crc="3887281277" ref="estimate"/>
+    <file name="estimate.css" crc="4060603995" ref="estimate"/>
+    <file name="nomq_estimate.css" crc="333507610" ref="estimate"/>
     <file name="iefonts_estimate.css" crc="447216002" ref="estimate"/>
-    <file name="contact.css" crc="42169828" ref="contact"/>
-    <file name="nomq_contact.css" crc="3885885122" ref="contact"/>
+    <file name="contact.css" crc="240563475" ref="contact"/>
+    <file name="nomq_contact.css" crc="3977267341" ref="contact"/>
     <file name="iefonts_contact.css" crc="447216002" ref="contact"/>
-    <file name="index.css" crc="4057447599" ref="index"/>
+    <file name="index.css" crc="436901373" ref="index"/>
     <file name="nomq_index.css" crc="11211370" ref="index"/>
     <file name="iefonts_index.css" crc="447216002" ref="index"/>
-    <file name="mail-in.css" crc="91429258" ref="mail-in"/>
-    <file name="nomq_mail-in.css" crc="529933213" ref="mail-in"/>
+    <file name="mail-in.css" crc="58649069" ref="mail-in"/>
+    <file name="nomq_mail-in.css" crc="3774685964" ref="mail-in"/>
     <file name="iefonts_mail-in.css" crc="447216002" ref="mail-in"/>
     <file name="forum.css" crc="349507134" ref="forum"/>
     <file name="store.css" crc="349507134" ref="store"/>
-    <file name="faq.css" crc="3875362319" ref="faq"/>
-    <file name="nomq_faq.css" crc="530711803" ref="faq"/>
+    <file name="faq.css" crc="3833791379" ref="faq"/>
+    <file name="nomq_faq.css" crc="324259571" ref="faq"/>
     <file name="iefonts_faq.css" crc="447216002" ref="faq"/>
-    <file name="reviews.css" crc="4129459836" ref="reviews"/>
-    <file name="nomq_reviews.css" crc="534343895" ref="reviews"/>
+    <file name="reviews.css" crc="4127568883" ref="reviews"/>
+    <file name="nomq_reviews.css" crc="4050074020" ref="reviews"/>
     <file name="iefonts_reviews.css" crc="447216002" ref="reviews"/>
-    <file name="master_a-master-copy.css" crc="4149798844" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
+    <file name="master_a-master-copy.css" crc="401930389" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
     <file name="nomq_preview_master_a-master-copy.css" crc="3827958391" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
   </folder>
   <folder name="scripts">
@@ -78,8 +78,6 @@
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
-      <caption webpage="macbook" alt="MENU"/>
-      <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
       <caption webpage="contact" alt=""/>
       <caption webpage="contact" alt=""/>
@@ -120,27 +118,27 @@
     <file name="still-2607661_1920.jpg" crc="4087436710" ref="macbook">
       <caption webpage="macbook" alt="SPILL DEMAGE"/>
     </file>
-    <file name="blur-close-up-computer-keyboard-459737-u72581-4-fr.jpg" crc="4118086230" ref="macbook"/>
-    <file name="hinge-1774925_1920-u72577-4-fr.jpg" crc="448174810" ref="macbook"/>
-    <file name="jumper-cables-926308_1920-u72575-4-fr.jpg" crc="264184828" ref="macbook"/>
-    <file name="fire-2197606_1920-u72906-4-fr.jpg" crc="293630161" ref="macbook"/>
-    <file name="handwriting-pen-tablet-8701-u72847-4-fr.jpg" crc="312911373" ref="macbook"/>
-    <file name="art-blur-broke-191070-u75350-4-fr.jpg" crc="4223443747" ref="macbook"/>
-    <file name="black-and-white-computer-laptop-34606-u75372-4-fr.jpg" crc="403963170" ref="macbook"/>
-    <file name="still-2607661_1920-u75384-4-fr.jpg" crc="291191554" ref="macbook"/>
     <file name="extortion.jpg" crc="95059272" ref="faq">
       <caption webpage="faq" alt=""/>
     </file>
     <file name="retail-photographer-u3530-fr2.jpg" crc="4017637410" ref="index"/>
+    <file name="blur-close-up-computer-keyboard-459737-u190685-4-fr.jpg" crc="4118086230" ref="macbook"/>
+    <file name="hinge-1774925_1920-u190707-4-fr.jpg" crc="448174810" ref="macbook"/>
+    <file name="jumper-cables-926308_1920-u190697-4-fr.jpg" crc="264184828" ref="macbook"/>
+    <file name="fire-2197606_1920-u190709-4-fr.jpg" crc="293630161" ref="macbook"/>
+    <file name="handwriting-pen-tablet-8701-u190713-4-fr.jpg" crc="312911373" ref="macbook"/>
+    <file name="art-blur-broke-191070-u190691-4-fr.jpg" crc="4223443747" ref="macbook"/>
+    <file name="black-and-white-computer-laptop-34606-u190687-4-fr.jpg" crc="403963170" ref="macbook"/>
+    <file name="still-2607661_1920-u190699-4-fr.jpg" crc="291191554" ref="macbook"/>
   </folder>
-  <file name="index.html" crc="111161571" seo="true" mt="1527263466176" redirect="true"/>
-  <file name="macbook.html" crc="354022244" seo="true" mt="1527263710208" redirect="true"/>
-  <file name="reviews.html" crc="480487721" seo="true" mt="1527263466176" redirect="true"/>
-  <file name="mail-in.html" crc="4074879792" seo="true" mt="1527263466176" redirect="true"/>
-  <file name="estimate.html" crc="446736836" seo="true" mt="1527263466176" redirect="true"/>
+  <file name="index.html" crc="3875980194" seo="true" mt="1527265822737" redirect="true"/>
+  <file name="macbook.html" crc="237800244" seo="true" mt="1527265822737" redirect="true"/>
+  <file name="reviews.html" crc="4028649689" seo="true" mt="1527265822737" redirect="true"/>
+  <file name="mail-in.html" crc="154379599" seo="true" mt="1527265822737" redirect="true"/>
+  <file name="estimate.html" crc="300948279" seo="true" mt="1527265822737" redirect="true"/>
   <file name="blog.html" crc="3952902373" seo="true" mt="1526722395497" redirect="false"/>
   <file name="store.html" crc="63193243" seo="true" mt="1526725599707" redirect="false"/>
-  <file name="contact.html" crc="5697587" seo="true" mt="1527263466176" redirect="true"/>
-  <file name="faq.html" crc="4128738491" seo="true" mt="1527263466176" redirect="true"/>
+  <file name="contact.html" crc="4247994525" seo="true" mt="1527265822737" redirect="true"/>
+  <file name="faq.html" crc="205829634" seo="true" mt="1527265822737" redirect="true"/>
   <file name="forum.html" crc="503521744" seo="true" mt="1526722158453" redirect="false"/>
 </manifest>
