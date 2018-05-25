@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527252228046">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527253270190">
   <folder name="css">
     <file name="site_global.css" crc="330332511"/>
     <file name="blog.css" crc="349507134" ref="blog"/>
@@ -11,8 +11,8 @@
     <file name="contact.css" crc="446506109" ref="contact"/>
     <file name="nomq_contact.css" crc="436662212" ref="contact"/>
     <file name="iefonts_contact.css" crc="384330534" ref="contact"/>
-    <file name="index.css" crc="4157614082" ref="index"/>
-    <file name="nomq_index.css" crc="251140564" ref="index"/>
+    <file name="index.css" crc="295304325" ref="index"/>
+    <file name="nomq_index.css" crc="106351609" ref="index"/>
     <file name="iefonts_index.css" crc="384330534" ref="index"/>
     <file name="mail-in.css" crc="239281398" ref="mail-in"/>
     <file name="nomq_mail-in.css" crc="4023184083" ref="mail-in"/>
@@ -25,7 +25,7 @@
     <file name="reviews.css" crc="3794312468" ref="reviews"/>
     <file name="nomq_reviews.css" crc="140120395" ref="reviews"/>
     <file name="iefonts_reviews.css" crc="384330534" ref="reviews"/>
-    <file name="master_a-master-copy.css" crc="4131678353" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
+    <file name="master_a-master-copy.css" crc="3870820758" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
     <file name="nomq_preview_master_a-master-copy.css" crc="329510312" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
   </folder>
   <folder name="scripts">
@@ -127,9 +127,8 @@
     <file name="extortion.jpg" crc="95059272" ref="faq">
       <caption webpage="faq" alt=""/>
     </file>
-    <file name="retail-photographer-u3530-fr2.jpg" crc="4017637410" ref="index"/>
   </folder>
-  <file name="index.html" crc="4037643476" seo="true" mt="1527252210940" redirect="true"/>
+  <file name="index.html" crc="3820947948" seo="true" mt="1527253266021" redirect="true"/>
   <file name="macbook.html" crc="4195606943" seo="true" mt="1527252210940" redirect="true"/>
   <file name="reviews.html" crc="4112019977" seo="true" mt="1527252210940" redirect="true"/>
   <file name="mail-in.html" crc="524656731" seo="true" mt="1527252210940" redirect="true"/>
