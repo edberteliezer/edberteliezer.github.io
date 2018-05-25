@@ -1,9 +1,9 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527263386427">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527263484040">
   <folder name="css">
     <file name="site_global.css" crc="3944448210"/>
     <file name="blog.css" crc="349507134" ref="blog"/>
-    <file name="macbook.css" crc="278682429" ref="macbook"/>
-    <file name="nomq_macbook.css" crc="3911906434" ref="macbook"/>
+    <file name="macbook.css" crc="4224138390" ref="macbook"/>
+    <file name="nomq_macbook.css" crc="3869320269" ref="macbook"/>
     <file name="iefonts_macbook.css" crc="447216002" ref="macbook"/>
     <file name="estimate.css" crc="4040173574" ref="estimate"/>
     <file name="nomq_estimate.css" crc="3887281277" ref="estimate"/>
@@ -131,14 +131,14 @@
     </file>
     <file name="retail-photographer-u3530-fr2.jpg" crc="4017637410" ref="index"/>
   </folder>
-  <file name="index.html" crc="111161571" seo="true" mt="1527263370144" redirect="true"/>
-  <file name="macbook.html" crc="4185287794" seo="true" mt="1527263370144" redirect="true"/>
-  <file name="reviews.html" crc="480487721" seo="true" mt="1527263370144" redirect="true"/>
-  <file name="mail-in.html" crc="4074879792" seo="true" mt="1527263370144" redirect="true"/>
-  <file name="estimate.html" crc="446736836" seo="true" mt="1527263370144" redirect="true"/>
+  <file name="index.html" crc="111161571" seo="true" mt="1527263466176" redirect="true"/>
+  <file name="macbook.html" crc="499265960" seo="true" mt="1527263466176" redirect="true"/>
+  <file name="reviews.html" crc="480487721" seo="true" mt="1527263466176" redirect="true"/>
+  <file name="mail-in.html" crc="4074879792" seo="true" mt="1527263466176" redirect="true"/>
+  <file name="estimate.html" crc="446736836" seo="true" mt="1527263466176" redirect="true"/>
   <file name="blog.html" crc="3952902373" seo="true" mt="1526722395497" redirect="false"/>
   <file name="store.html" crc="63193243" seo="true" mt="1526725599707" redirect="false"/>
-  <file name="contact.html" crc="5697587" seo="true" mt="1527263370144" redirect="true"/>
-  <file name="faq.html" crc="4128738491" seo="true" mt="1527263370144" redirect="true"/>
+  <file name="contact.html" crc="5697587" seo="true" mt="1527263466176" redirect="true"/>
+  <file name="faq.html" crc="4128738491" seo="true" mt="1527263466176" redirect="true"/>
   <file name="forum.html" crc="503521744" seo="true" mt="1526722158453" redirect="false"/>
 </manifest>
