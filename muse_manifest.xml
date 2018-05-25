@@ -1,34 +1,32 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527236459077">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527236688347">
   <folder name="css">
     <file name="site_global.css" crc="3954243874"/>
-    <file name="master_a-master.css" crc="3857176779" ref="estimate:index:mail-in:faq:reviews"/>
-    <file name="nomq_preview_master_a-master.css" crc="245528835" ref="estimate:index:mail-in:faq:reviews"/>
+    <file name="master_a-master.css" crc="266065112" ref="estimate:index:mail-in:faq:reviews:contact:macbook"/>
+    <file name="nomq_preview_master_a-master.css" crc="245528835" ref="estimate:index:mail-in:faq:reviews:contact:macbook"/>
     <file name="blog.css" crc="349507134" ref="blog"/>
-    <file name="macbook.css" crc="315408173" ref="macbook"/>
-    <file name="nomq_macbook.css" crc="4096705746" ref="macbook"/>
+    <file name="macbook.css" crc="39530275" ref="macbook"/>
+    <file name="nomq_macbook.css" crc="3831108482" ref="macbook"/>
     <file name="iefonts_macbook.css" crc="4113716863" ref="macbook"/>
-    <file name="estimate.css" crc="175957473" ref="estimate"/>
-    <file name="nomq_estimate.css" crc="27124606" ref="estimate"/>
+    <file name="estimate.css" crc="3993332251" ref="estimate"/>
+    <file name="nomq_estimate.css" crc="88325199" ref="estimate"/>
     <file name="iefonts_estimate.css" crc="4113716863" ref="estimate"/>
-    <file name="contact.css" crc="31295482" ref="contact"/>
-    <file name="nomq_contact.css" crc="4241917437" ref="contact"/>
+    <file name="contact.css" crc="12359870" ref="contact"/>
+    <file name="nomq_contact.css" crc="341184785" ref="contact"/>
     <file name="iefonts_contact.css" crc="4113716863" ref="contact"/>
-    <file name="index.css" crc="4218385365" ref="index"/>
-    <file name="nomq_index.css" crc="185165902" ref="index"/>
+    <file name="index.css" crc="3836216020" ref="index"/>
+    <file name="nomq_index.css" crc="52969788" ref="index"/>
     <file name="iefonts_index.css" crc="4113716863" ref="index"/>
-    <file name="mail-in.css" crc="4187624564" ref="mail-in"/>
-    <file name="nomq_mail-in.css" crc="4055456276" ref="mail-in"/>
+    <file name="mail-in.css" crc="3960410170" ref="mail-in"/>
+    <file name="nomq_mail-in.css" crc="227510378" ref="mail-in"/>
     <file name="iefonts_mail-in.css" crc="4113716863" ref="mail-in"/>
     <file name="forum.css" crc="349507134" ref="forum"/>
     <file name="store.css" crc="349507134" ref="store"/>
-    <file name="faq.css" crc="359037271" ref="faq"/>
-    <file name="nomq_faq.css" crc="536206574" ref="faq"/>
+    <file name="faq.css" crc="316274142" ref="faq"/>
+    <file name="nomq_faq.css" crc="4039061946" ref="faq"/>
     <file name="iefonts_faq.css" crc="4113716863" ref="faq"/>
-    <file name="reviews.css" crc="4277572980" ref="reviews"/>
-    <file name="nomq_reviews.css" crc="4151388262" ref="reviews"/>
+    <file name="reviews.css" crc="76258828" ref="reviews"/>
+    <file name="nomq_reviews.css" crc="3919731458" ref="reviews"/>
     <file name="iefonts_reviews.css" crc="4113716863" ref="reviews"/>
-    <file name="master_a-master-copy.css" crc="460058630" ref="macbook:contact"/>
-    <file name="nomq_preview_master_a-master-copy.css" crc="329510312" ref="macbook:contact"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:macbook:reviews:mail-in:estimate:blog:store:contact:faq:forum"/>
@@ -54,21 +52,35 @@
     <file name="retail-photographer.jpg" crc="4096927499" ref="index">
       <caption webpage="index" alt=""/>
     </file>
-    <file name="zwartevilt.jpg" crc="234975977" ref="index:macbook:reviews">
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
+    <file name="zwartevilt.jpg" crc="234975977" ref="index:macbook:reviews:mail-in:estimate:contact:faq">
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="contact" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
       <caption webpage="reviews" alt=""/>
       <caption webpage="reviews" alt=""/>
       <caption webpage="reviews" alt=""/>
       <caption webpage="reviews" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt=""/>
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
@@ -77,8 +89,14 @@
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
-      <caption webpage="macbook" alt=""/>
-      <caption webpage="macbook" alt=""/>
+      <caption webpage="estimate" alt=""/>
+      <caption webpage="estimate" alt=""/>
+      <caption webpage="estimate" alt=""/>
+      <caption webpage="estimate" alt=""/>
+      <caption webpage="mail-in" alt=""/>
+      <caption webpage="mail-in" alt=""/>
+      <caption webpage="mail-in" alt=""/>
+      <caption webpage="mail-in" alt=""/>
     </file>
     <file name="telephone.jpg" crc="490913530" ref="index">
       <caption webpage="index" alt=""/>
@@ -129,14 +147,14 @@
     </file>
     <file name="extortion-u11691-fr.jpg" crc="3869739740" ref="faq"/>
   </folder>
-  <file name="index.html" crc="246158339" seo="true" mt="1527236434373" redirect="true"/>
-  <file name="macbook.html" crc="50982765" seo="true" mt="1527235931007" redirect="true"/>
-  <file name="reviews.html" crc="4021022784" seo="true" mt="1527236434017" redirect="true"/>
-  <file name="mail-in.html" crc="3902331522" seo="true" mt="1527236434017" redirect="true"/>
-  <file name="estimate.html" crc="406052495" seo="true" mt="1527236434017" redirect="true"/>
+  <file name="index.html" crc="374355022" seo="true" mt="1527236668381" redirect="true"/>
+  <file name="macbook.html" crc="373506025" seo="true" mt="1527236675137" redirect="true"/>
+  <file name="reviews.html" crc="334724657" seo="true" mt="1527236675137" redirect="true"/>
+  <file name="mail-in.html" crc="4246307020" seo="true" mt="1527236675137" redirect="true"/>
+  <file name="estimate.html" crc="179195086" seo="true" mt="1527236675137" redirect="true"/>
   <file name="blog.html" crc="3952902373" seo="true" mt="1526722395497" redirect="false"/>
   <file name="store.html" crc="63193243" seo="true" mt="1526725599707" redirect="false"/>
-  <file name="contact.html" crc="4090874842" seo="true" mt="1527235959239" redirect="true"/>
-  <file name="faq.html" crc="3778316381" seo="true" mt="1527236434017" redirect="true"/>
+  <file name="contact.html" crc="3892387368" seo="true" mt="1527236675137" redirect="true"/>
+  <file name="faq.html" crc="4091522670" seo="true" mt="1527236675137" redirect="true"/>
   <file name="forum.html" crc="503521744" seo="true" mt="1526722158453" redirect="false"/>
 </manifest>
