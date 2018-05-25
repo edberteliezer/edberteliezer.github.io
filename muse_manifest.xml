@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527240240334">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527240627890">
   <folder name="css">
     <file name="site_global.css" crc="3954243874"/>
     <file name="master_a-master.css" crc="268608984" ref="index"/>
     <file name="nomq_preview_master_a-master.css" crc="164101202" ref="index"/>
     <file name="blog.css" crc="349507134" ref="blog"/>
-    <file name="macbook.css" crc="4226508345" ref="macbook"/>
-    <file name="nomq_macbook.css" crc="415240125" ref="macbook"/>
+    <file name="macbook.css" crc="275293982" ref="macbook"/>
+    <file name="nomq_macbook.css" crc="4010500207" ref="macbook"/>
     <file name="iefonts_macbook.css" crc="4113716863" ref="macbook"/>
     <file name="estimate.css" crc="263058896" ref="estimate"/>
     <file name="nomq_estimate.css" crc="3764960904" ref="estimate"/>
@@ -13,7 +13,7 @@
     <file name="contact.css" crc="440446234" ref="contact"/>
     <file name="nomq_contact.css" crc="192588874" ref="contact"/>
     <file name="iefonts_contact.css" crc="4113716863" ref="contact"/>
-    <file name="index.css" crc="44129855" ref="index"/>
+    <file name="index.css" crc="3810770396" ref="index"/>
     <file name="nomq_index.css" crc="363746318" ref="index"/>
     <file name="iefonts_index.css" crc="4113716863" ref="index"/>
     <file name="mail-in.css" crc="502795382" ref="mail-in"/>
@@ -145,14 +145,14 @@
     </file>
     <file name="extortion-u11691-fr.jpg" crc="3869739740" ref="faq"/>
   </folder>
-  <file name="index.html" crc="34440821" seo="true" mt="1527240214279" redirect="true"/>
-  <file name="macbook.html" crc="3927278505" seo="true" mt="1527239919618" redirect="true"/>
-  <file name="reviews.html" crc="130646842" seo="true" mt="1527239919618" redirect="true"/>
-  <file name="mail-in.html" crc="13842351" seo="true" mt="1527239919618" redirect="true"/>
-  <file name="estimate.html" crc="513371574" seo="true" mt="1527239919618" redirect="true"/>
+  <file name="index.html" crc="490200859" seo="true" mt="1527240596505" redirect="true"/>
+  <file name="macbook.html" crc="273464167" seo="true" mt="1527240281395" redirect="true"/>
+  <file name="reviews.html" crc="300399680" seo="true" mt="1527240281395" redirect="true"/>
+  <file name="mail-in.html" crc="408633408" seo="true" mt="1527240281395" redirect="true"/>
+  <file name="estimate.html" crc="137651855" seo="true" mt="1527240281395" redirect="true"/>
   <file name="blog.html" crc="3952902373" seo="true" mt="1526722395497" redirect="false"/>
   <file name="store.html" crc="63193243" seo="true" mt="1526725599707" redirect="false"/>
-  <file name="contact.html" crc="4216852885" seo="true" mt="1527239919618" redirect="true"/>
-  <file name="faq.html" crc="4034041120" seo="true" mt="1527239919618" redirect="true"/>
+  <file name="contact.html" crc="4018589076" seo="true" mt="1527240281395" redirect="true"/>
+  <file name="faq.html" crc="94752089" seo="true" mt="1527240281395" redirect="true"/>
   <file name="forum.html" crc="503521744" seo="true" mt="1526722158453" redirect="false"/>
 </manifest>
