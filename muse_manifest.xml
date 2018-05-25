@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527250719456">
+<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527251191368">
   <folder name="css">
     <file name="site_global.css" crc="29335700"/>
     <file name="blog.css" crc="349507134" ref="blog"/>
@@ -11,8 +11,8 @@
     <file name="contact.css" crc="4015909392" ref="contact"/>
     <file name="nomq_contact.css" crc="481183600" ref="contact"/>
     <file name="iefonts_contact.css" crc="161578795" ref="contact"/>
-    <file name="index.css" crc="457101400" ref="index"/>
-    <file name="nomq_index.css" crc="4276064612" ref="index"/>
+    <file name="index.css" crc="272019628" ref="index"/>
+    <file name="nomq_index.css" crc="163984866" ref="index"/>
     <file name="iefonts_index.css" crc="161578795" ref="index"/>
     <file name="mail-in.css" crc="451863140" ref="mail-in"/>
     <file name="nomq_mail-in.css" crc="256067473" ref="mail-in"/>
@@ -129,14 +129,14 @@
     </file>
     <file name="retail-photographer-u3530-fr2.jpg" crc="4017637410" ref="index"/>
   </folder>
-  <file name="index.html" crc="390220854" seo="true" mt="1527250690095" redirect="true"/>
-  <file name="macbook.html" crc="105213357" seo="true" mt="1527250549061" redirect="true"/>
-  <file name="reviews.html" crc="4159659415" seo="true" mt="1527250549061" redirect="true"/>
-  <file name="mail-in.html" crc="4175118727" seo="true" mt="1527250549061" redirect="true"/>
-  <file name="estimate.html" crc="4272563984" seo="true" mt="1527250549061" redirect="true"/>
+  <file name="index.html" crc="469692308" seo="true" mt="1527251171618" redirect="true"/>
+  <file name="macbook.html" crc="105213357" seo="true" mt="1527251171618" redirect="true"/>
+  <file name="reviews.html" crc="4159659415" seo="true" mt="1527251171618" redirect="true"/>
+  <file name="mail-in.html" crc="4175118727" seo="true" mt="1527251171618" redirect="true"/>
+  <file name="estimate.html" crc="4272563984" seo="true" mt="1527251171618" redirect="true"/>
   <file name="blog.html" crc="3952902373" seo="true" mt="1526722395497" redirect="false"/>
   <file name="store.html" crc="63193243" seo="true" mt="1526725599707" redirect="false"/>
-  <file name="contact.html" crc="4015568141" seo="true" mt="1527250549061" redirect="true"/>
-  <file name="faq.html" crc="3796967019" seo="true" mt="1527250549061" redirect="true"/>
+  <file name="contact.html" crc="4015568141" seo="true" mt="1527251171618" redirect="true"/>
+  <file name="faq.html" crc="3796967019" seo="true" mt="1527251171618" redirect="true"/>
   <file name="forum.html" crc="503521744" seo="true" mt="1526722158453" redirect="false"/>
 </manifest>
