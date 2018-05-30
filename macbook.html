@@ -17,13 +17,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>MACBOOK</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=4087515748"/>
-  <link rel="stylesheet" type="text/css" href="css/master_hero.css?crc=4161925042"/>
-  <link rel="stylesheet" type="text/css" href="css/macbook.css?crc=3942520273" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_hero.css?crc=4279323430"/>
+  <link rel="stylesheet" type="text/css" href="css/macbook.css?crc=289709125" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_macbook.css?crc=505677258"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_hero.css?crc=90126669"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_macbook.css?crc=80311204" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_hero.css?crc=4153349565"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_macbook.css?crc=4003514314" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -210,6 +210,7 @@ pointer-events: none;
     <div class="clearfix grpelem temp_no_id" data-orig-id="pu22188"><!-- group -->
      <span class="browser_width placeholder" data-placeholder-for="u22188-bw_content"><!-- placeholder node --></span>
      <span class="browser_width placeholder" data-placeholder-for="u126-bw_content"><!-- placeholder node --></span>
+     <span class="clearfix placeholder" data-placeholder-for="u546-5_content"><!-- placeholder node --></span>
      <div class="PamphletWidget clearfix allow_click_through" id="pamphletu19762" data-visibility="changed" style="visibility:hidden"><!-- none box -->
       <div class="clearfix grpelem" id="pu19773"><!-- group -->
        <div class="ThumbGroup clearfix grpelem" data-col-pos="0" id="u19773" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
@@ -224,7 +225,7 @@ pointer-events: none;
        <div class="popup_anchor allow_click_through grpelem" data-col-pos="4" id="u19771popup">
         <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" data-col-pos="4" id="u19771"><!-- group -->
          <div class="clearfix grpelem" id="u19667-4"><!-- content -->
-          <p id="u19667-2"></p>
+          <p id="u19667-2"></p>
          </div>
         </div>
        </div>
@@ -264,7 +265,6 @@ pointer-events: none;
        </div>
       </div>
      </div>
-     <span class="clearfix placeholder" data-placeholder-for="u546-5_content"><!-- placeholder node --></span>
     </div>
     <span class="size_fixed grpelem placeholder" data-placeholder-for="u16122_content"><!-- placeholder node --></span>
     <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="1056" data-content-below-spacer="57" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
@@ -298,7 +298,7 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_825', '#bp_612'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
-Muse.Utils.initWidget('#pamphletu19762', ['#bp_612'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu19762 */
+Muse.Utils.initWidget('#pamphletu19762', ['#bp_612'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu19762 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
