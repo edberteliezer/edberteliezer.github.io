@@ -1,144 +1,107 @@
-<manifest alg="2" build="2018.0.0.379" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="https://www.rossmanngroup.com" resolutions="1x" timestamp="1527265839604">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1527677438511">
   <folder name="css">
-    <file name="site_global.css" crc="3944448210"/>
-    <file name="blog.css" crc="349507134" ref="blog"/>
-    <file name="macbook.css" crc="179188475" ref="macbook"/>
-    <file name="nomq_macbook.css" crc="10239631" ref="macbook"/>
-    <file name="iefonts_macbook.css" crc="447216002" ref="macbook"/>
-    <file name="estimate.css" crc="4060603995" ref="estimate"/>
-    <file name="nomq_estimate.css" crc="333507610" ref="estimate"/>
-    <file name="iefonts_estimate.css" crc="447216002" ref="estimate"/>
-    <file name="contact.css" crc="240563475" ref="contact"/>
-    <file name="nomq_contact.css" crc="3977267341" ref="contact"/>
-    <file name="iefonts_contact.css" crc="447216002" ref="contact"/>
-    <file name="index.css" crc="436901373" ref="index"/>
-    <file name="nomq_index.css" crc="11211370" ref="index"/>
-    <file name="iefonts_index.css" crc="447216002" ref="index"/>
-    <file name="mail-in.css" crc="58649069" ref="mail-in"/>
-    <file name="nomq_mail-in.css" crc="3774685964" ref="mail-in"/>
-    <file name="iefonts_mail-in.css" crc="447216002" ref="mail-in"/>
-    <file name="forum.css" crc="349507134" ref="forum"/>
-    <file name="store.css" crc="349507134" ref="store"/>
-    <file name="faq.css" crc="3833791379" ref="faq"/>
-    <file name="nomq_faq.css" crc="324259571" ref="faq"/>
-    <file name="iefonts_faq.css" crc="447216002" ref="faq"/>
-    <file name="reviews.css" crc="4127568883" ref="reviews"/>
-    <file name="nomq_reviews.css" crc="4050074020" ref="reviews"/>
-    <file name="iefonts_reviews.css" crc="447216002" ref="reviews"/>
-    <file name="master_a-master-copy.css" crc="401930389" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
-    <file name="nomq_preview_master_a-master-copy.css" crc="3827958391" ref="contact:estimate:macbook:faq:reviews:mail-in:index"/>
+    <file name="site_global.css" crc="4087515748"/>
+    <file name="master_hero.css" crc="4161925042" ref="mail-in:iphone:index:store:class:faq:macbook:recovery"/>
+    <file name="nomq_preview_master_hero.css" crc="90126669" ref="mail-in:iphone:index:store:class:faq:macbook:recovery"/>
+    <file name="mail-in.css" crc="3942520273" ref="mail-in"/>
+    <file name="nomq_mail-in.css" crc="80311204" ref="mail-in"/>
+    <file name="iefonts_mail-in.css" crc="505677258" ref="mail-in"/>
+    <file name="iphone.css" crc="3942520273" ref="iphone"/>
+    <file name="nomq_iphone.css" crc="80311204" ref="iphone"/>
+    <file name="iefonts_iphone.css" crc="505677258" ref="iphone"/>
+    <file name="index.css" crc="4276054419" ref="index"/>
+    <file name="nomq_index.css" crc="3856577438" ref="index"/>
+    <file name="iefonts_index.css" crc="505677258" ref="index"/>
+    <file name="store.css" crc="3942520273" ref="store"/>
+    <file name="nomq_store.css" crc="80311204" ref="store"/>
+    <file name="iefonts_store.css" crc="505677258" ref="store"/>
+    <file name="class.css" crc="3942520273" ref="class"/>
+    <file name="nomq_class.css" crc="80311204" ref="class"/>
+    <file name="iefonts_class.css" crc="505677258" ref="class"/>
+    <file name="faq.css" crc="3942520273" ref="faq"/>
+    <file name="nomq_faq.css" crc="80311204" ref="faq"/>
+    <file name="iefonts_faq.css" crc="505677258" ref="faq"/>
+    <file name="macbook.css" crc="3942520273" ref="macbook"/>
+    <file name="nomq_macbook.css" crc="80311204" ref="macbook"/>
+    <file name="iefonts_macbook.css" crc="505677258" ref="macbook"/>
+    <file name="recovery.css" crc="3942520273" ref="recovery"/>
+    <file name="nomq_recovery.css" crc="80311204" ref="recovery"/>
+    <file name="iefonts_recovery.css" crc="505677258" ref="recovery"/>
+  </folder>
+  <folder name="fonts">
+    <file name="brandon-text-black.woff" crc="4217168599"/>
+    <file name="brandon-text-black.eot" crc="4096551703"/>
+    <file name="fontawesome-webfont.woff" crc="462672289"/>
+    <file name="fontawesome-webfont.eot" crc="415170694"/>
+    <file name="fontawesome-webfont.svg" crc="3771442179"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:macbook:reviews:mail-in:estimate:blog:store:contact:faq:forum"/>
-    <file name="museutils.js" crc="3803043152" ref="index:macbook:reviews:mail-in:estimate:blog:store:contact:faq:forum"/>
-    <file name="whatinput.js" crc="86476730" ref="index:macbook:reviews:mail-in:estimate:blog:store:contact:faq:forum"/>
-    <file name="museconfig.js" crc="4153641093" ref="index:macbook:reviews:mail-in:estimate:blog:store:contact:faq:forum"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4148998990" ref="index:macbook:faq"/>
-    <file name="jquery.musemenu.js" crc="3784699396" ref="index:macbook:reviews:mail-in:estimate:contact:faq"/>
-    <file name="jquery.watch.js" crc="99325471" ref="index:macbook:reviews:mail-in:estimate:blog:store:contact:faq:forum"/>
-    <file name="webpro.js" crc="242022427" ref="index:macbook:reviews:mail-in:estimate:contact:faq"/>
-    <file name="musewpdisclosure.js" crc="119288625" ref="index:macbook:reviews:mail-in:estimate:contact:faq"/>
-    <file name="jquery.scrolleffects.js" crc="530399994" ref="index"/>
-    <file name="html5shiv.js" crc="4241844378" ref="index:macbook:reviews:mail-in:estimate:blog:store:contact:faq:forum"/>
-    <file name="jquery.museresponsive.js" crc="3955820958" ref="index:macbook:reviews:mail-in:estimate:contact:faq"/>
-    <file name="require.js" crc="4157109226" ref="index:macbook:reviews:mail-in:estimate:blog:store:contact:faq:forum"/>
-    <file name="form_check.php" crc="147359589" ref="estimate"/>
-    <file name="form_throttle.php" crc="93986428" ref="estimate"/>
-    <file name="form_process.php" crc="3851993751" ref="estimate"/>
-    <file name="form-u93354.php" crc="3911959702" ref="contact"/>
-    <file name="form-u151815.php" crc="4278775309" ref="estimate"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="museutils.js" crc="340535759" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="whatinput.js" crc="86476730" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="museconfig.js" crc="4286661555" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="jquery.watch.js" crc="51536988" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="webpro.js" crc="4059564322" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
+    <file name="form-u6565.php" crc="4012355249" ref="index"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="html5shiv.js" crc="4241844378" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
+    <file name="require.js" crc="7928878" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
   </folder>
   <folder name="images">
-    <file name="retail-photographer.jpg" crc="4096927499" ref="index">
+    <file name="zwartevilt_@2x.jpg" crc="162598084" ref="index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="zwartevilt.jpg" crc="234975977" ref="index:macbook">
-      <caption webpage="mail-in" alt=""/>
-      <caption webpage="mail-in" alt=""/>
-      <caption webpage="estimate" alt=""/>
-      <caption webpage="estimate" alt=""/>
-      <caption webpage="faq" alt=""/>
-      <caption webpage="faq" alt=""/>
+      <caption webpage="index" alt="reviews We never review ourself, or bribe customers with discounts to leave in-store reviews. Our feedback has all been earned and reviews have been left at the customer’s discretion, NOT ours! We treat people right, and you’ll see that wherever you read about Rossmann Group. A shop can talk a big game on their website, but at the end of the day, social media tells you whether it’s true or whether it’s bunk. What we stand by is a history and commitment to quality customer service and feel this is represented in our online reputation. You’ll note our ratio of reviews to filtered reviews is quite low, as a result of not bribing customers to leave an in-store review. ﷯ "/>
+      <caption webpage="index" alt="MACBOOK REPAIR We’ll look at your Mac the moment you bring it in, and in many cases we can tell you the cost and time frame of repair while you wait. There is no diagnostic fee to look at your Macbook! If you have an issue like liquid damage, you most likely will have to leave it as these issues are too complicated to provide an instant estimate on. Common issues are liquid spill damage, keys or trackpad not working, not turning on, running slow, bad logic board, cracked screen and battery failure. Based on years of experience and know-how, we will be able to fix your MacBook regardless of the issue. ﷯"/>
+      <caption webpage="index" alt="DATA RECOVERY Whether it’s a simple recovery or requires a serious clean room, lab environment, we can solve your problem on premises. We recover your data here without having to send your drive off to an expensive, third party facility. Giving a price without seeing the device, assessing its condition is impossible. Everyone feels better having some basic idea of what things may cost, so for a basic idea, click learn more. ﷯"/>
+      <caption webpage="index" alt="contact You are always welcome to come to our store during our open hours, no appointment necessary! You can find our open hours and a map of our location below. Feel free to email using the form below with any questions. If we’re online, you can use the live chat on our website, and you are always welcome to call in. Email, call, live chat, or walk into our store – we want to hear from you!"/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="reviews We never review ourself, or bribe customers with discounts to leave in-store reviews. Our feedback has all been earned and reviews have been left at the customer’s discretion, NOT ours! We treat people right, and you’ll see that wherever you read about Rossmann Group. A shop can talk a big game on their website, but at the end of the day, social media tells you whether it’s true or whether it’s bunk. What we stand by is a history and commitment to quality customer service and feel this is represented in our online reputation. You’ll note our ratio of reviews to filtered reviews is quite low, as a result of not bribing customers to leave an in-store review. "/>
+      <caption webpage="index" alt="MACBOOK REPAIR We’ll look at your Mac the moment you bring it in, and in many cases we can tell you the cost and time frame of repair while you wait. There is no diagnostic fee to look at your Macbook! If you have an issue like liquid damage, you most likely will have to leave it as these issues are too complicated to provide an instant estimate on. Common issues are liquid spill damage, keys or trackpad not working, not turning on, running slow, bad logic board, cracked screen and battery failure. Based on years of experience and know-how, we will be able to fix your MacBook regardless of the issue. ﷯"/>
+      <caption webpage="index" alt="DATA RECOVERY Whether it’s a simple recovery or requires a serious clean room, lab environment, we can solve your problem on premises. We recover your data here without having to send your drive off to an expensive, third party facility. Giving a price without seeing the device, assessing its condition is impossible. Everyone feels better having some basic idea of what things may cost, so for a basic idea, click learn more. ﷯"/>
+      <caption webpage="index" alt="contact You are always welcome to come to our store during our open hours, no appointment necessary! You can find our open hours and a map of our location below. Feel free to email using the form below with any questions. If we’re online, you can use the live chat on our website, and you are always welcome to call in. Email, call, live chat, or walk into our store – we want to hear from you!"/>
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="index" alt="MENU"/>
-      <caption webpage="index" alt=""/>
-      <caption webpage="reviews" alt=""/>
-      <caption webpage="reviews" alt=""/>
-      <caption webpage="macbook" alt=""/>
-      <caption webpage="macbook" alt=""/>
-      <caption webpage="macbook" alt=""/>
-      <caption webpage="macbook" alt=""/>
-      <caption webpage="macbook" alt=""/>
-      <caption webpage="macbook" alt=""/>
-      <caption webpage="macbook" alt=""/>
-      <caption webpage="macbook" alt=""/>
-      <caption webpage="contact" alt=""/>
-      <caption webpage="contact" alt=""/>
-    </file>
-    <file name="telephone.jpg" crc="490913530" ref="index">
+      <caption webpage="index" alt="reviews We never review ourself, or bribe customers with discounts to leave in-store reviews. Our feedback has all been earned and reviews have been left at the customer’s discretion, NOT ours! We treat people right, and you’ll see that wherever you read about Rossmann Group. A shop can talk a big game on their website, but at the end of the day, social media tells you whether it’s true or whether it’s bunk. What we stand by is a history and commitment to quality customer service and feel this is represented in our online reputation. You’ll note our ratio of reviews to filtered reviews is quite low, as a result of not bribing customers to leave an in-store review. "/>
+      <caption webpage="index" alt="MACBOOK REPAIR We’ll look at your Mac the moment you bring it in, and in many cases we can tell you the cost and time frame of repair while you wait. There is no diagnostic fee to look at your Macbook! If you have an issue like liquid damage, you most likely will have to leave it as these issues are too complicated to provide an instant estimate on. Common issues are liquid spill damage, keys or trackpad not working, not turning on, running slow, bad logic board, cracked screen and battery failure. Based on years of experience and know-how, we will be able to fix your MacBook regardless of the issue. ﷯"/>
+      <caption webpage="index" alt="DATA RECOVERY Whether it’s a simple recovery or requires a serious clean room, lab environment, we can solve your problem on premises. We recover your data here without having to send your drive off to an expensive, third party facility. Giving a price without seeing the device, assessing its condition is impossible. Everyone feels better having some basic idea of what things may cost, so for a basic idea, click learn more. ﷯"/>
+      <caption webpage="index" alt="contact You are always welcome to come to our store during our open hours, no appointment necessary! You can find our open hours and a map of our location below. Feel free to email using the form below with any questions. If we’re online, you can use the live chat on our website, and you are always welcome to call in. Email, call, live chat, or walk into our store – we want to hear from you!"/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="comic_rich_large.jpg" crc="4086686060" ref="index">
+    <file name="spiration-light.jpg" crc="151829160" ref="index">
       <caption webpage="index" alt=""/>
-    </file>
-    <file name="teaching.jpg" crc="4137419290" ref="index">
+      <caption webpage="index" alt="FREE WHILE-YOU-WAIT ESTIMATE Taking apart your Macbook to determine what is wrong with it costs $0 here. We believe diagnostic fees are predatory in this business. For a spoken word estimate of your problem, there is no fee! You’re here because you need fast service. If you had five days for someone to dick around guessing what is wrong with your computer, you’d fix it yourself. We get that. That’s why we offer while you wait estimates (for most things besides liquid damage.) This means we’ll tell you what is most likely wrong with your laptop before you leave. Just visit our store. This is not possible in every case. Some machines throw us for a loop, and in some situations there could be a vast variety of problems. If your device went swimming, you most likely will have to leave it for a few hours to a day – it’s not always possible to give you a precise repair price while you wait. In most cases, if you’re willing to sit &amp; chill – we’ll open the machine and tell you what’s wrong right then and there. If you are a standard retail customer, we are happy to provide a free estimate! If you are another repair business outsourcing repairs to us, you only pay if we can complete a repair you have authorized. However, if you send a device to us for an estimate, receive the estimate, and opt to not receive a repair, there is a fee of $50. We have had a large surge of other stores firing their own technicians and having us do all the work of estimates, and the abuse of this has forced us to this policy."/>
+      <caption webpage="index" alt="iPhone repair We repair iPhone screen and data recovery. If your iPhone has been damaged by liquid, moisture, or just died out of the blue – we can get your data back. Many repair shops refurbish the broken screens they take out of the phones they repair and place this refurbished LCD inside your phone. We aren’t always the cheapest because we don’t use refurbished screens! ﷯"/>
+      <caption webpage="index" alt="faq Have any questions? Read our FAQ first. ﷯"/>
+      <caption webpage="index" alt="The Roseman Group – Manhattan 186 1st Avenue, New York, NY 10009 (347) 552-2258 Monday-Friday – 12 PM to 8 PM Saturday-Sunday 12 PM to 4 PM"/>
+      <caption webpage="index" alt="mail in We provide the best unauthorized MacBook, iPad &amp; iPhone Repair in New York. You can come to our store for a free estimate without an appointment, or mail your device to us from anywhere in the world to receive service. ﷯"/>
       <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="FREE WHILE-YOU-WAIT ESTIMATE Taking apart your Macbook to determine what is wrong with it costs $0 here. We believe diagnostic fees are predatory in this business. For a spoken word estimate of your problem, there is no fee! You’re here because you need fast service. If you had five days for someone to dick around guessing what is wrong with your computer, you’d fix it yourself. We get that. That’s why we offer while you wait estimates (for most things besides liquid damage.) This means we’ll tell you what is most likely wrong with your laptop before you leave. Just visit our store. This is not possible in every case. Some machines throw us for a loop, and in some situations there could be a vast variety of problems. If your device went swimming, you most likely will have to leave it for a few hours to a day – it’s not always possible to give you a precise repair price while you wait. In most cases, if you’re willing to sit &amp; chill – we’ll open the machine and tell you what’s wrong right then and there. If you are a standard retail customer, we are happy to provide a free estimate! If you are another repair business outsourcing repairs to us, you only pay if we can complete a repair you have authorized. However, if you send a device to us for an estimate, receive the estimate, and opt to not receive a repair, there is a fee of $50. We have had a large surge of other stores firing their own technicians and having us do all the work of estimates, and the abuse of this has forced us to this policy."/>
+      <caption webpage="index" alt="iPhone repair We repair iPhone screen and data recovery. If your iPhone has been damaged by liquid, moisture, or just died out of the blue – we can get your data back. Many repair shops refurbish the broken screens they take out of the phones they repair and place this refurbished LCD inside your phone. We aren’t always the cheapest because we don’t use refurbished screens! ﷯"/>
+      <caption webpage="index" alt="faq Have any questions? Read our FAQ first. ﷯"/>
+      <caption webpage="index" alt="The Roseman Group – Manhattan 186 1st Avenue, New York, NY 10009 (347) 552-2258 Monday-Friday – 12 PM to 8 PM Saturday-Sunday 12 PM to 4 PM"/>
+      <caption webpage="index" alt="mail in We provide the best unauthorized MacBook, iPad &amp; iPhone Repair in New York. You can come to our store for a free estimate without an appointment, or mail your device to us from anywhere in the world to receive service. ﷯"/>
+      <caption webpage="index" alt=""/>
+      <caption webpage="index" alt="FREE WHILE-YOU-WAIT ESTIMATE Taking apart your Macbook to determine what is wrong with it costs $0 here. We believe diagnostic fees are predatory in this business. For a spoken word estimate of your problem, there is no fee! You’re here because you need fast service. If you had five days for someone to dick around guessing what is wrong with your computer, you’d fix it yourself. We get that. That’s why we offer while you wait estimates (for most things besides liquid damage.) This means we’ll tell you what is most likely wrong with your laptop before you leave. Just visit our store. This is not possible in every case. Some machines throw us for a loop, and in some situations there could be a vast variety of problems. If your device went swimming, you most likely will have to leave it for a few hours to a day – it’s not always possible to give you a precise repair price while you wait. In most cases, if you’re willing to sit &amp; chill – we’ll open the machine and tell you what’s wrong right then and there. If you are a standard retail customer, we are happy to provide a free estimate! If you are another repair business outsourcing repairs to us, you only pay if we can complete a repair you have authorized. However, if you send a device to us for an estimate, receive the estimate, and opt to not receive a repair, there is a fee of $50. We have had a large surge of other stores firing their own technicians and having us do all the work of estimates, and the abuse of this has forced us to this policy."/>
+      <caption webpage="index" alt="iPhone repair We repair iPhone screen and data recovery. If your iPhone has been damaged by liquid, moisture, or just died out of the blue – we can get your data back. Many repair shops refurbish the broken screens they take out of the phones they repair and place this refurbished LCD inside your phone. We aren’t always the cheapest because we don’t use refurbished screens! ﷯"/>
+      <caption webpage="index" alt="faq Have any questions? Read our FAQ first. ﷯"/>
+      <caption webpage="index" alt="The Roseman Group – Manhattan 186 1st Avenue, New York, NY 10009 (347) 552-2258 Monday-Friday – 12 PM to 8 PM Saturday-Sunday 12 PM to 4 PM"/>
+      <caption webpage="index" alt="mail in We provide the best unauthorized MacBook, iPad &amp; iPhone Repair in New York. You can come to our store for a free estimate without an appointment, or mail your device to us from anywhere in the world to receive service. ﷯"/>
     </file>
-    <file name="telephone-u8591-fr.jpg" crc="4160870763" ref="index"/>
-    <file name="comic_rich_large-u8603-fr.jpg" crc="458661005" ref="index"/>
-    <file name="retail-photographer-u3530-fr.jpg" crc="470232177" ref="index"/>
-    <file name="blur-close-up-computer-keyboard-459737.jpg" crc="4051043564" ref="macbook">
-      <caption webpage="macbook" alt="KEYBOARD"/>
-    </file>
-    <file name="hinge-1774925_1920.jpg" crc="4252710139" ref="macbook">
-      <caption webpage="macbook" alt="HINGE"/>
-    </file>
-    <file name="jumper-cables-926308_1920.jpg" crc="351495475" ref="macbook">
-      <caption webpage="macbook" alt="BATTERY"/>
-    </file>
-    <file name="fire-2197606_1920.jpg" crc="3892140783" ref="macbook">
-      <caption webpage="macbook" alt="OVERHEAT"/>
-    </file>
-    <file name="handwriting-pen-tablet-8701.jpg" crc="360612022" ref="macbook">
-      <caption webpage="macbook" alt="TRACKPAD"/>
-    </file>
-    <file name="art-blur-broke-191070.jpg" crc="3912965045" ref="macbook">
-      <caption webpage="macbook" alt="CRACKED SCREEN"/>
-    </file>
-    <file name="black-and-white-computer-laptop-34606.jpg" crc="3850636694" ref="macbook">
-      <caption webpage="macbook" alt="WONT TURN ON"/>
-    </file>
-    <file name="still-2607661_1920.jpg" crc="4087436710" ref="macbook">
-      <caption webpage="macbook" alt="SPILL DEMAGE"/>
-    </file>
-    <file name="extortion.jpg" crc="95059272" ref="faq">
-      <caption webpage="faq" alt=""/>
-    </file>
-    <file name="retail-photographer-u3530-fr2.jpg" crc="4017637410" ref="index"/>
-    <file name="blur-close-up-computer-keyboard-459737-u190685-4-fr.jpg" crc="4118086230" ref="macbook"/>
-    <file name="hinge-1774925_1920-u190707-4-fr.jpg" crc="448174810" ref="macbook"/>
-    <file name="jumper-cables-926308_1920-u190697-4-fr.jpg" crc="264184828" ref="macbook"/>
-    <file name="fire-2197606_1920-u190709-4-fr.jpg" crc="293630161" ref="macbook"/>
-    <file name="handwriting-pen-tablet-8701-u190713-4-fr.jpg" crc="312911373" ref="macbook"/>
-    <file name="art-blur-broke-191070-u190691-4-fr.jpg" crc="4223443747" ref="macbook"/>
-    <file name="black-and-white-computer-laptop-34606-u190687-4-fr.jpg" crc="403963170" ref="macbook"/>
-    <file name="still-2607661_1920-u190699-4-fr.jpg" crc="291191554" ref="macbook"/>
   </folder>
-  <file name="index.html" crc="3875980194" seo="true" mt="1527265822737" redirect="true"/>
-  <file name="macbook.html" crc="237800244" seo="true" mt="1527265822737" redirect="true"/>
-  <file name="reviews.html" crc="4028649689" seo="true" mt="1527265822737" redirect="true"/>
-  <file name="mail-in.html" crc="154379599" seo="true" mt="1527265822737" redirect="true"/>
-  <file name="estimate.html" crc="300948279" seo="true" mt="1527265822737" redirect="true"/>
-  <file name="blog.html" crc="3952902373" seo="true" mt="1526722395497" redirect="false"/>
-  <file name="store.html" crc="63193243" seo="true" mt="1526725599707" redirect="false"/>
-  <file name="contact.html" crc="4247994525" seo="true" mt="1527265822737" redirect="true"/>
-  <file name="faq.html" crc="205829634" seo="true" mt="1527265822737" redirect="true"/>
-  <file name="forum.html" crc="503521744" seo="true" mt="1526722158453" redirect="false"/>
+  <file name="index.html" crc="285502872" seo="true" mt="1527677234276" redirect="true"/>
+  <file name="macbook.html" crc="9020479" seo="true" mt="1527677234276" redirect="true"/>
+  <file name="mail-in.html" crc="283605715" seo="true" mt="1527677234276" redirect="true"/>
+  <file name="faq.html" crc="3912185613" seo="true" mt="1527677234276" redirect="true"/>
+  <file name="store.html" crc="10606853" seo="true" mt="1527677234276" redirect="true"/>
+  <file name="iphone.html" crc="3765567998" seo="true" mt="1527677234276" redirect="true"/>
+  <file name="recovery.html" crc="3883105617" seo="true" mt="1527677234276" redirect="true"/>
+  <file name="class.html" crc="436452618" seo="true" mt="1527677234276" redirect="true"/>
 </manifest>
