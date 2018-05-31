@@ -1,11 +1,11 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1527765773893">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1527766157307">
   <folder name="css">
     <file name="site_global.css" crc="4063673977"/>
-    <file name="master_hero.css" crc="308028295" ref="index:test"/>
+    <file name="master_hero.css" crc="4137899181" ref="index:test"/>
     <file name="nomq_preview_master_hero.css" crc="4168983060" ref="index:test"/>
     <file name="mail-in.css" crc="4193191577" ref="mail-in"/>
     <file name="iphone.css" crc="4193191577" ref="iphone"/>
-    <file name="index.css" crc="218681708" ref="index"/>
+    <file name="index.css" crc="450360976" ref="index"/>
     <file name="nomq_index.css" crc="483433818" ref="index"/>
     <file name="iefonts_index.css" crc="505677258" ref="index"/>
     <file name="store.css" crc="4193191577" ref="store"/>
@@ -13,8 +13,8 @@
     <file name="faq.css" crc="4193191577" ref="faq"/>
     <file name="macbook.css" crc="4193191577" ref="macbook"/>
     <file name="recovery.css" crc="4193191577" ref="recovery"/>
-    <file name="test.css" crc="528844849" ref="test"/>
-    <file name="nomq_test.css" crc="3873091985" ref="test"/>
+    <file name="test.css" crc="4122806040" ref="test"/>
+    <file name="nomq_test.css" crc="3845932227" ref="test"/>
     <file name="iefonts_test.css" crc="505677258" ref="test"/>
   </folder>
   <folder name="fonts">
@@ -32,9 +32,9 @@
     <file name="jquery.musemenu.js" crc="510910590" ref="index:test"/>
     <file name="jquery.watch.js" crc="51536988" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
     <file name="webpro.js" crc="4059564322" ref="index:test"/>
-    <file name="form_check.php" crc="4020933626" ref="index:test"/>
-    <file name="form_throttle.php" crc="4259590256" ref="index:test"/>
-    <file name="form_process.php" crc="37464564" ref="index:test"/>
+    <file name="form_check.php" crc="4020933626" ref="index"/>
+    <file name="form_throttle.php" crc="4259590256" ref="index"/>
+    <file name="form_process.php" crc="37464564" ref="index"/>
     <file name="form-u6565.php" crc="4012355249" ref="index"/>
     <file name="musewpslideshow.js" crc="3862962738" ref="index:test"/>
     <file name="jquery.museoverlay.js" crc="4147669564" ref="index:test"/>
@@ -92,7 +92,7 @@
     <file name="screenshot (2)-u32966-fr.jpg" crc="12207235" ref="test"/>
     <file name="screenshot (2)-u32966-fr2.jpg" crc="521630316" ref="test"/>
   </folder>
-  <file name="index.html" crc="343271770" seo="true" mt="1527763781083" redirect="true"/>
+  <file name="index.html" crc="3898316344" seo="true" mt="1527766141607" redirect="true"/>
   <file name="macbook.html" crc="66712795" seo="true" mt="1527762075307" redirect="false"/>
   <file name="mail-in.html" crc="3991793186" seo="true" mt="1527762079563" redirect="false"/>
   <file name="faq.html" crc="290501668" seo="true" mt="1527762081271" redirect="false"/>
@@ -100,5 +100,5 @@
   <file name="iphone.html" crc="4052512945" seo="true" mt="1527762076866" redirect="false"/>
   <file name="recovery.html" crc="498244735" seo="true" mt="1527762078285" redirect="false"/>
   <file name="class.html" crc="3783893371" seo="true" mt="1527762083352" redirect="false"/>
-  <file name="test.html" crc="410806555" seo="true" mt="1527765768472" redirect="true"/>
+  <file name="test.html" crc="142290290" seo="true" mt="1527766141607" redirect="true"/>
 </manifest>
