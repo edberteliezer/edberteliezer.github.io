@@ -1,4 +1,4 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1527764303152">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1527765773893">
   <folder name="css">
     <file name="site_global.css" crc="4063673977"/>
     <file name="master_hero.css" crc="308028295" ref="index:test"/>
@@ -13,8 +13,8 @@
     <file name="faq.css" crc="4193191577" ref="faq"/>
     <file name="macbook.css" crc="4193191577" ref="macbook"/>
     <file name="recovery.css" crc="4193191577" ref="recovery"/>
-    <file name="test.css" crc="425747022" ref="test"/>
-    <file name="nomq_test.css" crc="46404433" ref="test"/>
+    <file name="test.css" crc="528844849" ref="test"/>
+    <file name="nomq_test.css" crc="3873091985" ref="test"/>
     <file name="iefonts_test.css" crc="505677258" ref="test"/>
   </folder>
   <folder name="fonts">
@@ -43,6 +43,7 @@
     <file name="jquery.museresponsive.js" crc="527716135" ref="index:test"/>
     <file name="require.js" crc="7928878" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
     <file name="form-u32147.php" crc="505570000" ref="test"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="test"/>
   </folder>
   <folder name="images">
     <file name="zwartevilt_@2x.jpg" crc="162598084" ref="index">
@@ -85,6 +86,11 @@
       <caption webpage="index" alt="The Roseman Group – Manhattan 186 1st Avenue, New York, NY 10009 (347) 552-2258 Monday-Friday – 12 PM to 8 PM Saturday-Sunday 12 PM to 4 PM"/>
       <caption webpage="index" alt="mail in We provide the best unauthorized MacBook, iPad &amp; iPhone Repair in New York. You can come to our store for a free estimate without an appointment, or mail your device to us from anywhere in the world to receive service. ﷯"/>
     </file>
+    <file name="screenshot (2).jpg" crc="3875663410" ref="test">
+      <caption webpage="test" alt=""/>
+    </file>
+    <file name="screenshot (2)-u32966-fr.jpg" crc="12207235" ref="test"/>
+    <file name="screenshot (2)-u32966-fr2.jpg" crc="521630316" ref="test"/>
   </folder>
   <file name="index.html" crc="343271770" seo="true" mt="1527763781083" redirect="true"/>
   <file name="macbook.html" crc="66712795" seo="true" mt="1527762075307" redirect="false"/>
@@ -94,5 +100,5 @@
   <file name="iphone.html" crc="4052512945" seo="true" mt="1527762076866" redirect="false"/>
   <file name="recovery.html" crc="498244735" seo="true" mt="1527762078285" redirect="false"/>
   <file name="class.html" crc="3783893371" seo="true" mt="1527762083352" redirect="false"/>
-  <file name="test.html" crc="4007544035" seo="true" mt="1527764276857" redirect="true"/>
+  <file name="test.html" crc="410806555" seo="true" mt="1527765768472" redirect="true"/>
 </manifest>
