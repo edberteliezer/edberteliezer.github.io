@@ -1,33 +1,19 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1527761804603">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1527762117928">
   <folder name="css">
     <file name="site_global.css" crc="4063673977"/>
-    <file name="master_hero.css" crc="494551105" ref="mail-in:iphone:index:store:class:faq:macbook:recovery:test"/>
-    <file name="nomq_preview_master_hero.css" crc="4168983060" ref="mail-in:iphone:index:store:class:faq:macbook:recovery:test"/>
-    <file name="mail-in.css" crc="131589474" ref="mail-in"/>
-    <file name="nomq_mail-in.css" crc="476354422" ref="mail-in"/>
-    <file name="iefonts_mail-in.css" crc="505677258" ref="mail-in"/>
-    <file name="iphone.css" crc="131589474" ref="iphone"/>
-    <file name="nomq_iphone.css" crc="476354422" ref="iphone"/>
-    <file name="iefonts_iphone.css" crc="505677258" ref="iphone"/>
-    <file name="index.css" crc="100391958" ref="index"/>
+    <file name="master_hero.css" crc="494551105" ref="index:test"/>
+    <file name="nomq_preview_master_hero.css" crc="4168983060" ref="index:test"/>
+    <file name="mail-in.css" crc="4193191577" ref="mail-in"/>
+    <file name="iphone.css" crc="4193191577" ref="iphone"/>
+    <file name="index.css" crc="508926579" ref="index"/>
     <file name="nomq_index.css" crc="483433818" ref="index"/>
     <file name="iefonts_index.css" crc="505677258" ref="index"/>
-    <file name="store.css" crc="131589474" ref="store"/>
-    <file name="nomq_store.css" crc="476354422" ref="store"/>
-    <file name="iefonts_store.css" crc="505677258" ref="store"/>
-    <file name="class.css" crc="131589474" ref="class"/>
-    <file name="nomq_class.css" crc="476354422" ref="class"/>
-    <file name="iefonts_class.css" crc="505677258" ref="class"/>
-    <file name="faq.css" crc="131589474" ref="faq"/>
-    <file name="nomq_faq.css" crc="476354422" ref="faq"/>
-    <file name="iefonts_faq.css" crc="505677258" ref="faq"/>
-    <file name="macbook.css" crc="131589474" ref="macbook"/>
-    <file name="nomq_macbook.css" crc="476354422" ref="macbook"/>
-    <file name="iefonts_macbook.css" crc="505677258" ref="macbook"/>
-    <file name="recovery.css" crc="131589474" ref="recovery"/>
-    <file name="nomq_recovery.css" crc="476354422" ref="recovery"/>
-    <file name="iefonts_recovery.css" crc="505677258" ref="recovery"/>
-    <file name="test.css" crc="399338302" ref="test"/>
+    <file name="store.css" crc="4193191577" ref="store"/>
+    <file name="class.css" crc="4193191577" ref="class"/>
+    <file name="faq.css" crc="4193191577" ref="faq"/>
+    <file name="macbook.css" crc="4193191577" ref="macbook"/>
+    <file name="recovery.css" crc="4193191577" ref="recovery"/>
+    <file name="test.css" crc="3874683339" ref="test"/>
     <file name="nomq_test.css" crc="46404433" ref="test"/>
     <file name="iefonts_test.css" crc="505677258" ref="test"/>
   </folder>
@@ -43,18 +29,18 @@
     <file name="museutils.js" crc="340535759" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
     <file name="whatinput.js" crc="86476730" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
     <file name="museconfig.js" crc="4286661555" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:test"/>
     <file name="jquery.watch.js" crc="51536988" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
-    <file name="webpro.js" crc="4059564322" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
+    <file name="webpro.js" crc="4059564322" ref="index:test"/>
     <file name="form_check.php" crc="4020933626" ref="index"/>
     <file name="form_throttle.php" crc="4259590256" ref="index"/>
     <file name="form_process.php" crc="37464564" ref="index"/>
     <file name="form-u6565.php" crc="4012355249" ref="index"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
-    <file name="touchswipe.js" crc="4075097462" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index:test"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:test"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index:test"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:test"/>
     <file name="require.js" crc="7928878" ref="index:macbook:mail-in:faq:store:iphone:recovery:class:test"/>
     <file name="form-u32147.php" crc="505570000" ref="test"/>
   </folder>
@@ -100,13 +86,13 @@
       <caption webpage="index" alt="mail in We provide the best unauthorized MacBook, iPad &amp; iPhone Repair in New York. You can come to our store for a free estimate without an appointment, or mail your device to us from anywhere in the world to receive service. ﷯"/>
     </file>
   </folder>
-  <file name="index.html" crc="4266637761" seo="true" mt="1527761779055" redirect="true"/>
-  <file name="macbook.html" crc="3834290109" seo="true" mt="1527761722649" redirect="true"/>
-  <file name="mail-in.html" crc="427919436" seo="true" mt="1527761722649" redirect="true"/>
-  <file name="faq.html" crc="44315099" seo="true" mt="1527761722649" redirect="true"/>
-  <file name="store.html" crc="326428404" seo="true" mt="1527761723127" redirect="true"/>
-  <file name="iphone.html" crc="263218998" seo="true" mt="1527761722649" redirect="true"/>
-  <file name="recovery.html" crc="3822252434" seo="true" mt="1527761722649" redirect="true"/>
-  <file name="class.html" crc="4276848407" seo="true" mt="1527761722649" redirect="true"/>
-  <file name="test.html" crc="3821324629" seo="true" mt="1527761733404" redirect="true"/>
+  <file name="index.html" crc="3809989407" seo="true" mt="1527762098458" redirect="true"/>
+  <file name="macbook.html" crc="66712795" seo="true" mt="1527762075307" redirect="false"/>
+  <file name="mail-in.html" crc="3991793186" seo="true" mt="1527762079563" redirect="false"/>
+  <file name="faq.html" crc="290501668" seo="true" mt="1527762081271" redirect="false"/>
+  <file name="store.html" crc="395621706" seo="true" mt="1527762084884" redirect="false"/>
+  <file name="iphone.html" crc="4052512945" seo="true" mt="1527762076866" redirect="false"/>
+  <file name="recovery.html" crc="498244735" seo="true" mt="1527762078285" redirect="false"/>
+  <file name="class.html" crc="3783893371" seo="true" mt="1527762083352" redirect="false"/>
+  <file name="test.html" crc="4146343846" seo="true" mt="1527762098458" redirect="true"/>
 </manifest>
