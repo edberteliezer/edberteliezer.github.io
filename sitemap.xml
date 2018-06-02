@@ -2,15 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://edberteliezer.github.io/index.html</loc>
-    <lastmod>2018-05-31</lastmod>
+    <lastmod>2018-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://edberteliezer.github.io/macbook.html</loc>
-    <lastmod>2018-05-31</lastmod>
+    <lastmod>2018-06-03</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://edberteliezer.github.io/images/screenshot%20(8).jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://edberteliezer.github.io/images/screenshot%20(7).jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://edberteliezer.github.io/images/screenshot%20(2).png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://edberteliezer.github.io/images/screenshot%20(6).jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>http://edberteliezer.github.io/mail-in.html</loc>
@@ -44,12 +56,6 @@
   </url>
   <url>
     <loc>http://edberteliezer.github.io/class.html</loc>
-    <lastmod>2018-05-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://edberteliezer.github.io/test.html</loc>
     <lastmod>2018-05-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
