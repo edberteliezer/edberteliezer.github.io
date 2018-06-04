@@ -1,19 +1,19 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1528083773560">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1528096527025">
   <folder name="css">
     <file name="site_global.css" crc="397880820"/>
-    <file name="master_hero.css" crc="4250145786" ref="index:macbook"/>
-    <file name="nomq_preview_master_hero.css" crc="3795442053" ref="index:macbook"/>
+    <file name="master_hero.css" crc="307685271" ref="index:macbook"/>
+    <file name="nomq_preview_master_hero.css" crc="135526424" ref="index:macbook"/>
     <file name="mail-in.css" crc="4193191577" ref="mail-in"/>
     <file name="iphone.css" crc="4193191577" ref="iphone"/>
-    <file name="index.css" crc="3772897603" ref="index"/>
-    <file name="nomq_index.css" crc="38072023" ref="index"/>
+    <file name="index.css" crc="4119758570" ref="index"/>
+    <file name="nomq_index.css" crc="3936248690" ref="index"/>
     <file name="iefonts_index.css" crc="506401077" ref="index"/>
     <file name="store.css" crc="4193191577" ref="store"/>
     <file name="class.css" crc="4193191577" ref="class"/>
     <file name="faq.css" crc="4193191577" ref="faq"/>
-    <file name="macbook.css" crc="3867690229" ref="macbook"/>
+    <file name="macbook.css" crc="171909010" ref="macbook"/>
     <file name="recovery.css" crc="4193191577" ref="recovery"/>
-    <file name="nomq_macbook.css" crc="4202933867" ref="macbook"/>
+    <file name="nomq_macbook.css" crc="231954182" ref="macbook"/>
     <file name="iefonts_macbook.css" crc="506401077" ref="macbook"/>
   </folder>
   <folder name="fonts">
@@ -110,8 +110,8 @@
     </file>
     <file name="loading.gif" crc="3815509949" ref="macbook"/>
   </folder>
-  <file name="index.html" crc="3917771983" seo="true" mt="1528083638594" redirect="true"/>
-  <file name="macbook.html" crc="360784248" seo="true" mt="1528083366679" redirect="true"/>
+  <file name="index.html" crc="3900129352" seo="true" mt="1528096449744" redirect="true"/>
+  <file name="macbook.html" crc="111234054" seo="true" mt="1528096449744" redirect="true"/>
   <file name="mail-in.html" crc="3991793186" seo="true" mt="1527762079563" redirect="false"/>
   <file name="faq.html" crc="290501668" seo="true" mt="1527762081271" redirect="false"/>
   <file name="store.html" crc="395621706" seo="true" mt="1527762084884" redirect="false"/>
