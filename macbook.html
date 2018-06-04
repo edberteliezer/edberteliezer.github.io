@@ -17,13 +17,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
   <title>MACBOOK</title>
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=397880820"/>
-  <link rel="stylesheet" type="text/css" href="css/master_hero.css?crc=4091293445"/>
-  <link rel="stylesheet" type="text/css" href="css/macbook.css?crc=3849417259" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/master_hero.css?crc=4250145786"/>
+  <link rel="stylesheet" type="text/css" href="css/macbook.css?crc=3867690229" id="pagesheet"/>
   <!-- IE-only CSS -->
   <!--[if lt IE 9]>
   <link rel="stylesheet" type="text/css" href="css/iefonts_macbook.css?crc=506401077"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_hero.css?crc=4268417046"/>
-  <link rel="stylesheet" type="text/css" href="css/nomq_macbook.css?crc=4040589601" id="nomq_pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_hero.css?crc=3795442053"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_macbook.css?crc=4202933867" id="nomq_pagesheet"/>
   <![endif]-->
   <!-- Other scripts -->
   <script type="text/javascript">
@@ -43,6 +43,83 @@ pointer-events: none;
   <!--HTML Widget code-->
   
 <style type="text/css">#u34286.size_fluid_width_height iframe { position:absolute; left:0; top:0; }</style>
+<style>
+.menu-toggle{
+	flex:0 0 auto;
+	width:40px;
+	height:40px;
+	border:0px solid #FFFFFF;
+    box-sizing: border-box;
+	cursor:pointer;
+	position:relative;
+}
+.hamburger,.cross{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.hamburger span{
+	display:block;
+	width:18px;
+	height:2px;
+	margin-bottom:3px;
+	overflow:hidden;
+	position:relative;
+}
+.hamburger span:last-child{
+	margin:0;
+}
+.hamburger span:before,.hamburger span:after{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:#FFFFFF;
+	transform:translateX(-200%);
+	transition:transform ease 300ms;
+}
+.hamburger span:after{
+	transform:translateX(0);
+}
+.hamburger span:nth-child(2):before,.hamburger span:nth-child(2):after{
+	transition-delay:75ms;
+}
+.hamburger span:last-child:before,.hamburger span:last-child:after{
+	transition-delay:150ms;
+}
+.menu-toggle:hover .hamburger span:before{
+	transform:translateX(0);
+}
+.menu-toggle:hover .hamburger span:after{
+	transform:translateX(200%);
+}
+.menu-toggle.active .hamburger span:before{
+	transform:translateX(100%);
+}
+.menu-toggle.active .hamburger span:after{
+	transform:translateX(200%);
+}
+.cross span{
+	display:block;
+	width:18px;
+	height:2px;
+	background-color:#FFFFFF;
+	transform:translateY(50%) rotate(45deg) scaleX(0);
+	transition:transform ease 200ms;
+}
+.cross span:last-child{
+	transform:translateY(-50%) rotate(-45deg) scaleX(0);
+}
+.menu-toggle.active .cross span{
+	transition-delay:450ms;
+	transform:translateY(50%) rotate(45deg) scaleX(1);
+}
+.menu-toggle.active .cross span:last-child{
+	transform:translateY(-50%) rotate(-45deg) scaleX(1);
+}
+</style>
+	
   <!--/*
 
 */
@@ -61,7 +138,7 @@ pointer-events: none;
       <div class="shadow rgba-background" id="u126"><!-- simple frame --></div>
      </div>
      <div class="clearfix shared_content" id="u546-5" data-content-guid="u546-5_content"><!-- content -->
-      <p>ROSE<span id="u546-2">MAN</span></p>
+      <p id="u546-3">ROSE<span id="u546-2">MAN</span></p>
      </div>
      <nav class="MenuBar clearfix" id="menuu547"><!-- horizontal box -->
       <div class="MenuItemContainer clearfix grpelem" id="u37030"><!-- vertical box -->
@@ -174,15 +251,15 @@ pointer-events: none;
        <li class="AccordionPanel clearfix colelem100" id="u34263"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100" id="u34264-4"><!-- content --><div id="u34264-3" class="shared_content" data-content-guid="u34264-3_content"><p id="u34264-2">BATTERY</p></div></div><div class="AccordionPanelContent disn clearfix colelem100" id="u34265"><!-- group --><div class="clearfix grpelem shared_content" id="u34266-37" data-content-guid="u34266-37_content"><!-- content --><p class="MB-H1-MOB" id="u34266-2">Out Of Power?</p><p class="MB-P1-DEKSTOP" id="u34266-4">You unplug your charger and the Macbook turns right off. Maybe it works but dies very quickly, or works until it hits 50% then turns right off. This is common, as laptop batteries rarely make it past two years in good condition.</p><p class="MB-P1-DEKSTOP" id="u34266-5">&nbsp;</p><p class="MB-H1-MOB" id="u34266-7">We Can Replace Your Battery And Fix Your Problem</p><p class="MB-P1-DEKSTOP" id="u34266-9">We stock most Macbook batteries and can often replace them with same day service, without a parts order. We even do the Retina Macbook Pro battery replacements where the battery is adhesed into the top case. Apple designed some of their laptops in a way where the battery is not replaceable, and replacing the top case is very expensive. We can replace the battery without replacing the top case, and pass the savings onto you.</p><p class="MB-P1-DEKSTOP" id="u34266-10">&nbsp;</p><p class="MB-H1-MOB" id="u34266-12">If it’s a motherboard issue, we can fix that as well.</p><p class="MB-P1-DEKSTOP" id="u34266-14">Sometimes the motherboard can’t charge your battery, or won’t see your battery. If you have a logic board issue, you’re not at the end of the line here. We can repair your logic board at component level at our store and fix your problem.</p><p class="MB-P1-DEKSTOP" id="u34266-15">&nbsp;</p><p class="MB-H1-MOB" id="u34266-17">Pricing</p><p class="MB-P1-DEKSTOP" id="u34266-19">See below pricing for common Macbook battery replacements. If your model isn’t listed, it may be an older model that we do not have a battery in stock for. We can still repair those, but prices vary depending on part availability.</p><p class="MB-P1-DEKSTOP" id="u34266-20">&nbsp;</p><p class="MB-P1-DEKSTOP" id="u34266-22">• A1278 13” Unibody Macbook Pro: $100 + tax</p><p class="MB-P1-DEKSTOP" id="u34266-24">• A1286 15” Unibody Macbook Pro: $100 + tax</p><p class="MB-P1-DEKSTOP" id="u34266-26">• A1297 17 Unibody Macbook Pro: $150 + tax</p><p class="MB-P1-DEKSTOP" id="u34266-28">• A1370 11” Macbook Air:&nbsp; $150 + tax</p><p class="MB-P1-DEKSTOP" id="u34266-30">• A1369/A1466 13” Macbook Air: $150 + tax</p><p class="MB-P1-DEKSTOP" id="u34266-32">• A1398 15” Retina Macbook Pro: $250 + tax</p><p class="MB-P1-DEKSTOP" id="u34266-34">• A1425/A1502 13” Retina Macbook Pro: $250 + tax</p><p class="MB-P1-DEKSTOP" id="u34266-35">&nbsp;</p></div></div></li>
        <li class="AccordionPanel clearfix colelem100" id="u34279"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100" id="u34280-4"><!-- content --><div id="u34280-3" class="shared_content" data-content-guid="u34280-3_content"><p id="u34280-2">OVERHEAT</p></div></div><div class="AccordionPanelContent disn clearfix colelem100" id="u34281"><!-- group --><div class="clearfix grpelem shared_content" id="u34282-17" data-content-guid="u34282-17_content"><!-- content --><p class="MB-H1-MOB" id="u34282-2">Worried?</p><p class="MB-P1-DEKSTOP" id="u34282-4">If you’re worried that your laptop is running hotter than it should, bring it into our shop for a free evaluation and diagnosis. Each laptop runs normally at a slightly different temperature, and the types of activities you perform can also have a big impact on how hot your laptop should be. This can make it difficult for many people to know whether or not they actually have a problem. The fact is, however, that an overheating laptop will not only be uncomfortable to touch, but it will also cause additional problems the longer you let it go.</p><p class="MB-H1-MOB" id="u34282-6">Experienced Technicians</p><p class="MB-P1-DEKSTOP" id="u34282-8">Our experienced technicians can quickly identify why your system is overheating, and let you know exactly how much it will cost to fix. It may be something fairly small like a clogged fan, or something bigger like a bad heatsink, but no matter what it is, our technicians will be able to fix it up so it is running properly for you again.</p><p class="MB-P1-DEKSTOP" id="u34282-9">&nbsp;</p><p class="MB-P1-DEKSTOP" id="u34282-11">We can even offer after-market fans and other solutions to help keep your laptop nice and cool. This is a great solution for power users who demand a high level of performance from their systems. We can help ensure your laptop stays within the ideal operating temperature no matter what programs you’re running.</p><p class="MB-H1-MOB" id="u34282-13">Free Evaluation</p><p class="MB-P1-DEKSTOP" id="u34282-15">So, if you’re worried about your Macbook, or other laptop, don’t hesitate to bring it in for a free, no obligation evaluation. We’ll explain what is causing the issue, and then you can choose whether or not you would like to get it fixed. We look forward to seeing you soon.</p></div></div></li>
        <li class="AccordionPanel clearfix colelem100" id="u34288"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100" id="u34289-4"><!-- content --><div id="u34289-3" class="shared_content" data-content-guid="u34289-3_content"><p id="u34289-2">TRACKPAD</p></div></div><div class="AccordionPanelContent disn clearfix colelem100" id="u34290"><!-- group --><div class="clearfix grpelem shared_content" id="u34291-30" data-content-guid="u34291-30_content"><!-- content --><p class="MB-H1-MOB" id="u34291-2">Does Your Mouse Cursor Have A Mind Of Its Own?</p><p class="MB-P1-DEKSTOP" id="u34291-4">You try to click and it doesn’t register a click. Maybe the cursor doesn’t move the way you want it to. This is a very common problem as the trackpad on your laptop sees more wear &amp; tear than most other parts of your laptop. It is also at the front of the machine, so it is usually the first casualty of a liquid spill.</p><p class="MB-H1-MOB" id="u34291-6">We Can Replace Your Trackpad And Fix Your Problem!</p><p class="MB-P1-DEKSTOP" id="u34291-8">We stock most trackpads and can often replace them with same day service, without a parts order. We even do the Retina Macbook Pro trackpad replacements that repair shops do not offer without replacing the entire top case. Apple designed some of their laptops in a way where the trackpad is not replaceable, and replacing the top case is very expensive. We can replace the trackpad without replacing the entire top case, and save you a lot of money.</p><p class="MB-H1-MOB" id="u34291-10">Pricing</p><p class="MB-P1-DEKSTOP" id="u34291-12">See below pricing for common Macbook trackpad replacements. If your model isn’t listed, it may be an older model. We can still repair those, but prices vary depending on part availability.</p><p class="MB-P1-DEKSTOP" id="u34291-13">&nbsp;</p><p class="MB-P1-DEKSTOP" id="u34291-15">• A1278 13” Unibody Macbook Pro: $125 + tax</p><p class="MB-P1-DEKSTOP" id="u34291-17">• A1286 15” Unibody Macbook Pro: $125 + tax</p><p class="MB-P1-DEKSTOP" id="u34291-19">• A1297 17 Unibody Macbook Pro: $150 + tax</p><p class="MB-P1-DEKSTOP" id="u34291-21">• A1370/A1465 11” Macbook Air:&nbsp; $150 + tax</p><p class="MB-P1-DEKSTOP" id="u34291-23">• A1369/A1466 13” Macbook Air: $175 + tax</p><p class="MB-P1-DEKSTOP" id="u34291-25">• A1398 15” Retina Macbook Pro: $250 + tax</p><p class="MB-P1-DEKSTOP" id="u34291-27">• A1425/A1502 13” Retina Macbook Pro: $250 + tax</p><p class="MB-P1-DEKSTOP" id="u34291-28">&nbsp;</p></div></div></li>
-       <li class="AccordionPanel clearfix colelem100" id="u34275"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100" id="u34276-4"><!-- content --><div id="u34276-3" class="shared_content" data-content-guid="u34276-3_content"><p id="u34276-2">CRACKED SCREEN</p></div></div><div class="AccordionPanelContent disn clearfix colelem100" id="u34277"><!-- group --><div class="clearfix grpelem shared_content" id="u34278-41" data-content-guid="u34278-41_content"><!-- content --><p class="MB-H1-MOB" id="u34278-2">We stock screens to replace your cracked one!</p><p class="MB-P1-DEKSTOP" id="u34278-4">We can offer same day service if the queue allows – no ordering necessary in most cases. We do offer free estimates; we’ll open it up and see what’s wrong for free if the machine is acting funny. We can repair the screens on many models without replacing the entire top assembly which saves money &amp; time.</p><p class="MB-H1-MOB" id="u34278-6">Come to our store</p><p class="MB-P1-DEKSTOP" id="u34278-8">We’re conveniently located by the L train in Manhattan at 1st Avenue &amp; 12th street. You can drop off your laptop for repair and we will call you the moment it is ready for pickup.</p><p class="MB-H1-MOB" id="u34278-10">Pricing</p><p class="MB-P1-DEKSTOP" id="u34278-12">Prices depend on the model machine you have. Here we list the models we service by model number and year. You can find the model number on the bottom of the case in fine print. if you have any trouble determining your model, give us a call or a live chat and we’ll get you sorted out!</p><p class="MB-P1-DEKSTOP" id="u34278-13">&nbsp;</p><p class="MB-P1-DEKSTOP" id="u34278-15">2013-2015 A1502 Retina Macbook Pro 13” – $500 + tax for LCD only</p><p class="MB-P1-DEKSTOP" id="u34278-17">2012 A1425 13″ Retina Macbook Pro 13” – $500 + tax for LCD assembly(may be grade A, certified pre-owned)</p><p class="MB-P1-DEKSTOP" id="u34278-19">2015-2016 A1398 Retina Macbook Pro 15” – $500 + tax for LCD only</p><p class="MB-P1-DEKSTOP" id="u34278-21">2012-2014 A1398 Retina Macbook Pro 15” – $500 + tax for LCD assembly(may be grade A, certified pre-owned)</p><p class="MB-P1-DEKSTOP" id="u34278-23">2010-2017 A1369 A1466 Macbook Air 13” – $325 + tax</p><p class="MB-P1-DEKSTOP" id="u34278-25">2010-2017 A1370 A1465 Macbook Air 11” – $250 + tax</p><p class="MB-P1-DEKSTOP" id="u34278-27">2009-2010 White Macbook A1342 – $200 + tax</p><p class="MB-P1-DEKSTOP" id="u34278-29">2006-2008 Old Macbook Pro 15” A1150, A1211, A1226, A1260 – $240 + tax</p><p class="MB-P1-DEKSTOP" id="u34278-31">2008-2013 A1278 13” Macbook Pro – front glass $150, LCD $200, glass + LCD $275</p><p class="MB-P1-DEKSTOP" id="u34278-33">2008-2012 A1286 15” Macbook Pro – front glass $170, LCD $250, glass + LCD $280</p><p class="MB-P1-DEKSTOP" id="u34278-35">2009-2011 A1297 17” Macbook Pro – front glass $170, LCD $300, glass + LCD $350</p><p class="MB-H1-MOB" id="u34278-37">Grade A screens</p><p class="MB-P1-DEKSTOP" id="u34278-39">We only use Grade A screens, not pulls from other laptops unless otherwise stated. For machines whose LCDs have gone out of production we may use used LCDs.</p></div></div></li>
-       <li class="AccordionPanel clearfix colelem100" id="u34271"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100" id="u34274-4"><!-- content --><div id="u34274-3" class="shared_content" data-content-guid="u34274-3_content"><p id="u34274-2">WONT TURN ON</p></div></div><div class="AccordionPanelContent clearfix colelem100" id="u34272"><!-- group --><div class="clearfix grpelem shared_content" id="u34273-34" data-content-guid="u34273-34_content"><!-- content --><p class="MB-H1-DESKTOP" id="u34273-2">We’ll get you up and running faster than the Genius Bar!</p><p class="MB-P1-DEKSTOP" id="u34273-4">Is your Macbook not turning on? Maybe it turns on but doesn’t start up, or turns off briefly after you turn it on? This is very common. There are standard failure modes for each year which we are familiar with repairing.</p><p class="MB-P1-DEKSTOP" id="u34273-5">&nbsp;</p><p class="MB-P1-DEKSTOP" id="u34273-7">Apple often quotes $750-$1250 as a flat rate to “fix everything.” They fit you into a specific repair tier regardless of your issue, often charging an exorbitant amount of money even if you have a simple problem. We can often fix the problem for less than half their price. Our approach is to figure out your specific, unique problem, and charge you for repairing that only.</p><p class="MB-H1-MOB" id="u34273-9">What’s the cause?</p><p class="MB-P1-DEKSTOP" id="u34273-11">We provide a free estimate, but to give you a general idea of prices, see below. Pricing for specific services depends on the year &amp; model of your machine. Feel free to reach out to us with any questions, the more detail you give us on machine history/year/model #, the better we can assist you.</p><p class="MB-H1-MOB" id="u34273-13">Pricing</p><p class="MB-P1-DEKSTOP" id="u34273-15">Bad charging port. – $75-$200</p><p class="MB-P1-DEKSTOP" id="u34273-17">Bad keyboard(stuck power button) – $175-$350</p><p class="MB-P1-DEKSTOP" id="u34273-19">Bad trackpad(can reset SMC) – $125-$250</p><p class="MB-P1-DEKSTOP" id="u34273-21">Bad charger – $45-$75</p><p class="MB-P1-DEKSTOP" id="u34273-23">Blown power circuit on motherboard – $200-$425</p><p class="MB-P1-DEKSTOP" id="u34273-25">Malfunctioning I/O board attached to motherboard – $50-$200</p><p class="MB-P1-DEKSTOP" id="u34273-27">Liquid damage – $100-$500: wide price range, but we fix it all!</p><p class="MB-H1-MOB" id="u34273-29">Free evaluation.</p><p class="MB-P1-DEKSTOP" id="u34273-31">If your laptop is completely dead, there is no way for us to tell you precisely what’s wrong without seeing it. Did you know we offer free estimates? We’ll open it up and see what’s wrong for free; with free estimates you have nothing to lose! You won’t be obligated to go ahead with a repair, and we’ll explain what the problem was at no charge.</p><p class="MB-P1-DEKSTOP" id="u34273-32">&nbsp;</p></div></div></li>
+       <li class="AccordionPanel clearfix colelem100" id="u34275"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100" id="u34276-4"><!-- content --><div id="u34276-3" class="shared_content" data-content-guid="u34276-3_content"><p id="u34276-2">CRACKED SCREEN</p></div></div><div class="AccordionPanelContent clearfix colelem100" id="u34277"><!-- group --><div class="clearfix grpelem shared_content" id="u34278-41" data-content-guid="u34278-41_content"><!-- content --><p class="MB-H1-MOB" id="u34278-2">We stock screens to replace your cracked one!</p><p class="MB-P1-DEKSTOP" id="u34278-4">We can offer same day service if the queue allows – no ordering necessary in most cases. We do offer free estimates; we’ll open it up and see what’s wrong for free if the machine is acting funny. We can repair the screens on many models without replacing the entire top assembly which saves money &amp; time.</p><p class="MB-H1-MOB" id="u34278-6">Come to our store</p><p class="MB-P1-DEKSTOP" id="u34278-8">We’re conveniently located by the L train in Manhattan at 1st Avenue &amp; 12th street. You can drop off your laptop for repair and we will call you the moment it is ready for pickup.</p><p class="MB-H1-MOB" id="u34278-10">Pricing</p><p class="MB-P1-DEKSTOP" id="u34278-12">Prices depend on the model machine you have. Here we list the models we service by model number and year. You can find the model number on the bottom of the case in fine print. if you have any trouble determining your model, give us a call or a live chat and we’ll get you sorted out!</p><p class="MB-P1-DEKSTOP" id="u34278-13">&nbsp;</p><p class="MB-P1-DEKSTOP" id="u34278-15">2013-2015 A1502 Retina Macbook Pro 13” – $500 + tax for LCD only</p><p class="MB-P1-DEKSTOP" id="u34278-17">2012 A1425 13″ Retina Macbook Pro 13” – $500 + tax for LCD assembly(may be grade A, certified pre-owned)</p><p class="MB-P1-DEKSTOP" id="u34278-19">2015-2016 A1398 Retina Macbook Pro 15” – $500 + tax for LCD only</p><p class="MB-P1-DEKSTOP" id="u34278-21">2012-2014 A1398 Retina Macbook Pro 15” – $500 + tax for LCD assembly(may be grade A, certified pre-owned)</p><p class="MB-P1-DEKSTOP" id="u34278-23">2010-2017 A1369 A1466 Macbook Air 13” – $325 + tax</p><p class="MB-P1-DEKSTOP" id="u34278-25">2010-2017 A1370 A1465 Macbook Air 11” – $250 + tax</p><p class="MB-P1-DEKSTOP" id="u34278-27">2009-2010 White Macbook A1342 – $200 + tax</p><p class="MB-P1-DEKSTOP" id="u34278-29">2006-2008 Old Macbook Pro 15” A1150, A1211, A1226, A1260 – $240 + tax</p><p class="MB-P1-DEKSTOP" id="u34278-31">2008-2013 A1278 13” Macbook Pro – front glass $150, LCD $200, glass + LCD $275</p><p class="MB-P1-DEKSTOP" id="u34278-33">2008-2012 A1286 15” Macbook Pro – front glass $170, LCD $250, glass + LCD $280</p><p class="MB-P1-DEKSTOP" id="u34278-35">2009-2011 A1297 17” Macbook Pro – front glass $170, LCD $300, glass + LCD $350</p><p class="MB-H1-MOB" id="u34278-37">Grade A screens</p><p class="MB-P1-DEKSTOP" id="u34278-39">We only use Grade A screens, not pulls from other laptops unless otherwise stated. For machines whose LCDs have gone out of production we may use used LCDs.</p></div></div></li>
+       <li class="AccordionPanel clearfix colelem100" id="u34271"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100" id="u34274-4"><!-- content --><div id="u34274-3" class="shared_content" data-content-guid="u34274-3_content"><p id="u34274-2">WONT TURN ON</p></div></div><div class="AccordionPanelContent disn clearfix colelem100" id="u34272"><!-- group --><div class="clearfix grpelem shared_content" id="u34273-34" data-content-guid="u34273-34_content"><!-- content --><p class="MB-H1-DESKTOP" id="u34273-2">We’ll get you up and running faster than the Genius Bar!</p><p class="MB-P1-DEKSTOP" id="u34273-4">Is your Macbook not turning on? Maybe it turns on but doesn’t start up, or turns off briefly after you turn it on? This is very common. There are standard failure modes for each year which we are familiar with repairing.</p><p class="MB-P1-DEKSTOP" id="u34273-5">&nbsp;</p><p class="MB-P1-DEKSTOP" id="u34273-7">Apple often quotes $750-$1250 as a flat rate to “fix everything.” They fit you into a specific repair tier regardless of your issue, often charging an exorbitant amount of money even if you have a simple problem. We can often fix the problem for less than half their price. Our approach is to figure out your specific, unique problem, and charge you for repairing that only.</p><p class="MB-H1-MOB" id="u34273-9">What’s the cause?</p><p class="MB-P1-DEKSTOP" id="u34273-11">We provide a free estimate, but to give you a general idea of prices, see below. Pricing for specific services depends on the year &amp; model of your machine. Feel free to reach out to us with any questions, the more detail you give us on machine history/year/model #, the better we can assist you.</p><p class="MB-H1-MOB" id="u34273-13">Pricing</p><p class="MB-P1-DEKSTOP" id="u34273-15">Bad charging port. – $75-$200</p><p class="MB-P1-DEKSTOP" id="u34273-17">Bad keyboard(stuck power button) – $175-$350</p><p class="MB-P1-DEKSTOP" id="u34273-19">Bad trackpad(can reset SMC) – $125-$250</p><p class="MB-P1-DEKSTOP" id="u34273-21">Bad charger – $45-$75</p><p class="MB-P1-DEKSTOP" id="u34273-23">Blown power circuit on motherboard – $200-$425</p><p class="MB-P1-DEKSTOP" id="u34273-25">Malfunctioning I/O board attached to motherboard – $50-$200</p><p class="MB-P1-DEKSTOP" id="u34273-27">Liquid damage – $100-$500: wide price range, but we fix it all!</p><p class="MB-H1-MOB" id="u34273-29">Free evaluation.</p><p class="MB-P1-DEKSTOP" id="u34273-31">If your laptop is completely dead, there is no way for us to tell you precisely what’s wrong without seeing it. Did you know we offer free estimates? We’ll open it up and see what’s wrong for free; with free estimates you have nothing to lose! You won’t be obligated to go ahead with a repair, and we’ll explain what the problem was at no charge.</p><p class="MB-P1-DEKSTOP" id="u34273-32">&nbsp;</p></div></div></li>
        <li class="AccordionPanel clearfix colelem100" id="u34283"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100" id="u34287-4"><!-- content --><div id="u34287-3" class="shared_content" data-content-guid="u34287-3_content"><p id="u34287-2">SPILL DEMAGE</p></div></div><div class="AccordionPanelContent disn clearfix colelem100" id="u34284"><!-- group --><div class="clearfix grpelem shared_content" id="u34285-41" data-content-guid="u34285-41_content"><!-- content --><p class="MB-H1-MOB" id="u34285-2">Liquid damage repairs take about 2-5 business days.</p><p class="MB-P1-DEKSTOP" id="u34285-4">Spill damage is repairable at reasonable prices. Most leave our store paying between $100-$450 depending on their problem. Apple often quotes $750-$1250 to replace everything with a tier 4 repair because it’s easier for them to replace everything(and charge you accordingly). We repair the damaged components specifically and pass the savings onto you!</p><p class="MB-H1-MOB" id="u34285-6">Come to our store or mail your laptop to us for a free estimate.</p><p class="MB-P1-DEKSTOP" id="u34285-8">We’ll give you an assessment of what is wrong and what needs to be done at no charge! If it’s too far damaged to be worth repairing, we’ll let you know and you won’t owe us a dime.</p><p class="MB-H1-MOB" id="u34285-10">Common estimates:</p><p class="MB-P1-DEKSTOP" id="u34285-12">Keyboard/power button – $175-$350</p><p class="MB-P1-DEKSTOP" id="u34285-14">Trackpad – $125-$250</p><p class="MB-P1-DEKSTOP" id="u34285-16">Logic board repair – $325-$425</p><p class="MB-P1-DEKSTOP" id="u34285-18">Battery – $100-$250</p><p class="MB-H1-MOB" id="u34285-20">When you come to Rossmann’s, WE fix it!</p><p class="MB-P1-DEKSTOP" id="u34285-22">Most companies outsource component level motherboard repair because they don’t know how to do it. The person you are talking to does not work for the company repairing your device, causing delays and unexpected surprises. We repair your board in-house, and you only deal with us. Our company has helped instruct thousands of other repair technicians on how to perform these repairs via free YouTube content, guides, and forum posts. As soon as you spill something on your machine you should stop using it! Turning it on will make it worse; electricity and water cause corrosion like the board in the picture. Even when damage is this extensive, we can repair it, but it is best to minimize damage.</p><p class="MB-P1-DEKSTOP" id="u34285-23">&nbsp;</p><p class="MB-P1-DEKSTOP" id="u34285-25">At the time of photographing, that board was $750 part by itself, and we were able to repair it for $325. You can even watch how we do it with live videos of actual board repairs.</p><p class="MB-H1-MOB" id="u34285-27">Problems we will fix on your spill damaged machine:</p><p class="MB-P1-DEKSTOP" id="u34285-29">Not turning on.</p><p class="MB-P1-DEKSTOP" id="u34285-31">Freezing.</p><p class="MB-P1-DEKSTOP" id="u34285-33">No light/image on the screen.</p><p class="MB-P1-DEKSTOP" id="u34285-35">Not charging the battery.</p><p class="MB-P1-DEKSTOP" id="u34285-37">Keys not working properly.</p><p class="MB-P1-DEKSTOP" id="u34285-39">Trackpad not working properly.</p></div><div class="size_fluid_width_height grpelem shared_content" id="u34286" data-pintopage="page_fluidx" data-sizePolicy="fluidWidthHeight" data-content-guid="u34286_content"><!-- custom html --><div class="fluid_height_spacer"></div>
 <iframe class="actAsDiv" style="width:100%;height:100%;" src="//www.youtube.com/embed/nCVPH0xuNBI?autoplay=0&loop=0&showinfo=0&theme=dark&color=red&controls=1&modestbranding=0&start=0&fs=1&iv_load_policy=1&wmode=transparent&rel=1" frameborder="0" allowfullscreen></iframe>
 </div></div></li>
       </ul>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="4957" data-content-above-spacer="4956" data-content-below-spacer="56" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="5087" data-content-above-spacer="5086" data-content-below-spacer="56" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <div class="browser_width grpelem shared_content" id="u6920-15-bw" data-content-guid="u6920-15-bw_content">
      <div class="shadow clearfix" id="u6920-15"><!-- content -->
       <p id="u6920-13"><a class="nonblock" href="https://www.rossmanngroup.com/blog/" target="_blank"><span id="u6920"></span></a><a class="nonblock" href="https://www.rossmanngroup.com/boards/" target="_blank" title="Boarad Repair Forum"><span id="u6920-3"></span></a><a class="nonblock" href="https://www.twitter.com/rossmanngroup" target="_blank"><span id="u6920-5"></span></a><a class="nonblock" href="https://www.facebook.com/macbookrepair" target="_blank"><span id="u6920-7"></span></a><a class="nonblock" href="https://plus.google.com/111397566541354397917" target="_blank"><span id="u6920-9"></span></a><a class="nonblock" href="https://www.youtube.com/rossmanngroup" target="_blank"><span id="u6920-11"></span></a></p>
@@ -255,34 +332,32 @@ pointer-events: none;
        </div>
       </div>
       <span class="browser_width grpelem placeholder" data-placeholder-for="u34235-6-bw_content"><!-- placeholder node --></span>
-      <div class="browser_width grpelem" id="menuu10463-bw">
-       <nav class="MenuBar clearfix" id="menuu10463"><!-- horizontal box -->
-        <div class="MenuItemContainer clearfix grpelem" id="u36930"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u36933" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u36935-4"><!-- content --><p>HOME</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u10513"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive rgba-background clearfix colelem" id="u10516" href="macbook.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10517-4"><!-- content --><p>MACBOOK</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u10506"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u10507" href="iphone.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10510-4"><!-- content --><p>IPHONE</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u10499"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u10500" href="recovery.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10501-4"><!-- content --><p>RECOVERY</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u10492"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u10493" href="mail-in.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10494-4"><!-- content --><p>MAIL IN</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u10478"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u10479" href="faq.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10480-4"><!-- content --><p>FAQ</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u10485"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u10488" href="class.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10490-4"><!-- content --><p>CLASS</p></div></a>
-        </div>
-        <div class="MenuItemContainer clearfix grpelem" id="u32630"><!-- vertical box -->
-         <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u32633" href="store.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u32634-4"><!-- content --><p>STORE</p></div></a>
-        </div>
-       </nav>
-      </div>
+      <nav class="MenuBar clearfix grpelem" id="menuu10463" data-sizePolicy="fixed" data-pintopage="page_fixedRight"><!-- horizontal box -->
+       <div class="MenuItemContainer clearfix grpelem" id="u36930"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u36933" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u36935-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>HOME</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u10513"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive rgba-background clearfix colelem" id="u10516" href="macbook.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10517-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>MACBOOK</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u10506"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u10507" href="iphone.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10510-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>IPHONE</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u10499"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u10500" href="recovery.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10501-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>RECOVERY</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u10492"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u10493" href="mail-in.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10494-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>MAIL IN</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u10478"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u10479" href="faq.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10480-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>FAQ</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u10485"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u10488" href="class.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10490-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>CLASS</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u32630"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u32633" href="store.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u32634-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content --><p>STORE</p></div></a>
+       </div>
+      </nav>
      </div>
      <div class="browser_width colelem temp_no_id" data-orig-id="accordionu34262-bw">
       <ul class="AccordionWidget clearfix temp_no_id" data-orig-id="accordionu34262"><!-- vertical box -->
@@ -291,13 +366,13 @@ pointer-events: none;
        <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34263"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34264-4"><!-- content --><span class="placeholder" data-placeholder-for="u34264-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34265"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34266-37_content"><!-- placeholder node --></span></div></li>
        <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34279"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34280-4"><!-- content --><span class="placeholder" data-placeholder-for="u34280-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34281"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34282-17_content"><!-- placeholder node --></span></div></li>
        <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34288"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34289-4"><!-- content --><span class="placeholder" data-placeholder-for="u34289-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34290"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34291-30_content"><!-- placeholder node --></span></div></li>
-       <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34275"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34276-4"><!-- content --><span class="placeholder" data-placeholder-for="u34276-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34277"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34278-41_content"><!-- placeholder node --></span></div></li>
-       <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34271"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34274-4"><!-- content --><span class="placeholder" data-placeholder-for="u34274-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent clearfix colelem100 temp_no_id" data-orig-id="u34272"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34273-34_content"><!-- placeholder node --></span></div></li>
+       <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34275"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34276-4"><!-- content --><span class="placeholder" data-placeholder-for="u34276-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent clearfix colelem100 temp_no_id" data-orig-id="u34277"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34278-41_content"><!-- placeholder node --></span></div></li>
+       <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34271"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34274-4"><!-- content --><span class="placeholder" data-placeholder-for="u34274-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34272"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34273-34_content"><!-- placeholder node --></span></div></li>
        <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34283"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34287-4"><!-- content --><span class="placeholder" data-placeholder-for="u34287-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34284"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34285-41_content"><!-- placeholder node --></span><span class="size_fluid_width_height grpelem placeholder" data-placeholder-for="u34286_content"><!-- placeholder node --></span></div></li>
       </ul>
      </div>
     </div>
-    <div class="verticalspacer" data-offset-top="3659" data-content-above-spacer="3658" data-content-below-spacer="57" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="3789" data-content-above-spacer="3788" data-content-below-spacer="57" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <span class="browser_width grpelem placeholder" data-placeholder-for="u6920-15-bw_content"><!-- placeholder node --></span>
    </div>
   </div>
@@ -347,8 +422,8 @@ pointer-events: none;
        <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34263"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34264-4"><!-- content --><span class="placeholder" data-placeholder-for="u34264-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34265"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34266-37_content"><!-- placeholder node --></span></div></li>
        <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34279"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34280-4"><!-- content --><span class="placeholder" data-placeholder-for="u34280-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34281"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34282-17_content"><!-- placeholder node --></span></div></li>
        <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34288"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34289-4"><!-- content --><span class="placeholder" data-placeholder-for="u34289-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34290"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34291-30_content"><!-- placeholder node --></span></div></li>
-       <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34275"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34276-4"><!-- content --><span class="placeholder" data-placeholder-for="u34276-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34277"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34278-41_content"><!-- placeholder node --></span></div></li>
-       <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34271"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34274-4"><!-- content --><span class="placeholder" data-placeholder-for="u34274-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent clearfix colelem100 temp_no_id" data-orig-id="u34272"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34273-34_content"><!-- placeholder node --></span></div></li>
+       <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34275"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34276-4"><!-- content --><span class="placeholder" data-placeholder-for="u34276-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent clearfix colelem100 temp_no_id" data-orig-id="u34277"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34278-41_content"><!-- placeholder node --></span></div></li>
+       <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34271"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34274-4"><!-- content --><span class="placeholder" data-placeholder-for="u34274-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34272"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34273-34_content"><!-- placeholder node --></span></div></li>
        <li class="AccordionPanel clearfix colelem100 temp_no_id" data-orig-id="u34283"><!-- vertical box --><div class="AccordionPanelTab museBGSize clearfix colelem100 temp_no_id" data-orig-id="u34287-4"><!-- content --><span class="placeholder" data-placeholder-for="u34287-3_content"><!-- placeholder node --></span></div><div class="AccordionPanelContent disn clearfix colelem100 temp_no_id" data-orig-id="u34284"><!-- group --><span class="clearfix grpelem placeholder" data-placeholder-for="u34285-41_content"><!-- placeholder node --></span><span class="size_fluid_width_height grpelem placeholder" data-placeholder-for="u34286_content"><!-- placeholder node --></span></div></li>
       </ul>
      </div>
@@ -357,20 +432,32 @@ pointer-events: none;
      <span class="browser_width placeholder" data-placeholder-for="u126-bw_content"><!-- placeholder node --></span>
      <span class="clearfix placeholder" data-placeholder-for="u546-5_content"><!-- placeholder node --></span>
      <div class="PamphletWidget clearfix allow_click_through" id="pamphletu19762" data-visibility="changed" style="visibility:hidden"><!-- none box -->
-      <div class="ThumbGroup clearfix grpelem" data-col-pos="0" id="u19773" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" data-col-pos="1" id="u19773"><!-- none box -->
        <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u19774popup">
-        <div class="Thumb popup_element clearfix" data-col-pos="0" id="u19774" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- group -->
-         <div class="clearfix grpelem" id="u19837-4" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"><!-- content -->
-          <p id="u19837-2"></p>
+        <div class="Thumb popup_element clearfix" data-col-pos="0" id="u19774" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- group -->
+         <div class="size_fixed grpelem" id="u81317" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+          
+  <div class="menu-toggle">
+	<div class="hamburger">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div class="cross">
+		<span></span>
+		<span></span>
+	</div>
+</div>
+
          </div>
         </div>
        </div>
       </div>
       <div class="clearfix" id="pu19763"><!-- group -->
-       <div class="popup_anchor allow_click_through" data-col-pos="1" id="u19763popup">
+       <div class="popup_anchor allow_click_through" data-col-pos="0" id="u19763popup">
         <div id="u19763-wrapper">
-         <div class="ContainerGroup clearfix" data-col-pos="1" id="u19763"><!-- stack box -->
-          <div class="Container invi shadow clearfix grpelem" data-col-pos="0" id="u19764"><!-- group -->
+         <div class="ContainerGroup clearfix" data-col-pos="0" id="u19763"><!-- none box -->
+          <div class="Container invi shadow clearfix" data-col-pos="0" id="u19764"><!-- group -->
            <nav class="MenuBar clearfix grpelem" id="menuu19846"><!-- vertical box -->
             <div class="MenuItemContainer clearfix colelem" id="u37079"><!-- horizontal box -->
              <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u37080" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u37083-4"><!-- content --><p id="u37083-2"><span id="u37083">HOME</span></p></div></a>
@@ -401,18 +488,11 @@ pointer-events: none;
          </div>
         </div>
        </div>
-       <div class="popup_anchor allow_click_through grpelem" data-col-pos="4" id="u19771popup">
-        <div class="PamphletCloseButton PamphletLightboxPart popup_element clearfix" data-col-pos="4" id="u19771"><!-- group -->
-         <div class="clearfix grpelem" id="u19667-4"><!-- content -->
-          <p id="u19667-2"></p>
-         </div>
-        </div>
-       </div>
       </div>
      </div>
      <span class="browser_width placeholder" data-placeholder-for="u22188-bw_content"><!-- placeholder node --></span>
     </div>
-    <div class="verticalspacer" data-offset-top="3436" data-content-above-spacer="3436" data-content-below-spacer="56" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="verticalspacer" data-offset-top="3528" data-content-above-spacer="3528" data-content-below-spacer="56" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
     <span class="browser_width grpelem placeholder" data-placeholder-for="u6920-15-bw_content"><!-- placeholder node --></span>
    </div>
   </div>
@@ -444,8 +524,8 @@ Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized');
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
 Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_825', '#bp_612'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
 Muse.Utils.initWidget('#slideshowu54747', ['#bp_infinity', '#bp_825', '#bp_612'], function(elem) { var widget = new WebPro.Widget.ContentSlideShow(elem, {autoPlay:true,displayInterval:2000,slideLinkStopsSlideShow:false,transitionStyle:'vertical',lightboxEnabled_runtime:false,shuffle:false,transitionDuration:500,enableSwipe:true,elastic:'fullWidth',resumeAutoplay:true,resumeAutoplayInterval:2000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); $(elem).data('widget', widget); return widget; });/* #slideshowu54747 */
-Muse.Utils.initWidget('#accordionu34262', ['#bp_infinity', '#bp_825', '#bp_612'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:false,defaultIndex:6}); });/* #accordionu34262 */
-Muse.Utils.initWidget('#pamphletu19762', ['#bp_612'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'stack',event:'click',deactivationEvent:'none',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:false,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu19762 */
+Muse.Utils.initWidget('#accordionu34262', ['#bp_infinity', '#bp_825', '#bp_612'], function(elem) { return new WebPro.Widget.Accordion(elem, {canCloseAll:false,defaultIndex:5}); });/* #accordionu34262 */
+Muse.Utils.initWidget('#pamphletu19762', ['#bp_612'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu19762 */
 Muse.Utils.fullPage('#page');/* 100% height page */
 $( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
@@ -468,5 +548,13 @@ Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 jQuery.scrollSpeed(125, 1600);
 </script>
 
+<script>
+$(document).ready(function(){
+	$('.menu-toggle').on('click',function(){
+		$('.menu-toggle').toggleClass('active');
+	});
+});
+</script>
+	
    </body>
 </html>
