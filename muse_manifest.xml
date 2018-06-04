@@ -1,22 +1,24 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1528100142124">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1528128615037">
   <folder name="css">
-    <file name="site_global.css" crc="395714296"/>
-    <file name="master_hero.css" crc="4240278431" ref="index:macbook:faq"/>
-    <file name="nomq_preview_master_hero.css" crc="135526424" ref="index:macbook:faq"/>
-    <file name="mail-in.css" crc="4193191577" ref="mail-in"/>
+    <file name="site_global.css" crc="299289596"/>
+    <file name="master_hero.css" crc="4037872520" ref="index:macbook:faq:mail-in"/>
+    <file name="nomq_preview_master_hero.css" crc="306631948" ref="index:macbook:faq:mail-in"/>
+    <file name="mail-in.css" crc="3786334797" ref="mail-in"/>
     <file name="iphone.css" crc="4193191577" ref="iphone"/>
-    <file name="index.css" crc="4119758570" ref="index"/>
-    <file name="nomq_index.css" crc="3936248690" ref="index"/>
-    <file name="iefonts_index.css" crc="312149929" ref="index"/>
+    <file name="index.css" crc="4032822772" ref="index"/>
+    <file name="nomq_index.css" crc="3789947979" ref="index"/>
+    <file name="iefonts_index.css" crc="4282012001" ref="index"/>
     <file name="store.css" crc="165908696" ref="store"/>
     <file name="class.css" crc="4193191577" ref="class"/>
-    <file name="faq.css" crc="66364574" ref="faq"/>
-    <file name="macbook.css" crc="381270230" ref="macbook"/>
+    <file name="faq.css" crc="3938097809" ref="faq"/>
+    <file name="macbook.css" crc="319847026" ref="macbook"/>
     <file name="recovery.css" crc="4193191577" ref="recovery"/>
-    <file name="nomq_macbook.css" crc="161496539" ref="macbook"/>
-    <file name="iefonts_macbook.css" crc="312149929" ref="macbook"/>
-    <file name="nomq_faq.css" crc="5053904" ref="faq"/>
-    <file name="iefonts_faq.css" crc="312149929" ref="faq"/>
+    <file name="nomq_macbook.css" crc="3868116149" ref="macbook"/>
+    <file name="iefonts_macbook.css" crc="4282012001" ref="macbook"/>
+    <file name="nomq_faq.css" crc="115941559" ref="faq"/>
+    <file name="iefonts_faq.css" crc="4282012001" ref="faq"/>
+    <file name="nomq_mail-in.css" crc="4268112231" ref="mail-in"/>
+    <file name="iefonts_mail-in.css" crc="4282012001" ref="mail-in"/>
   </folder>
   <folder name="fonts">
     <file name="brandon-text-black.woff" crc="4217168599"/>
@@ -30,20 +32,20 @@
     <file name="museutils.js" crc="340535759" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
     <file name="whatinput.js" crc="86476730" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
     <file name="museconfig.js" crc="4286661555" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
-    <file name="jquery.musemenu.js" crc="510910590" ref="index:macbook:faq"/>
+    <file name="jquery.musemenu.js" crc="510910590" ref="index:macbook:faq:mail-in"/>
     <file name="jquery.watch.js" crc="51536988" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
-    <file name="webpro.js" crc="4059564322" ref="index:macbook:faq"/>
+    <file name="webpro.js" crc="4059564322" ref="index:macbook:faq:mail-in"/>
     <file name="form_check.php" crc="4020933626" ref="index"/>
     <file name="form_throttle.php" crc="4259590256" ref="index"/>
     <file name="form_process.php" crc="37464564" ref="index"/>
-    <file name="musewpslideshow.js" crc="3862962738" ref="index:macbook:faq"/>
-    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:macbook:faq"/>
-    <file name="touchswipe.js" crc="4075097462" ref="index:macbook:faq"/>
+    <file name="musewpslideshow.js" crc="3862962738" ref="index:macbook:faq:mail-in"/>
+    <file name="jquery.museoverlay.js" crc="4147669564" ref="index:macbook:faq:mail-in"/>
+    <file name="touchswipe.js" crc="4075097462" ref="index:macbook:faq:mail-in"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
-    <file name="jquery.museresponsive.js" crc="527716135" ref="index:macbook:faq"/>
+    <file name="jquery.museresponsive.js" crc="527716135" ref="index:macbook:faq:mail-in"/>
     <file name="require.js" crc="7928878" ref="index:macbook:mail-in:faq:store:iphone:recovery:class"/>
     <file name="form-u32147.php" crc="505570000" ref="index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="macbook:index:faq"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="4260645839" ref="macbook:index:faq:mail-in"/>
     <file name="musewpdisclosure.js" crc="3883500470" ref="macbook"/>
   </folder>
   <folder name="images">
@@ -104,7 +106,7 @@
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="macbook:index:faq"/>
+    <file name="blank.gif" crc="4208392903" ref="macbook:index:faq:mail-in"/>
     <file name="screenshot (6).jpg" crc="4292159861" seo="true" ref="macbook">
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
@@ -117,11 +119,27 @@
       <caption webpage="faq" alt=""/>
     </file>
     <file name="pexels-photo-1059111-u93344-fr.jpg" crc="3896210292" ref="faq"/>
+    <file name="mailbox-595854_1920.jpg" crc="412227685" ref="mail-in">
+      <caption webpage="mail-in" alt=""/>
+    </file>
+    <file name="wall4_@2x.jpg" crc="4064381484" ref="mail-in:faq">
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="mail-in" alt=""/>
+      <caption webpage="mail-in" alt=""/>
+      <caption webpage="mail-in" alt=""/>
+      <caption webpage="mail-in" alt=""/>
+    </file>
+    <file name="mailbox-595854_1920-u109952-fr.jpg" crc="4032841550" ref="mail-in"/>
+    <file name="mailbox-595854_1920-u109952-fr2.jpg" crc="3873120539" ref="mail-in"/>
+    <file name="mailbox-595854_1920-u109952-fr3.jpg" crc="3765000655" ref="mail-in"/>
   </folder>
-  <file name="index.html" crc="488062649" seo="true" mt="1528099545779" redirect="true"/>
-  <file name="macbook.html" crc="4062524446" seo="true" mt="1528099545779" redirect="true"/>
-  <file name="mail-in.html" crc="4260556763" seo="true" mt="1528099542280" redirect="false"/>
-  <file name="faq.html" crc="134687583" seo="true" mt="1528099545779" redirect="true"/>
+  <file name="index.html" crc="4202556096" seo="true" mt="1528128406687" redirect="true"/>
+  <file name="macbook.html" crc="472883896" seo="true" mt="1528127968747" redirect="true"/>
+  <file name="mail-in.html" crc="4153281671" seo="true" mt="1528127968747" redirect="true"/>
+  <file name="faq.html" crc="284491809" seo="true" mt="1528127968747" redirect="true"/>
   <file name="store.html" crc="4252619345" seo="true" mt="1528100050875" redirect="true"/>
   <file name="iphone.html" crc="122188839" seo="true" mt="1528099531292" redirect="false"/>
   <file name="recovery.html" crc="4213731607" seo="true" mt="1528099535670" redirect="false"/>

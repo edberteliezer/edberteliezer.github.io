@@ -11,23 +11,624 @@
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
 // Check that all required assets are uploaded and up-to-date
-if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "require.js", "mail-in.css"], "outOfDate":[]};
+if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required":["museutils.js", "museconfig.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.musemenu.js", "jquery.musepolyfill.bgsize.js", "jquery.museresponsive.js", "require.js", "mail-in.css"], "outOfDate":[]};
 </script>
   
   <title>MAIL IN</title>
   <!-- CSS -->
-  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=395714296"/>
-  <link rel="stylesheet" type="text/css" href="css/mail-in.css?crc=4193191577" id="pagesheet"/>
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?crc=299289596"/>
+  <link rel="stylesheet" type="text/css" href="css/master_hero.css?crc=4037872520"/>
+  <link rel="stylesheet" type="text/css" href="css/mail-in.css?crc=3786334797" id="pagesheet"/>
+  <!-- IE-only CSS -->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_mail-in.css?crc=4282012001"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_preview_master_hero.css?crc=306631948"/>
+  <link rel="stylesheet" type="text/css" href="css/nomq_mail-in.css?crc=4268112231" id="nomq_pagesheet"/>
+  <![endif]-->
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   var __adobewebfontsappname__ = "muse";
+</script>
   <!-- JS includes -->
+  <script src="https://webfonts.creativecloud.com/lato:n4,n7,n9:default;muli:n3,n4:default.js" type="text/javascript"></script>
   <!--[if lt IE 9]>
   <script src="scripts/html5shiv.js?crc=4241844378" type="text/javascript"></script>
   <![endif]-->
-   </head>
+    <!--custom head HTML-->
+  <style>
+#u22188 {
+pointer-events: none;
+}
+</style>
+  <!--HTML Widget code-->
+  
+
+<style>
+.menu-toggle{
+	flex:0 0 auto;
+	width:40px;
+	height:40px;
+	border:0px solid #FFFFFF;
+    box-sizing: border-box;
+	cursor:pointer;
+	position:relative;
+}
+.hamburger,.cross{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.hamburger span{
+	display:block;
+	width:18px;
+	height:2px;
+	margin-bottom:3px;
+	overflow:hidden;
+	position:relative;
+}
+.hamburger span:last-child{
+	margin:0;
+}
+.hamburger span:before,.hamburger span:after{
+	content:"";
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:#FFFFFF;
+	transform:translateX(-200%);
+	transition:transform ease 300ms;
+}
+.hamburger span:after{
+	transform:translateX(0);
+}
+.hamburger span:nth-child(2):before,.hamburger span:nth-child(2):after{
+	transition-delay:75ms;
+}
+.hamburger span:last-child:before,.hamburger span:last-child:after{
+	transition-delay:150ms;
+}
+.menu-toggle:hover .hamburger span:before{
+	transform:translateX(0);
+}
+.menu-toggle:hover .hamburger span:after{
+	transform:translateX(200%);
+}
+.menu-toggle.active .hamburger span:before{
+	transform:translateX(100%);
+}
+.menu-toggle.active .hamburger span:after{
+	transform:translateX(200%);
+}
+.cross span{
+	display:block;
+	width:18px;
+	height:2px;
+	background-color:#FFFFFF;
+	transform:translateY(50%) rotate(45deg) scaleX(0);
+	transition:transform ease 200ms;
+}
+.cross span:last-child{
+	transform:translateY(-50%) rotate(-45deg) scaleX(0);
+}
+.menu-toggle.active .cross span{
+	transition-delay:450ms;
+	transform:translateY(50%) rotate(45deg) scaleX(1);
+}
+.menu-toggle.active .cross span:last-child{
+	transform:translateY(-50%) rotate(-45deg) scaleX(1);
+}
+</style>
+	
+  <!--/*
+
+*/
+-->
+ </head>
  <body>
 
-  <div class="clearfix borderbox" id="page"><!-- column -->
-   <div class="verticalspacer" data-offset-top="0" data-content-above-spacer="0" data-content-below-spacer="500" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+  <!--HTML Widget code-->
+  
+
+  
+  <div class="breakpoint active" id="bp_infinity" data-min-width="961"><!-- responsive breakpoint node -->
+   <div class="clearfix" id="page"><!-- group -->
+    <div class="clearfix grpelem" id="pu16122"><!-- column -->
+     <div class="size_fixed colelem shared_content" id="u16122" data-content-guid="u16122_content"><!-- custom html -->
+      
+
+     </div>
+     <div class="clearfix colelem" id="pu119306"><!-- group -->
+      <div class="browser_width grpelem" id="u119306-bw">
+       <div class="rgba-background" id="u119306"><!-- group -->
+        <div class="clearfix" id="u119306_align_to_page">
+         <div class="shadow rgba-background clearfix grpelem" id="u109961-23"><!-- content -->
+          <h1 class="PC-COPY-H1 shared_content" id="u109961-2" data-content-guid="u109961-2_content">Mail in your device now.</h1>
+          <p class="PC-COPY-P1 shared_content" id="u109961-4" data-content-guid="u109961-4_content">Click the mail-in button below and fill out the form, then send in your device. We will provide you with an estimate after we’ve received it. You do not pay until the service is complete. Once we receive your device we email you a ticket number.</p>
+          <h1 class="PC-COPY-H1 shared_content" id="u109961-6" data-content-guid="u109961-6_content">Fill the form and include note in the box.</h1>
+          <p class="PC-COPY-P1 shared_content" id="u109961-8" data-content-guid="u109961-8_content">Sometimes we receive devices with no note in the box, from people who have not filled out the form. We don’t know who sent them, or what they want fixed. Please click and fill out the form and include a small note in the box with your name on it. This way, we can match up the machine we receive to your online intake form and swiftly process your repair.</p>
+          <h1 class="PC-COPY-H1 shared_content" id="u109961-10" data-content-guid="u109961-10_content">Free estimates.</h1>
+          <p class="PC-COPY-P1 shared_content" id="u109961-12" data-content-guid="u109961-12_content">The only fees you would incur would be paying to ship the laptop. We offer free estimates to all customers besides other repair shops. If you are a repair company, receive an estimate, and opt to not receive a repair, there is a bench fee of $50. Unfortunately, other stores have been firing their own technicians and having us do all of their estimates. If you have tried to repair it yourself and failed in a manner that will make the tech’s life harder, contact us before sending it in as free estimate may not apply. We may still be able to help you. Anywhere from one day to a month, motherboard repair can take anywhere from an hour to six weeks depending on the severity of the issue. For your particular situation, feel free to email or call us to inquire about the turnaround time for your particular device.</p>
+          <h1 class="PC-COPY-H1 shared_content" id="u109961-14" data-content-guid="u109961-14_content">No Apple boxes or Apple chargers</h1>
+          <p class="PC-COPY-P1 shared_content" id="u109961-16" data-content-guid="u109961-16_content">If your box is sentimental in value to you for any reason – DO NOT SEND IT TO US! We flatten box and put it to garbage collection. We are located in New York City, in a storefront. We have a total of 750 square feet, which six people utilize to repair dozens upon dozens of machines per day. We have shelving in place to house hundreds of machines, but not boxes. All boxes received will be broken down, cut up, and disposed of the moment they are received, no exceptions. If you send us your device in its original box, such as the box Apple sells you the Macbook in – you will not receive it back. We do not need and chargers for Apple Devices - WE HAVE OUR OWN.</p>
+          <p class="PC-COPY-P1 shared_content" id="u109961-17" data-content-guid="u109961-17_content">&nbsp;</p>
+          <p class="PC-COPY-P1" id="u109961-21"><span id="u109961-18" class="shared_content" data-content-guid="u109961-18_content">​</span><span id="u109961-19"><span class="actAsInlineDiv normal_text" id="u110006"><!-- content --><a class="nonblock nontext Button actAsDiv rgba-background Button-BLACK1 clearfix excludeFromNormalFlow" id="buttonu109996" href="https://rossmanngroup1.repairshopr.com/wf/mail-in-estimate/start"><!-- container box --><span class="actAsDiv clearfix grpelem shared_content" id="u109997-4" data-content-guid="u109997-4_content"><!-- content --><span class="actAsPara">MAIL IN</span></span></a></span></span><span id="u109961-20" class="shared_content" data-content-guid="u109961-20_content"></span></p>
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem shared_content" id="u109952-bw" data-content-guid="u109952-bw_content">
+       <div class="museBGSize" id="u109952"><!-- simple frame --></div>
+      </div>
+      <div class="browser_width grpelem" id="u124414-bw">
+       <div class="rgba-background" id="u124414"><!-- group -->
+        <div class="clearfix" id="u124414_align_to_page">
+         <div class="clearfix grpelem" id="pu187-4"><!-- column -->
+          <div class="clearfix colelem shared_content" id="u187-4" data-content-guid="u187-4_content"><!-- content -->
+           <p>ROSEMAN</p>
+          </div>
+          <div class="clearfix colelem shared_content" id="u109953-4" data-content-guid="u109953-4_content"><!-- content -->
+           <p id="u109953-2">MAIL IN</p>
+          </div>
+         </div>
+         <nav class="MenuBar clearfix grpelem" id="menuu310"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem" id="u37177"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u37180" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u37182-4"><!-- content --><p class="shared_content" data-content-guid="u37182-4_0_content">HOME</p></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem" id="u311"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u314" href="macbook.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u315-4"><!-- content --><p class="shared_content" data-content-guid="u315-4_0_content">MACBOOK</p></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem" id="u6716"><!-- vertical box -->
+           <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u6719"><!-- horizontal box -->
+            <div class="MenuItemLabel NoWrap clearfix grpelem" id="u6721-4"><!-- content -->
+             <p class="shared_content" data-content-guid="u6721-4_0_content">IPHONE</p>
+            </div>
+           </div>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem" id="u6899"><!-- vertical box -->
+           <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u6900"><!-- horizontal box -->
+            <div class="MenuItemLabel NoWrap clearfix grpelem" id="u6903-4"><!-- content -->
+             <p class="shared_content" data-content-guid="u6903-4_0_content">RECOVERY</p>
+            </div>
+           </div>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem" id="u356"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive rgba-background clearfix colelem" id="u357" href="mail-in.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u358-4"><!-- content --><p class="shared_content" data-content-guid="u358-4_0_content">MAIL IN</p></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem" id="u377"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u378" href="faq.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u379-4"><!-- content --><p class="shared_content" data-content-guid="u379-4_0_content">FAQ</p></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem" id="u7027"><!-- vertical box -->
+           <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u7028"><!-- horizontal box -->
+            <div class="MenuItemLabel NoWrap clearfix grpelem" id="u7030-4"><!-- content -->
+             <p class="shared_content" data-content-guid="u7030-4_0_content">CLASS</p>
+            </div>
+           </div>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem" id="u32777"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u32778" href="store.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u32781-4"><!-- content --><p class="shared_content" data-content-guid="u32781-4_0_content">STORE</p></div></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <div class="browser_width grpelem shared_content" id="u110772-bw" data-content-guid="u110772-bw_content">
+       <div id="u110772"><!-- simple frame --></div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix grpelem" id="pu126"><!-- group -->
+     <div class="browser_width shared_content" id="u126-bw" data-content-guid="u126-bw_content">
+      <div class="shadow rgba-background shared_content" id="u126" data-content-guid="u126_content"><!-- simple frame --></div>
+     </div>
+     <div class="clearfix shared_content" id="u546-5" data-content-guid="u546-5_content"><!-- content -->
+      <p id="u546-3">ROSE<span id="u546-2">MAN</span></p>
+     </div>
+     <nav class="MenuBar clearfix" id="menuu547"><!-- horizontal box -->
+      <div class="MenuItemContainer clearfix grpelem" id="u37030"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u37033" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u37035-4"><!-- content --><p class="shared_content" data-content-guid="u37035-4_0_content">HOME</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u569"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u570" href="macbook.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u571-4"><!-- content --><p class="shared_content" data-content-guid="u571-4_0_content">MACBOOK</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u6695"><!-- vertical box -->
+       <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u6696"><!-- horizontal box -->
+        <div class="MenuItemLabel NoWrap clearfix grpelem" id="u6697-4"><!-- content -->
+         <p class="shared_content" data-content-guid="u6697-4_0_content">IPHONE</p>
+        </div>
+       </div>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u6878"><!-- vertical box -->
+       <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u6879"><!-- horizontal box -->
+        <div class="MenuItemLabel NoWrap clearfix grpelem" id="u6882-4"><!-- content -->
+         <p class="shared_content" data-content-guid="u6882-4_0_content">RECOVERY</p>
+        </div>
+       </div>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u555"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive rgba-background clearfix colelem" id="u558" href="mail-in.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u559-4"><!-- content --><p class="shared_content" data-content-guid="u559-4_0_content">MAIL IN</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u576"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u577" href="faq.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u578-4"><!-- content --><p class="shared_content" data-content-guid="u578-4_0_content">FAQ</p></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u7006"><!-- vertical box -->
+       <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u7007"><!-- horizontal box -->
+        <div class="MenuItemLabel NoWrap clearfix grpelem" id="u7008-4"><!-- content -->
+         <p class="shared_content" data-content-guid="u7008-4_0_content">CLASS</p>
+        </div>
+       </div>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem" id="u32581"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem" id="u32582" href="store.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u32584-4"><!-- content --><p class="shared_content" data-content-guid="u32584-4_0_content">STORE</p></div></a>
+      </div>
+     </nav>
+    </div>
+    <div class="verticalspacer" data-offset-top="1369" data-content-above-spacer="1369" data-content-below-spacer="116"></div>
+    <div class="browser_width grpelem shared_content" id="u6920-19-bw" data-content-guid="u6920-19-bw_content">
+     <div class="shadow clearfix shared_content" id="u6920-19" data-content-guid="u6920-19_content"><!-- content -->
+      <p id="u6920-13"><a class="nonblock" href="https://www.rossmanngroup.com/blog/" target="_blank"><span id="u6920"></span></a><a class="nonblock" href="https://www.rossmanngroup.com/boards/" target="_blank" title="Boarad Repair Forum"><span id="u6920-3"></span></a><a class="nonblock" href="https://www.twitter.com/rossmanngroup" target="_blank"><span id="u6920-5"></span></a><a class="nonblock" href="https://www.facebook.com/macbookrepair" target="_blank"><span id="u6920-7"></span></a><a class="nonblock" href="https://plus.google.com/111397566541354397917" target="_blank"><span id="u6920-9"></span></a><a class="nonblock" href="https://www.youtube.com/rossmanngroup" target="_blank"><span id="u6920-11"></span></a></p>
+      <p id="u6920-15"><span id="u6920-14">Website by eSQUARE design.</span></p>
+      <p id="u6920-17"><span id="u6920-16">© 2018 ESQUARE. All rights reserved.</span></p>
+     </div>
+    </div>
+   </div>
   </div>
+  <div class="breakpoint" id="bp_960" data-min-width="826" data-max-width="960"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu16122"><!-- column -->
+     <span class="size_fixed colelem placeholder" data-placeholder-for="u16122_content"><!-- placeholder node --></span>
+     <div class="clearfix colelem" id="pu109952"><!-- group -->
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u109952-bw_content"><!-- placeholder node --></span>
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u124414-bw">
+       <div class="rgba-background temp_no_id" data-orig-id="u124414"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u124414_align_to_page">
+         <div class="clearfix grpelem temp_no_id" data-orig-id="pu187-4"><!-- column -->
+          <span class="clearfix colelem placeholder" data-placeholder-for="u187-4_content"><!-- placeholder node --></span>
+          <span class="clearfix colelem placeholder" data-placeholder-for="u109953-4_content"><!-- placeholder node --></span>
+         </div>
+         <nav class="MenuBar clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedRight" data-orig-id="menuu310"><!-- horizontal box -->
+          <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u37177"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" href="index.html" data-orig-id="u37180"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u37182-4"><!-- content --><span class="placeholder" data-placeholder-for="u37182-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u311"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" href="macbook.html" data-orig-id="u314"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u315-4"><!-- content --><span class="placeholder" data-placeholder-for="u315-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u6716"><!-- vertical box -->
+           <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" data-orig-id="u6719"><!-- horizontal box -->
+            <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u6721-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u6721-4_0_content"><!-- placeholder node --></span>
+            </div>
+           </div>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u6899"><!-- vertical box -->
+           <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" data-orig-id="u6900"><!-- horizontal box -->
+            <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u6903-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u6903-4_0_content"><!-- placeholder node --></span>
+            </div>
+           </div>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u356"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive rgba-background clearfix colelem temp_no_id" href="mail-in.html" data-orig-id="u357"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u358-4"><!-- content --><span class="placeholder" data-placeholder-for="u358-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u377"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" href="faq.html" data-orig-id="u378"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u379-4"><!-- content --><span class="placeholder" data-placeholder-for="u379-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u7027"><!-- vertical box -->
+           <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" data-orig-id="u7028"><!-- horizontal box -->
+            <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u7030-4"><!-- content -->
+             <span class="placeholder" data-placeholder-for="u7030-4_0_content"><!-- placeholder node --></span>
+            </div>
+           </div>
+          </div>
+          <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u32777"><!-- vertical box -->
+           <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" href="store.html" data-orig-id="u32778"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u32781-4"><!-- content --><span class="placeholder" data-placeholder-for="u32781-4_0_content"><!-- placeholder node --></span></div></a>
+          </div>
+         </nav>
+        </div>
+       </div>
+      </div>
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u110772-bw_content"><!-- placeholder node --></span>
+     </div>
+     <div class="browser_width colelem" id="u109961-23-bw">
+      <div class="shadow rgba-background clearfix temp_no_id" data-orig-id="u109961-23"><!-- content -->
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-2_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-4_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-6_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-8_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-10_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-12_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-14_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-16_content"><!-- placeholder node --></span>
+       <span class="PC-COPY-P1 placeholder" data-placeholder-for="u109961-17_content"><!-- placeholder node --></span>
+       <p class="PC-COPY-P1 temp_no_id" data-orig-id="u109961-21"><span class="placeholder" data-placeholder-for="u109961-18_content"><!-- placeholder node --></span><span class="temp_no_id" data-orig-id="u109961-19"><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u110006"><!-- content --><a class="nonblock nontext Button actAsDiv rgba-background Button-BLACK1 clearfix excludeFromNormalFlow temp_no_id" href="https://rossmanngroup1.repairshopr.com/wf/mail-in-estimate/start" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="buttonu109996"><!-- container box --><span class="actAsDiv clearfix grpelem placeholder" data-placeholder-for="u109997-4_content"><!-- placeholder node --></span></a></span></span><span class="placeholder" data-placeholder-for="u109961-20_content"><!-- placeholder node --></span></p>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu126"><!-- group -->
+     <span class="browser_width placeholder" data-placeholder-for="u126-bw_content"><!-- placeholder node --></span>
+     <span class="clearfix placeholder" data-placeholder-for="u546-5_content"><!-- placeholder node --></span>
+     <nav class="MenuBar clearfix temp_no_id" data-orig-id="menuu547"><!-- horizontal box -->
+      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u37030"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" href="index.html" data-orig-id="u37033"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u37035-4"><!-- content --><span class="placeholder" data-placeholder-for="u37035-4_0_content"><!-- placeholder node --></span></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u569"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" href="macbook.html" data-orig-id="u570"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u571-4"><!-- content --><span class="placeholder" data-placeholder-for="u571-4_0_content"><!-- placeholder node --></span></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u6695"><!-- vertical box -->
+       <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" data-orig-id="u6696"><!-- horizontal box -->
+        <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u6697-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u6697-4_0_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u6878"><!-- vertical box -->
+       <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" data-orig-id="u6879"><!-- horizontal box -->
+        <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u6882-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u6882-4_0_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u555"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive rgba-background clearfix colelem temp_no_id" href="mail-in.html" data-orig-id="u558"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u559-4"><!-- content --><span class="placeholder" data-placeholder-for="u559-4_0_content"><!-- placeholder node --></span></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u576"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" href="faq.html" data-orig-id="u577"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u578-4"><!-- content --><span class="placeholder" data-placeholder-for="u578-4_0_content"><!-- placeholder node --></span></div></a>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u7006"><!-- vertical box -->
+       <div class="MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" data-orig-id="u7007"><!-- horizontal box -->
+        <div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u7008-4"><!-- content -->
+         <span class="placeholder" data-placeholder-for="u7008-4_0_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <div class="MenuItemContainer clearfix grpelem temp_no_id" data-orig-id="u32581"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu rgba-background clearfix colelem temp_no_id" href="store.html" data-orig-id="u32582"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem temp_no_id" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="u32584-4"><!-- content --><span class="placeholder" data-placeholder-for="u32584-4_0_content"><!-- placeholder node --></span></div></a>
+      </div>
+     </nav>
+    </div>
+    <div class="verticalspacer" data-offset-top="959" data-content-above-spacer="959" data-content-below-spacer="115" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <span class="browser_width grpelem placeholder" data-placeholder-for="u6920-19-bw_content"><!-- placeholder node --></span>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_825" data-min-width="613" data-max-width="825"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem" id="ppu109952"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu109952"><!-- group -->
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u109952-bw_content"><!-- placeholder node --></span>
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u124414-bw">
+       <div class="rgba-background temp_no_id" data-orig-id="u124414"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u124414_align_to_page">
+         <span class="clearfix grpelem placeholder" data-placeholder-for="u109953-4_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u110772-bw_content"><!-- placeholder node --></span>
+      <div class="browser_width grpelem" id="menuu10463-bw">
+       <nav class="MenuBar clearfix" id="menuu10463"><!-- horizontal box -->
+        <div class="MenuItemContainer clearfix grpelem" id="u36930"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u36933" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u36935-4"><!-- content --><p>HOME</p></div></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u10513"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u10516" href="macbook.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10517-4"><!-- content --><p>MACBOOK</p></div></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u10506"><!-- vertical box -->
+         <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u10507"><!-- horizontal box -->
+          <div class="MenuItemLabel NoWrap clearfix grpelem" id="u10510-4"><!-- content -->
+           <p>IPHONE</p>
+          </div>
+         </div>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u10499"><!-- vertical box -->
+         <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u10500"><!-- horizontal box -->
+          <div class="MenuItemLabel NoWrap clearfix grpelem" id="u10501-4"><!-- content -->
+           <p>RECOVERY</p>
+          </div>
+         </div>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u10492"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u10493" href="mail-in.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10494-4"><!-- content --><p>MAIL IN</p></div></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u10478"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u10479" href="faq.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u10480-4"><!-- content --><p>FAQ</p></div></a>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u10485"><!-- vertical box -->
+         <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u10488"><!-- horizontal box -->
+          <div class="MenuItemLabel NoWrap clearfix grpelem" id="u10490-4"><!-- content -->
+           <p>CLASS</p>
+          </div>
+         </div>
+        </div>
+        <div class="MenuItemContainer clearfix grpelem" id="u32630"><!-- vertical box -->
+         <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u32633" href="store.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u32634-4"><!-- content --><p>STORE</p></div></a>
+        </div>
+       </nav>
+      </div>
+     </div>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u109961-23-bw">
+      <div class="shadow rgba-background clearfix temp_no_id" data-orig-id="u109961-23"><!-- content -->
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-2_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-4_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-6_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-8_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-10_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-12_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-14_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-16_content"><!-- placeholder node --></span>
+       <span class="PC-COPY-P1 placeholder" data-placeholder-for="u109961-17_content"><!-- placeholder node --></span>
+       <p class="PC-COPY-P1 temp_no_id" data-orig-id="u109961-21"><span class="placeholder" data-placeholder-for="u109961-18_content"><!-- placeholder node --></span><span class="temp_no_id" data-orig-id="u109961-19"><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u110006"><!-- content --><a class="nonblock nontext Button actAsDiv rgba-background Button-BLACK1 clearfix excludeFromNormalFlow temp_no_id" href="https://rossmanngroup1.repairshopr.com/wf/mail-in-estimate/start" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="buttonu109996"><!-- container box --><span class="actAsDiv clearfix grpelem placeholder" data-placeholder-for="u109997-4_content"><!-- placeholder node --></span></a></span></span><span class="placeholder" data-placeholder-for="u109961-20_content"><!-- placeholder node --></span></p>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu126"><!-- group -->
+     <div class="browser_width temp_no_id" data-orig-id="u126-bw">
+      <span class="placeholder" data-placeholder-for="u126_content"><!-- placeholder node --></span>
+     </div>
+     <div class="browser_width" id="menuu11035-bw">
+      <nav class="MenuBar clearfix" id="menuu11035"><!-- horizontal box -->
+       <div class="MenuItemContainer clearfix grpelem" id="u36981"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u36982" href="index.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u36985-4"><!-- content --><p>HOME</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u11071"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u11072" href="macbook.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u11074-4"><!-- content --><p>MACBOOK</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u11078"><!-- vertical box -->
+        <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u11079"><!-- horizontal box -->
+         <div class="MenuItemLabel NoWrap clearfix grpelem" id="u11082-4"><!-- content -->
+          <p>IPHONE</p>
+         </div>
+        </div>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u11036"><!-- vertical box -->
+        <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u11039"><!-- horizontal box -->
+         <div class="MenuItemLabel NoWrap clearfix grpelem" id="u11040-4"><!-- content -->
+          <p>RECOVERY</p>
+         </div>
+        </div>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u11085"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive clearfix colelem" id="u11088" href="mail-in.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u11090-4"><!-- content --><p>MAIL IN</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u11043"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u11046" href="faq.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u11048-4"><!-- content --><p>FAQ</p></div></a>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u11064"><!-- vertical box -->
+        <div class="MenuItem MenuItemWithSubMenu clearfix colelem" id="u11067"><!-- horizontal box -->
+         <div class="MenuItemLabel NoWrap clearfix grpelem" id="u11070-4"><!-- content -->
+          <p>CLASS</p>
+         </div>
+        </div>
+       </div>
+       <div class="MenuItemContainer clearfix grpelem" id="u32679"><!-- vertical box -->
+        <a class="nonblock nontext MenuItem MenuItemWithSubMenu clearfix colelem" id="u32680" href="store.html"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u32683-4"><!-- content --><p>STORE</p></div></a>
+       </div>
+      </nav>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="959" data-content-above-spacer="959" data-content-below-spacer="85" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="browser_width grpelem temp_no_id" data-orig-id="u6920-19-bw">
+     <span class="clearfix placeholder" data-placeholder-for="u6920-19_content"><!-- placeholder node --></span>
+    </div>
+   </div>
+  </div>
+  <div class="breakpoint" id="bp_612" data-max-width="612"><!-- responsive breakpoint node -->
+   <div class="clearfix borderbox temp_no_id" data-orig-id="page"><!-- group -->
+    <div class="clearfix grpelem temp_no_id" data-orig-id="pu126"><!-- group -->
+     <div class="browser_width temp_no_id" data-orig-id="u126-bw">
+      <span class="placeholder" data-placeholder-for="u126_content"><!-- placeholder node --></span>
+     </div>
+     <span class="clearfix placeholder" data-placeholder-for="u546-5_content"><!-- placeholder node --></span>
+     <div class="PamphletWidget clearfix allow_click_through" id="pamphletu19762" data-visibility="changed" style="visibility:hidden"><!-- none box -->
+      <div class="ThumbGroup clearfix grpelem" data-col-pos="1" id="u19773"><!-- none box -->
+       <div class="popup_anchor allow_click_through grpelem" data-col-pos="0" id="u19774popup">
+        <div class="Thumb popup_element clearfix" data-col-pos="0" id="u19774" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- group -->
+         <div class="size_fixed grpelem" id="u81317" data-sizePolicy="fixed" data-pintopage="page_fluidx"><!-- custom html -->
+          
+  <div class="menu-toggle">
+	<div class="hamburger">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div class="cross">
+		<span></span>
+		<span></span>
+	</div>
+</div>
+
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="clearfix" id="pu19763"><!-- group -->
+       <div class="popup_anchor allow_click_through" data-col-pos="0" id="u19763popup">
+        <div id="u19763-wrapper">
+         <div class="ContainerGroup clearfix" data-col-pos="0" id="u19763"><!-- none box -->
+          <div class="Container invi clearfix" data-col-pos="0" id="u19764"><!-- group -->
+           <nav class="MenuBar clearfix grpelem" id="menuu19846"><!-- vertical box -->
+            <div class="MenuItemContainer clearfix colelem" id="u37079"><!-- horizontal box -->
+             <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u37080" href="index.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u37083-4"><!-- content --><p id="u37083-2"><span id="u37083">HOME</span></p></div></a>
+            </div>
+            <div class="MenuItemContainer clearfix colelem" id="u19847"><!-- horizontal box -->
+             <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u19850" href="macbook.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u19851-4"><!-- content --><p id="u19851-2"><span id="u19851">MACBOOK</span></p></div></a>
+            </div>
+            <div class="MenuItemContainer clearfix colelem" id="u19896"><!-- horizontal box -->
+             <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u19897"><!-- horizontal box -->
+              <div class="MenuItemLabel clearfix grpelem" id="u19899-4"><!-- content -->
+               <p id="u19899-2"><span id="u19899">IPHONE</span></p>
+              </div>
+             </div>
+            </div>
+            <div class="MenuItemContainer clearfix colelem" id="u19868"><!-- horizontal box -->
+             <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u19869"><!-- horizontal box -->
+              <div class="MenuItemLabel clearfix grpelem" id="u19871-4"><!-- content -->
+               <p id="u19871-2"><span id="u19871">RECOVERY</span></p>
+              </div>
+             </div>
+            </div>
+            <div class="MenuItemContainer clearfix colelem" id="u19882"><!-- horizontal box -->
+             <a class="nonblock nontext MenuItem MenuItemWithSubMenu MuseMenuActive borderbox clearfix grpelem" id="u19885" href="mail-in.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u19887-4"><!-- content --><p id="u19887-2"><span id="u19887">MAIL IN</span></p></div></a>
+            </div>
+            <div class="MenuItemContainer clearfix colelem" id="u19854"><!-- horizontal box -->
+             <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u19855" href="faq.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u19858-4"><!-- content --><p id="u19858-2"><span id="u19858">FAQ</span></p></div></a>
+            </div>
+            <div class="MenuItemContainer clearfix colelem" id="u19889"><!-- horizontal box -->
+             <div class="MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u19890"><!-- horizontal box -->
+              <div class="MenuItemLabel clearfix grpelem" id="u19893-4"><!-- content -->
+               <p id="u19893-2"><span id="u19893">CLASS</span></p>
+              </div>
+             </div>
+            </div>
+            <div class="MenuItemContainer clearfix colelem" id="u32728"><!-- horizontal box -->
+             <a class="nonblock nontext MenuItem MenuItemWithSubMenu borderbox clearfix grpelem" id="u32729" href="store.html"><!-- horizontal box --><div class="MenuItemLabel clearfix grpelem" id="u32732-4"><!-- content --><p id="u32732-2"><span id="u32732">STORE</span></p></div></a>
+            </div>
+           </nav>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="clearfix grpelem temp_no_id" data-orig-id="ppu109952"><!-- column -->
+     <div class="clearfix colelem temp_no_id" data-orig-id="pu109952"><!-- group -->
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u109952-bw_content"><!-- placeholder node --></span>
+      <div class="browser_width grpelem temp_no_id" data-orig-id="u124414-bw">
+       <div class="rgba-background temp_no_id" data-orig-id="u124414"><!-- group -->
+        <div class="clearfix temp_no_id" data-orig-id="u124414_align_to_page">
+         <span class="clearfix grpelem placeholder" data-placeholder-for="u109953-4_content"><!-- placeholder node --></span>
+        </div>
+       </div>
+      </div>
+      <span class="browser_width grpelem placeholder" data-placeholder-for="u110772-bw_content"><!-- placeholder node --></span>
+     </div>
+     <div class="browser_width colelem temp_no_id" data-orig-id="u109961-23-bw">
+      <div class="shadow rgba-background clearfix temp_no_id" data-orig-id="u109961-23"><!-- content -->
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-2_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-4_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-6_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-8_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-10_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-12_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-H1 placeholder" data-placeholder-for="u109961-14_content"><!-- placeholder node --></span>
+       <span class="MOB-COPY-P1 placeholder" data-placeholder-for="u109961-16_content"><!-- placeholder node --></span>
+       <span class="PC-COPY-P1 placeholder" data-placeholder-for="u109961-17_content"><!-- placeholder node --></span>
+       <p class="PC-COPY-P1 temp_no_id" data-orig-id="u109961-21"><span class="placeholder" data-placeholder-for="u109961-18_content"><!-- placeholder node --></span><span class="temp_no_id" data-orig-id="u109961-19"><span class="actAsInlineDiv normal_text temp_no_id" data-orig-id="u110006"><!-- content --><a class="nonblock nontext Button actAsDiv rgba-background Button-BLACK1 clearfix excludeFromNormalFlow temp_no_id" href="https://rossmanngroup1.repairshopr.com/wf/mail-in-estimate/start" data-sizePolicy="fixed" data-pintopage="page_fixedLeft" data-orig-id="buttonu109996"><!-- container box --><span class="actAsDiv clearfix grpelem placeholder" data-placeholder-for="u109997-4_content"><!-- placeholder node --></span></a></span></span><span class="placeholder" data-placeholder-for="u109961-20_content"><!-- placeholder node --></span></p>
+      </div>
+     </div>
+    </div>
+    <div class="verticalspacer" data-offset-top="1053" data-content-above-spacer="1053" data-content-below-spacer="81" data-sizePolicy="fixed" data-pintopage="page_fixedLeft"></div>
+    <div class="browser_width grpelem temp_no_id" data-orig-id="u6920-19-bw">
+     <span class="clearfix placeholder" data-placeholder-for="u6920-19_content"><!-- placeholder node --></span>
+    </div>
+   </div>
+  </div>
+  <!-- JS includes -->
+  <script type="text/javascript">
+   if (document.location.protocol != 'https:') document.write('\x3Cscript src="http://musecdn.businesscatalyst.com/scripts/4.0/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+</script>
+  <script type="text/javascript">
+   window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js?crc=209076791" type="text/javascript">\x3C/script>');
+</script>
   <!-- Other scripts -->
   <script type="text/javascript">
    // Decide whether to suppress missing file error or not based on preference setting
@@ -39,18 +640,45 @@ var suppressMissingFileError = false
 k[1]:null,k=k&&k[2]?k[2]:null;switch(k.toLowerCase()){case "css":i=i.replace(/\W/gi,"_").replace(/^([^a-z])/gi,"_$1");g.className+=" "+i;i=a(d(g,"color"));k=a(d(g,"backgroundColor"));i!=0||k!=0?(Muse.assets.required.splice(j,1),"undefined"!=typeof b[l]&&(i!=b[l]>>>24||k!=(b[l]&16777215))&&Muse.assets.outOfDate.push(l)):j++;g.className="version";break;case "js":j++;break;default:throw Error("Unsupported file type: "+k);}}c?c().jquery!="1.8.3"&&Muse.assets.outOfDate.push("jquery-1.8.3.min.js"):Muse.assets.required.push("jquery-1.8.3.min.js");
 g.parentNode.removeChild(g);if(Muse.assets.outOfDate.length||Muse.assets.required.length)g="Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.",f&&Muse.assets.outOfDate.length&&(g+="\nOut of date: "+Muse.assets.outOfDate.join(",")),f&&Muse.assets.required.length&&(g+="\nMissing: "+Muse.assets.required.join(",")),suppressMissingFileError?(g+="\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.",console.log(g)):alert(g)};location&&location.search&&location.search.match&&location.search.match(/muse_debug/gi)?
 setTimeout(function(){f(!0)},5E3):f()}};
-var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch"],function(c){var $ = c;$(document).ready(function(){try{
+var muse_init=function(){require.config({baseUrl:""});require(["jquery","museutils","whatinput","jquery.watch","jquery.musepolyfill.bgsize","jquery.musemenu","webpro","musewpslideshow","jquery.museoverlay","touchswipe","jquery.museresponsive"],function(c){var $ = c;$(document).ready(function(){try{
 window.Muse.assets.check($);/* body */
 Muse.Utils.transformMarkupToFixBrowserProblemsPreInit();/* body */
 Muse.Utils.prepHyperlinks(true);/* body */
+Muse.Utils.resizeHeight('.browser_width');/* resize height */
+Muse.Utils.requestAnimationFrame(function() { $('body').addClass('initialized'); });/* mark body as initialized */
+Muse.Utils.resizeHeight('.popup_anchor.allow_click_through');/* resize height */
 Muse.Utils.makeButtonsVisibleAfterSettingMinWidth();/* body */
+Muse.Utils.initWidget('.MenuBar', ['#bp_infinity', '#bp_960', '#bp_825', '#bp_612'], function(elem) { return $(elem).museMenu(); });/* unifiedNavBar */
+Muse.Utils.initWidget('#pamphletu19762', ['#bp_612'], function(elem) { return new WebPro.Widget.ContentSlideShow(elem, {contentLayout_runtime:'loose',event:'click',deactivationEvent:'mouseout_click',autoPlay:false,displayInterval:3000,transitionStyle:'fading',transitionDuration:500,hideAllContentsFirst:true,triggersOnTop:true,shuffle:false,enableSwipe:false,resumeAutoplay:true,resumeAutoplayInterval:3000,playOnce:false,autoActivate_runtime:false,isResponsive:true}); });/* #pamphletu19762 */
 Muse.Utils.fullPage('#page');/* 100% height page */
-Muse.Utils.showWidgetsWhenReady();/* body */
+$( '.breakpoint' ).registerBreakpoint();/* Register breakpoints */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 }catch(b){if(b&&"function"==typeof b.notify?b.notify():Muse.Assert.fail("Error calling selector function: "+b),false)throw b;}})})};
 
 </script>
   <!-- RequireJS script -->
   <script src="scripts/require.js?crc=7928878" type="text/javascript" async data-main="scripts/museconfig.js?crc=4286661555" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
+  <!--HTML Widget code-->
+  
+<script>
+// Plugin: jQuery.scrollSpeed
+// Source: github.com/nathco/jQuery.scrollSpeed
+// Author: Nathan Rutzky
+// Update: 1.0.2
+!function(t){jQuery.scrollSpeed=function(e,n,o){var i,l,r,u=t(document),h=t(window),a=t("html, body"),c=o||"default",d=0,s=!1;return window.navigator.msPointerEnabled?!1:void h.on("mousewheel DOMMouseScroll",function(t){var o=t.originalEvent.wheelDeltaY,f=t.originalEvent.detail;return i=u.height()>h.height(),l=u.width()>h.width(),s=!0,i&&(r=h.height(),(0>o||f>0)&&(d=d+r>=u.height()?d:d+=e),(o>0||0>f)&&(d=0>=d?0:d-=e),a.stop().animate({scrollTop:d},n,c,function(){s=!1})),l&&(r=h.width(),(0>o||f>0)&&(d=d+r>=u.width()?d:d+=e),(o>0||0>f)&&(d=0>=d?0:d-=e),a.stop().animate({scrollLeft:d},n,c,function(){s=!1})),!1}).on("scroll",function(){i&&!s&&(d=h.scrollTop()),l&&!s&&(d=h.scrollLeft())}).on("resize",function(){i&&!s&&(r=h.height()),l&&!s&&(r=h.width())})},jQuery.easing.default=function(t,e,n,o,i){return-o*((e=e/i-1)*e*e*e-1)+n}}(jQuery);
+</script>
+<script>
+jQuery.scrollSpeed(125, 1600);
+</script>
+
+<script>
+$(document).ready(function(){
+	$('.menu-toggle').on('click',function(){
+		$('.menu-toggle').toggleClass('active');
+	});
+});
+</script>
+	
    </body>
 </html>
