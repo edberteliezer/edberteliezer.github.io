@@ -1,20 +1,20 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1528099485680">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1528100142124">
   <folder name="css">
     <file name="site_global.css" crc="395714296"/>
-    <file name="master_hero.css" crc="473568714" ref="index:macbook:faq"/>
-    <file name="nomq_preview_master_hero.css" crc="3877835352" ref="index:macbook:faq"/>
+    <file name="master_hero.css" crc="4240278431" ref="index:macbook:faq"/>
+    <file name="nomq_preview_master_hero.css" crc="135526424" ref="index:macbook:faq"/>
     <file name="mail-in.css" crc="4193191577" ref="mail-in"/>
     <file name="iphone.css" crc="4193191577" ref="iphone"/>
     <file name="index.css" crc="4119758570" ref="index"/>
     <file name="nomq_index.css" crc="3936248690" ref="index"/>
-    <file name="iefonts_index.css" crc="506401077" ref="index"/>
-    <file name="store.css" crc="4193191577" ref="store"/>
+    <file name="iefonts_index.css" crc="312149929" ref="index"/>
+    <file name="store.css" crc="165908696" ref="store"/>
     <file name="class.css" crc="4193191577" ref="class"/>
     <file name="faq.css" crc="66364574" ref="faq"/>
     <file name="macbook.css" crc="381270230" ref="macbook"/>
     <file name="recovery.css" crc="4193191577" ref="recovery"/>
     <file name="nomq_macbook.css" crc="161496539" ref="macbook"/>
-    <file name="iefonts_macbook.css" crc="506401077" ref="macbook"/>
+    <file name="iefonts_macbook.css" crc="312149929" ref="macbook"/>
     <file name="nomq_faq.css" crc="5053904" ref="faq"/>
     <file name="iefonts_faq.css" crc="312149929" ref="faq"/>
   </folder>
@@ -104,7 +104,7 @@
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
     </file>
-    <file name="blank.gif" crc="4208392903" ref="macbook:index"/>
+    <file name="blank.gif" crc="4208392903" ref="macbook:index:faq"/>
     <file name="screenshot (6).jpg" crc="4292159861" seo="true" ref="macbook">
       <caption webpage="macbook" alt=""/>
       <caption webpage="macbook" alt=""/>
@@ -118,12 +118,12 @@
     </file>
     <file name="pexels-photo-1059111-u93344-fr.jpg" crc="3896210292" ref="faq"/>
   </folder>
-  <file name="index.html" crc="3900129352" seo="true" mt="1528096985157" redirect="true"/>
-  <file name="macbook.html" crc="4165720931" seo="true" mt="1528097080022" redirect="true"/>
-  <file name="mail-in.html" crc="3991793186" seo="true" mt="1527762079563" redirect="false"/>
-  <file name="faq.html" crc="259266307" seo="true" mt="1528099446697" redirect="true"/>
-  <file name="store.html" crc="395621706" seo="true" mt="1527762084884" redirect="false"/>
-  <file name="iphone.html" crc="4052512945" seo="true" mt="1527762076866" redirect="false"/>
-  <file name="recovery.html" crc="498244735" seo="true" mt="1527762078285" redirect="false"/>
-  <file name="class.html" crc="3783893371" seo="true" mt="1527762083352" redirect="false"/>
+  <file name="index.html" crc="488062649" seo="true" mt="1528099545779" redirect="true"/>
+  <file name="macbook.html" crc="4062524446" seo="true" mt="1528099545779" redirect="true"/>
+  <file name="mail-in.html" crc="4260556763" seo="true" mt="1528099542280" redirect="false"/>
+  <file name="faq.html" crc="134687583" seo="true" mt="1528099545779" redirect="true"/>
+  <file name="store.html" crc="4252619345" seo="true" mt="1528100050875" redirect="true"/>
+  <file name="iphone.html" crc="122188839" seo="true" mt="1528099531292" redirect="false"/>
+  <file name="recovery.html" crc="4213731607" seo="true" mt="1528099535670" redirect="false"/>
+  <file name="class.html" crc="223694653" seo="true" mt="1528099545785" redirect="false"/>
 </manifest>
