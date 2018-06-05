@@ -1,21 +1,21 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1528217913374">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1528219675243">
   <folder name="css">
-    <file name="site_global.css" crc="4237958930"/>
-    <file name="master_hero.css" crc="4233038928" ref="index:macbook:faq:mail-in:class"/>
+    <file name="site_global.css" crc="3833742157"/>
+    <file name="master_hero.css" crc="4154328100" ref="index:macbook:faq:mail-in:class"/>
     <file name="nomq_preview_master_hero.css" crc="4254505574" ref="index:macbook:faq:mail-in:class"/>
-    <file name="mail-in.css" crc="3869728737" ref="mail-in"/>
+    <file name="mail-in.css" crc="261794252" ref="mail-in"/>
     <file name="iphone.css" crc="4193191577" ref="iphone"/>
-    <file name="index.css" crc="4039295106" ref="index"/>
+    <file name="index.css" crc="4026573491" ref="index"/>
     <file name="nomq_index.css" crc="54747121" ref="index"/>
     <file name="iefonts_index.css" crc="3793558919" ref="index"/>
     <file name="store.css" crc="325710331" ref="store"/>
-    <file name="class.css" crc="370867223" ref="class"/>
-    <file name="faq.css" crc="52706781" ref="faq"/>
-    <file name="macbook.css" crc="4043468367" ref="macbook"/>
+    <file name="class.css" crc="246662800" ref="class"/>
+    <file name="faq.css" crc="164790180" ref="faq"/>
+    <file name="macbook.css" crc="4032482314" ref="macbook"/>
     <file name="recovery.css" crc="4193191577" ref="recovery"/>
-    <file name="nomq_macbook.css" crc="4030335221" ref="macbook"/>
+    <file name="nomq_macbook.css" crc="110433891" ref="macbook"/>
     <file name="iefonts_macbook.css" crc="3793558919" ref="macbook"/>
-    <file name="nomq_faq.css" crc="58177025" ref="faq"/>
+    <file name="nomq_faq.css" crc="46261729" ref="faq"/>
     <file name="iefonts_faq.css" crc="3793558919" ref="faq"/>
     <file name="nomq_mail-in.css" crc="4174564895" ref="mail-in"/>
     <file name="iefonts_mail-in.css" crc="3793558919" ref="mail-in"/>
@@ -190,12 +190,12 @@
     <file name="brett-u140851-fr.jpg" crc="535981166" ref="class"/>
     <file name="pexels-photo-132700-u131354-fr3.jpg" crc="58729317" ref="class"/>
   </folder>
-  <file name="index.html" crc="3977228763" seo="true" mt="1528217843265" redirect="true"/>
-  <file name="macbook.html" crc="3835760710" seo="true" mt="1528217843265" redirect="true"/>
-  <file name="mail-in.html" crc="359173300" seo="true" mt="1528217843265" redirect="true"/>
-  <file name="faq.html" crc="442069689" seo="true" mt="1528217843265" redirect="true"/>
+  <file name="index.html" crc="3964393477" seo="true" mt="1528219581986" redirect="true"/>
+  <file name="macbook.html" crc="322563070" seo="true" mt="1528219634012" redirect="true"/>
+  <file name="mail-in.html" crc="343215083" seo="true" mt="1528219581986" redirect="true"/>
+  <file name="faq.html" crc="162700385" seo="true" mt="1528219581986" redirect="true"/>
   <file name="store.html" crc="4226232255" seo="true" mt="1528217865389" redirect="true"/>
   <file name="iphone.html" crc="122188839" seo="true" mt="1528099531292" redirect="false"/>
   <file name="recovery.html" crc="4213731607" seo="true" mt="1528099535670" redirect="false"/>
-  <file name="class.html" crc="4276001403" seo="true" mt="1528217843270" redirect="true"/>
+  <file name="class.html" crc="387281365" seo="true" mt="1528219581986" redirect="true"/>
 </manifest>
