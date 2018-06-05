@@ -1,26 +1,26 @@
-<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1528139950425">
+<manifest alg="2" build="2018.1.0.386" opt="false" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="edberteliezer.github.io" resolutions="1x" timestamp="1528189186792">
   <folder name="css">
-    <file name="site_global.css" crc="148100559"/>
-    <file name="master_hero.css" crc="295765049" ref="index:macbook:faq:mail-in:class"/>
+    <file name="site_global.css" crc="62687971"/>
+    <file name="master_hero.css" crc="4116394168" ref="index:macbook:faq:mail-in:class"/>
     <file name="nomq_preview_master_hero.css" crc="4254505574" ref="index:macbook:faq:mail-in:class"/>
-    <file name="mail-in.css" crc="4024458011" ref="mail-in"/>
+    <file name="mail-in.css" crc="132734003" ref="mail-in"/>
     <file name="iphone.css" crc="4193191577" ref="iphone"/>
-    <file name="index.css" crc="4078786225" ref="index"/>
-    <file name="nomq_index.css" crc="3789947979" ref="index"/>
-    <file name="iefonts_index.css" crc="4064221793" ref="index"/>
-    <file name="store.css" crc="165908696" ref="store"/>
-    <file name="class.css" crc="415368886" ref="class"/>
-    <file name="faq.css" crc="4135046976" ref="faq"/>
-    <file name="macbook.css" crc="3759002270" ref="macbook"/>
+    <file name="index.css" crc="437749946" ref="index"/>
+    <file name="nomq_index.css" crc="4235403720" ref="index"/>
+    <file name="iefonts_index.css" crc="4145114417" ref="index"/>
+    <file name="store.css" crc="465542625" ref="store"/>
+    <file name="class.css" crc="3898345427" ref="class"/>
+    <file name="faq.css" crc="195959637" ref="faq"/>
+    <file name="macbook.css" crc="4147694484" ref="macbook"/>
     <file name="recovery.css" crc="4193191577" ref="recovery"/>
     <file name="nomq_macbook.css" crc="4149178915" ref="macbook"/>
-    <file name="iefonts_macbook.css" crc="4064221793" ref="macbook"/>
-    <file name="nomq_faq.css" crc="3892946624" ref="faq"/>
-    <file name="iefonts_faq.css" crc="4064221793" ref="faq"/>
+    <file name="iefonts_macbook.css" crc="4145114417" ref="macbook"/>
+    <file name="nomq_faq.css" crc="3892990173" ref="faq"/>
+    <file name="iefonts_faq.css" crc="4145114417" ref="faq"/>
     <file name="nomq_mail-in.css" crc="4054668205" ref="mail-in"/>
-    <file name="iefonts_mail-in.css" crc="4064221793" ref="mail-in"/>
-    <file name="nomq_class.css" crc="380790532" ref="class"/>
-    <file name="iefonts_class.css" crc="4064221793" ref="class"/>
+    <file name="iefonts_mail-in.css" crc="4145114417" ref="mail-in"/>
+    <file name="nomq_class.css" crc="3911000271" ref="class"/>
+    <file name="iefonts_class.css" crc="4145114417" ref="class"/>
   </folder>
   <folder name="fonts">
     <file name="brandon-text-black.woff" crc="4217168599"/>
@@ -118,26 +118,26 @@
     <file name="pexels-photo-1059111.jpg" crc="377841202" ref="faq">
       <caption webpage="faq" alt=""/>
     </file>
-    <file name="pexels-photo-1059111-u93344-fr.jpg" crc="4083512784" ref="faq"/>
+    <file name="pexels-photo-1059111-u93344-fr.jpg" crc="378623905" ref="faq"/>
     <file name="mailbox-595854_1920.jpg" crc="4168294086" ref="mail-in">
       <caption webpage="mail-in" alt=""/>
     </file>
     <file name="mailbox-595854_1920-u109952-fr.jpg" crc="3884792203" ref="mail-in"/>
     <file name="mailbox-595854_1920-u109952-fr2.jpg" crc="4097908264" ref="mail-in"/>
     <file name="mailbox-595854_1920-u109952-fr3.jpg" crc="320985060" ref="mail-in"/>
-    <file name="wall4.jpg" crc="4056069382" ref="mail-in:faq:class">
+    <file name="wall4.jpg" crc="4056069382" ref="mail-in:class">
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
       <caption webpage="faq" alt=""/>
-      <caption webpage="mail-in" alt=""/>
-      <caption webpage="mail-in" alt=""/>
-      <caption webpage="mail-in" alt=""/>
-      <caption webpage="mail-in" alt=""/>
       <caption webpage="class" alt=""/>
       <caption webpage="class" alt=""/>
       <caption webpage="class" alt=""/>
       <caption webpage="class" alt=""/>
+      <caption webpage="mail-in" alt=""/>
+      <caption webpage="mail-in" alt=""/>
+      <caption webpage="mail-in" alt=""/>
+      <caption webpage="mail-in" alt=""/>
     </file>
     <file name="pexels-photo-1059111-u93344-fr2.jpg" crc="301761544" ref="faq"/>
     <file name="pexels-photo-1059111-u93344-fr3.jpg" crc="4254130607" ref="faq"/>
@@ -163,14 +163,20 @@
       <caption webpage="class" alt=""/>
     </file>
     <file name="pexels-photo-132700-u131354-fr.jpg" crc="332151718" ref="class"/>
-    <file name="pexels-photo-132700-u131354-fr2.jpg" crc="4210978852" ref="class"/>
+    <file name="pexels-photo-132700-u131354-fr2.jpg" crc="213342407" ref="class"/>
+    <file name="wallgrey.jpg" crc="4193897052" ref="faq">
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+      <caption webpage="faq" alt=""/>
+    </file>
   </folder>
-  <file name="index.html" crc="303825834" seo="true" mt="1528133337932" redirect="true"/>
-  <file name="macbook.html" crc="525234593" seo="true" mt="1528133337932" redirect="true"/>
-  <file name="mail-in.html" crc="218164835" seo="true" mt="1528139923388" redirect="true"/>
-  <file name="faq.html" crc="33123122" seo="true" mt="1528139923264" redirect="true"/>
-  <file name="store.html" crc="4252619345" seo="true" mt="1528100050875" redirect="true"/>
+  <file name="index.html" crc="3886668293" seo="true" mt="1528187397103" redirect="true"/>
+  <file name="macbook.html" crc="224559734" seo="true" mt="1528187397101" redirect="true"/>
+  <file name="mail-in.html" crc="3989531403" seo="true" mt="1528187397101" redirect="true"/>
+  <file name="faq.html" crc="3777355534" seo="true" mt="1528189138942" redirect="true"/>
+  <file name="store.html" crc="4011209496" seo="true" mt="1528187397385" redirect="true"/>
   <file name="iphone.html" crc="122188839" seo="true" mt="1528099531292" redirect="false"/>
   <file name="recovery.html" crc="4213731607" seo="true" mt="1528099535670" redirect="false"/>
-  <file name="class.html" crc="270471361" seo="true" mt="1528139923515" redirect="true"/>
+  <file name="class.html" crc="4064006322" seo="true" mt="1528187397103" redirect="true"/>
 </manifest>
