@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- Initialize Semantic UI -->		
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/semantic.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/semantic.min.js"></script>
+
+	<!-- Open Sans Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+
+	<title>Edbert - Contact</title>
+
+	<style>
+		div.page.content {
+			max-width: 450px;
+			margin:auto;
+			padding: 30px 20px;
+		}
+
+		body{
+			background-color: #fafafa;
+			font-family: 'Open Sans', sans-serif !important;
+		}
+		h1.ui.header {
+			margin-bottom: 18px;
+		}
+	</style>
+
+	<script type="text/javascript">
+
+ $(document)
+    .ready(function() {
+      $('.ui.form')
+        .form({
+          fields: {
+
+            name: {
+              identifier  : 'entry.2005620554',
+              rules: [
+                {
+                  type   : 'empty',
+                  prompt : 'Please enter your name'
+                }
+              ]
+            },
+            email: {
+              identifier  : 'entry.397634601',
+              rules: [
+                {
+                  type   : 'empty',
+                  prompt : 'Please enter your email'
+                },
+                {
+                  type   : 'email',
+                  prompt : 'Please enter a valid email address'
+                }
+              ]
+            },
+            mail: {
+              identifier  : 'entry.839337160',
+              rules: [
+                {
+                  type   : 'empty',
+                  prompt : 'Please enter your message'
+                }
+              ]
+            },
+            robot: {
+              identifier  : 'entry.1172349478',
+              rules: [
+                {
+                  type   : 'isExactly[calculus]',
+                  prompt : 'Please retry authentication'
+                }
+              ]
+            },
+            
+          }
+        })
+      ;
+    })
+  ;
+
+	</script>
+
+
+</head>
+<body>
+<div class="page content">
+<div class="ui grid">
+
+		<div class="row">
+		<div class="column">
+
+    <h1 class="ui black header center aligned">
+      <div class="content">
+        Contact Page
+      </div>
+    </h1>
+
+    	<script type="text/javascript">var submitted=false;</script>
+     	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='thankyou.html';}"></iframe>
+
+		<div class="ui raised segment">
+			<form class="ui form" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSeSjTLqK6MQ6iqB0iT5AjNy0Z082BjbQ7Ifn9RlBEUeT5ReEA/formResponse" target="hidden_iframe" onsubmit="submitted=true;" method="POST" id="mG61Hd" _lpchecked="1">
+			  <div class="required field">
+			    <label>Name</label>
+			    <input type="text" name="entry.2005620554" placeholder="Your name">
+			  </div>
+			  <div class="required field">
+			    <label>Email</label>
+			    <input type="text" name="entry.397634601" placeholder="Your email address">
+			  </div>
+			  <div class="field">
+			    <label>LINE ID</label>
+			    <input type="text" name="entry.1166974658" placeholder="Your LINE ID">
+			  </div>
+			  <div class="required field">
+				<label>Message</label>
+				<textarea name="entry.839337160"></textarea>
+			  </div>
+
+			  <div class="field">
+			    <div class="ui checkbox reply">
+			      <input type="checkbox" tabindex="0" id="reply">
+			      <label>I am expecting a reply</label>
+			      <input type="text" name="entry.698872371" id="greply" value="No" style="display: none;">
+			    </div>
+			  </div>
+				<br>
+			  <div class="required field">
+			  	<label>Human authentication</label>
+			  	<img src="avatar/robot.gif" alt="c4lcuLu$">
+			  	
+			  	<input type="text" name="entry.1172349478" placeholder="Enter the word above">
+			  </div>
+
+			  <button class="ui fluid large green button" type="submit">SUBMIT</button>
+			  <div class="ui error message"></div>
+			</form>
+		</div>
+		</div>
+		</div>
+
+		<div class="row">
+			<div class="column">
+				<div class="ui raised segment center aligned " onclick="history.back()">
+					<span class="ui blue text"> <strong>Cancel</strong></span>
+				</div>
+			</div>
+		</div>
+
+</div>
+</div>
+
+	<script type="text/javascript">
+		$('.reply.checkbox')
+		.checkbox({
+			// check all children
+			onChecked: function() {
+				$('#greply').attr('value','Yes');;
+			},
+			// uncheck all children
+			onUnchecked: function() {
+				$('#greply').attr('value','No');;
+			}
+		});
+
+
+	</script>
+</body>
+</html>
