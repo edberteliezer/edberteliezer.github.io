@@ -89,7 +89,9 @@
         })
       ;
       if( $('.ui.form').form('is valid')) {
-		  $('.ui.submit.button').toggleClass('disabled loading');
+		  	$( ".ui.submit.button" ).click(function() {
+  				$('this').toggleClass('disabled loading');
+			});
 		};
     })
   ;
