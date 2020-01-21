@@ -42,6 +42,9 @@
     .ready(function() {
       $('.ui.form')
         .form({
+          transition: 'scale',
+          inline : true,
+          on: 'blur',
           fields: {
 
             name: {
@@ -85,12 +88,19 @@
               ]
             },
             
-          }
+          },
+          onFailure 	 : 	function() {
+            					console.log("Invalid");
+            					setTimeout( function() { $('.ui.fluid.large.submit.button').toggleClass('disabled loading')}, 1000);
+            					
+;            					return false;
+        					}, 
+          onSuccess 	 : 	function() {
+            					console.log("Valid");
+            					return true;
+        					}, 
         })
-      ;
-      if( $('.ui.form').form('is valid')) {
-		  $('.ui.submit.button').toggleClass('disabled loading');
-		};
+
     })
   ;
 
@@ -113,7 +123,7 @@
     </h1>
 
     	<script type="text/javascript">var submitted=false;</script>
-     	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='thankyou.html';}"></iframe>
+     	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  { window.location='thankyou.html';}"></iframe>
 
 		<div class="ui raised segment left aligned">
 			<form class="ui form" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSeSjTLqK6MQ6iqB0iT5AjNy0Z082BjbQ7Ifn9RlBEUeT5ReEA/formResponse" target="hidden_iframe" onsubmit="submitted=true;" method="POST" id="mG61Hd" _lpchecked="1">
@@ -149,7 +159,7 @@
 			  	<input type="text" name="entry.1172349478" placeholder="Enter the word above">
 			  </div>
 
-			  <button class="ui fluid large green submit button" type="submit">SUBMIT</button>
+			  <button class="ui fluid large green submit button" type="submit" onclick="$('.ui.fluid.large.submit.button').toggleClass('disabled loading');">SUBMIT</button>
 			  <div class="ui error message"></div>
 			</form>
 		</div>
@@ -158,7 +168,7 @@
 
 		<div class="row">
 			<div class="column">
-				<div class="ui raised segment center aligned " onclick="history.back()">
+				<div class="ui raised segment center aligned " onclick="window.location='index.html'">
 					<span class="ui blue text"> <strong>Cancel</strong></span>
 				</div>
 			</div>
