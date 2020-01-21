@@ -92,8 +92,7 @@
           onFailure 	 : 	function() {
             					console.log("Invalid");
             					setTimeout( function() { $('.ui.fluid.large.submit.button').toggleClass('disabled loading')}, 1000);
-            					
-;            					return false;
+            					return false;
         					}, 
           onSuccess 	 : 	function() {
             					console.log("Valid");
@@ -111,12 +110,12 @@
 
 </head>
 <body>
-<div class="ui grid middle aligned center aligned">
+<div class="ui grid middle aligned">
 
 		<div class="row">
 		<div class="column">
 
-    <h1 class="ui black header center aligned">
+    <h1 class="ui black header aligned">
       <div class="content">
         Contact Page
       </div>
@@ -125,7 +124,7 @@
     	<script type="text/javascript">var submitted=false;</script>
      	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  { window.location='thankyou.html';}"></iframe>
 
-		<div class="ui raised segment left aligned">
+		<div class="ui raised segment">
 			<form class="ui form" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSeSjTLqK6MQ6iqB0iT5AjNy0Z082BjbQ7Ifn9RlBEUeT5ReEA/formResponse" target="hidden_iframe" onsubmit="submitted=true;" method="POST" id="mG61Hd" _lpchecked="1">
 			  <div class="required field">
 			    <label>Name</label>
@@ -168,9 +167,11 @@
 
 		<div class="row">
 			<div class="column">
-				<div class="ui raised segment center aligned " onclick="window.location='index.html'">
+				<a href="index.html">
+				<div class="ui raised segment center aligned">
 					<span class="ui blue text"> <strong>Cancel</strong></span>
 				</div>
+				</a>
 			</div>
 		</div>
 
