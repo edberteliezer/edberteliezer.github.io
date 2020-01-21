@@ -88,8 +88,13 @@
           }
         })
       ;
+      if( $('.ui.form').form('is valid')) {
+		  $('.ui.submit.button').toggleClass('disabled loading');
+		};
     })
   ;
+
+  
 
 	</script>
 
@@ -144,7 +149,7 @@
 			  	<input type="text" name="entry.1172349478" placeholder="Enter the word above">
 			  </div>
 
-			  <button class="ui fluid large green button" type="submit">SUBMIT</button>
+			  <button class="ui fluid large green submit button" type="submit">SUBMIT</button>
 			  <div class="ui error message"></div>
 			</form>
 		</div>
