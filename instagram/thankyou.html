@@ -25,12 +25,26 @@
 			background-color: #fafafa;
 			font-family: 'Open Sans', sans-serif !important;
 		}
+
+	    body > .grid {
+	      height: 100%;
+	    }
+
+		.column {
+		      max-width: 450px;
+		    }
+
+		.ui.button {
+			width: 80%;
+			padding: 15px;
+		}
+
 	</style>
 
 	<script type="text/javascript">
 		$( document ).ready(function() {
 		    $('.circular.green.icon')
-		  	.transition('scale');
+		  	.transition('scale', '800ms');
 
 		});
 				
@@ -38,25 +52,17 @@
 	<title>Thank You</title>
 </head>
 <body>
-<div class="page content">
-<div class="ui grid">
 
-	<div class="row">
-	<div class="column center aligned">
-
+<div class="ui middle aligned center aligned grid">	<div class="column">
 		
-		  <div class="ui icon header" style="margin-bottom:20px">
-		    <i class="circular green inverted check icon" style="visibility:hidden;"></i>
+		  <div class="ui icon header" style="margin-bottom:25px">
+		    <i class="circular green inverted check icon" style="visibility: hidden;"></i>
 		    <h2>Your message has been submitted!</h2>
 		    <p style="font-weight: 300;">I will try to reply as soon as possible.</p>
+		    <a href="index.html" class="ui blue button">Return to Hub</a>
 		  </div>
 
-		  <a class="ui blue button" href="index.html">GO BACK</a>
-		
+</div></div>
 
-	</div>
-	</div>
-</div>
-</div>
 </body>
 </html>

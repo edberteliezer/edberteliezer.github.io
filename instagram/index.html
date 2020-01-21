@@ -53,12 +53,30 @@
 			margin-bottom: 15px;
 			margin-top: 5px;
 		}
+
+		.circular.tiny.image {
+			visibility: hidden;
+		}
+
+		.ui.grid > .row { max-width: 450px; }
+
+		body > .grid {height: 100%;}
+
 	</style>
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+		    $('.circular.tiny.image')
+		  	.transition('scale', '950ms');
+
+		});
+
+	</script>
 </head>
 
 <body>
-<div class="page content">
-	<div class="ui grid">
+
+	<div class="ui grid center aligned middle aligned">
 		
 		<div class="row">
 		<div class="column">
@@ -147,6 +165,6 @@
 		</div> -->
 		
 	</div>
-</div>
+
 </body>
 </html>
