@@ -37,19 +37,21 @@
 		}
 
 		h1, h2, h3, h4, h5, .ui.form input[type=text]{ font-family: 'Open Sans', sans-serif !important; }
-		
+
 		body{
 			background-color: #fafafa;
 			font-family: 'Open Sans', sans-serif !important;
 		}
 
-	    body > .grid {
-	      height: 100%;
+	    div.container, div.grid {
+	      	height: 100%;
+			overflow: hidden;
 	    }
 
-		.column {
-		      max-width: 450px;
-		    }
+	    div.column {
+	    	max-width: 300px;
+	    	overflow: hidden;
+	    }
 
 		.ui.button {
 			width: 80%;
@@ -69,8 +71,12 @@
 
 	<script type="text/javascript">
 		$( document ).ready(function() {
-		    $('.ui.svg.image')
-		  	.transition('scale', '950ms');
+			setTimeout(function() { 
+	        	$('.ui.svg.image')
+		  			.transition('scale', '950ms');
+	    	}, 250);
+	    	
+		    
 
 		});
 				
@@ -78,7 +84,7 @@
 	<title>Thank You</title>
 </head>
 <body>
-
+<div class="container">
 <div class="ui middle aligned center aligned grid">	<div class="column">
 
 		  <div class="ui header" style="margin-bottom:25px">
@@ -86,11 +92,11 @@
 		    	<img class="green" style="" src="svg/check-circle-solid.svg">
 		    </div>
 		    <h2>Your message has been submitted!</h2>
-		    <p style="font-weight: 300;">I will try to reply as soon as possible.</p>
-		    <a href="index.html" class="ui blue button">Return to Hub</a>
+		    <p style="font-weight: 300;">I will try to reply as soon as possible. You are now being redirected to Hub page.</p>
+		    <a onclick="window.location.replace('index.html')" class="ui blue button" style="margin-top: 10px">Return to Hub</a>
 		  </div>
 
 </div></div>
-
+</div>
 </body>
 </html>

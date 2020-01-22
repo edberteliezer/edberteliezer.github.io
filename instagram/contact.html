@@ -70,6 +70,7 @@
           transition: 'scale',
           inline : true,
           on: 'blur',
+          shouldTrim : false,
           fields: {
 
             name: {
@@ -108,7 +109,7 @@
               rules: [
                 {
                   type   : 'isExactly[calculus]',
-                  prompt : 'Please retry authentication'
+                  prompt : 'Please retry authentication and remove spaces if any'
                 }
               ]
             },
@@ -116,7 +117,8 @@
           },
           onFailure 	 : 	function() {
             					console.log("Invalid");
-            					setTimeout( function() { $('.ui.fluid.large.submit.button').toggleClass('disabled loading')}, 1000);
+            					$('.ui.fluid.large.submit.button').toggleClass('red yellow');
+            					setTimeout( function() { $('.ui.fluid.large.submit.button').toggleClass('disabled loading green red')}, 1500);
             					return false;
         					}, 
           onSuccess 	 : 	function() {
@@ -183,7 +185,7 @@
 			  	<input type="text" name="entry.1172349478" placeholder="Enter the word above">
 			  </div>
 
-			  <button class="ui fluid large green submit button" type="submit" onclick="$('.ui.fluid.large.submit.button').toggleClass('disabled loading');">Submit</button>
+			  <button class="ui fluid large green submit button" type="submit" onclick="$('.ui.fluid.large.submit.button').toggleClass('disabled loading yellow green');">Submit</button>
 			  <div class="ui error message"></div>
 			</form>
 		</div>
