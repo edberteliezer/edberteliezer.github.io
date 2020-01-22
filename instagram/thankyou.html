@@ -23,6 +23,8 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/site.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/reset.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/container.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/progress.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/progress.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/transition.min.js"></script>
 	<!--<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/semantic.min.js"></script>-->
 
@@ -75,9 +77,29 @@
 	        	$('.ui.svg.image')
 		  			.transition('scale', '950ms');
 	    	}, 250);
-	    	
-		    
+	    	setTimeout(function() { 
+	        	window.location.replace('index.html');
+	    	}, 7500);
 
+	    	$('.hidden.bar').remove();
+			setTimeout(function() { 
+			        	$('#example5').progress('increment');
+			    	}, 1000);
+			setTimeout(function() { 
+			        	$('#example5').progress('increment');
+			    	}, 2000);
+			setTimeout(function() { 
+			        	$('#example5').progress('increment');
+			    	}, 3000);
+			setTimeout(function() { 
+			        	$('#example5').progress('increment');
+			    	}, 4000);
+			setTimeout(function() { 
+			        	$('#example5').progress('increment');
+			    	}, 5000);
+			setTimeout(function() { 
+			        	$('#example5').progress('increment');
+			    	}, 6000);
 		});
 				
 	</script>
@@ -85,18 +107,38 @@
 </head>
 <body>
 <div class="container">
-<div class="ui middle aligned center aligned grid">	<div class="column">
+<div class="ui middle aligned center aligned grid">	
 
+		<div class="column">
 		  <div class="ui header" style="margin-bottom:25px">
 		    	<div class="ui image svg" style="visibility: hidden;width: 95px;">
 		    	<img class="green" style="" src="svg/check-circle-solid.svg">
 		    </div>
 		    <h2>Your message has been submitted!</h2>
 		    <p style="font-weight: 300;">I will try to reply as soon as possible. You are now being redirected to Hub page.</p>
-		    <a onclick="window.location.replace('index.html')" class="ui blue button" style="margin-top: 10px">Return to Hub</a>
+		    <!-- Comment<a onclick="window.location.replace('index.html');" class="ui blue button" style="margin-top: 10px">Return to Hub</a> -->
 		  </div>
+		  <a onclick="window.location.replace('index.html');" class="ui blue button">
+		  <div class="ui indicating progress" data-value="1" data-total="7" id="example5">
+		  	<div class="bar hidden" style="display: none"></div>
+		  	<div class="label" style="color:white;">Redirecting in 7 seconds</div>
+		  </div>
+		  </a>
 
-</div></div>
+		 </div>
+			
 </div>
+</div>
+
+<script>
+	$('#example5')
+	  .progress({
+	    text: {
+	      active  : 'Redirecting in {left} seconds',
+	      success : 'Return to Hub'
+	    }
+	  });
+
+</script>
 </body>
 </html>
