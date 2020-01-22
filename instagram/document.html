@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/image.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/text.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/header.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/icon.min.css">
+	<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/icon.min.css">-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/divider.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/site.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/reset.min.css">
@@ -41,6 +41,9 @@
 			background-color: #fafafa;
 			font-family: 'Open Sans', sans-serif !important;
 		}
+
+		h1, h2, h3, h4, h5{ font-family: 'Open Sans', sans-serif !important; }
+
 		h1.ui.header {
 			margin-bottom: 18px;
 		}
@@ -53,59 +56,190 @@
 			margin-bottom: 40px;
 		}
 
+		img.red {
+			filter: invert(51%) sepia(47%) saturate(6679%) hue-rotate(334deg) brightness(115%) contrast(107%);
+		}
 
+		img.pink{
+			filter: invert(21%) sepia(41%) saturate(6951%) hue-rotate(328deg) brightness(94%) contrast(93%);
+		}
 
+		img.purple{
+			filter: invert(20%) sepia(30%) saturate(7403%) hue-rotate(280deg) brightness(93%) contrast(91%);
+		}
+		
+
+		img.violet{
+			filter: invert(24%) sepia(50%) saturate(3491%) hue-rotate(251deg) brightness(83%) contrast(87%);
+		}
+
+		img.gold{
+			filter: invert(80%) sepia(60%) saturate(2629%) hue-rotate(354deg) brightness(104%) contrast(101%);
+		}
+
+		img.blue{
+			filter: invert(48%) sepia(57%) saturate(1494%) hue-rotate(183deg) brightness(94%) contrast(103%);
+		}
+
+		img.green{
+			filter: invert(59%) sepia(10%) saturate(2408%) hue-rotate(72deg) brightness(97%) contrast(90%);
+		}
+
+		img.brown {
+			filter: invert(34%) sepia(23%) saturate(688%) hue-rotate(330deg) brightness(95%) contrast(86%);
+		}
+		
+		img.teal {
+			filter: invert(27%) sepia(100%) saturate(1791%) hue-rotate(157deg) brightness(100%) contrast(104%);
+		}
+		.ui.mini.svg{
+			width:20px;
+
+		    
+		}
+
+		.ui.files.grid{
+			padding: 0;
+		}
+
+		.ui.files.grid > .wide.column {
+			padding: 0 15px 0 0;
+		}
+
+		.ui.files.grid > .wide.column > h5 {
+			color:black;
+		}
 	</style>
 
 </head>
 <body>
 <div class="ui grid">
-  <div class="sixteen wide column middle aligned">
+ <div class="sixteen wide column middle aligned">
 
 	<h1 class="ui black header">
 		<div class="content">
 			Documents
 		</div>
 	</h1>
-    <div class="ui raised segments">
-    	<div class="ui segment">
-    		<a href="https://www.youtube.com">
-			<h4 class="ui header">
-				<i class="blue file word icon"></i> 
-				<div class="content">
-					Calculus: Sample Project Long Long Long 
-				</div>
-			</h4>
-			</a>
-    	</div>		
-    	<div class="ui segment">
-    		<a href="https://www.youtube.com">
-			<h4 class="ui header">
-				<i class="red file powerpoint icon"></i> 
-				<div class="content">
-					Engineering: Lorem ipsum dolor sit amet et claris presentation
-				</div>
-			</h4>
-			</a>
-    	</div>
-    	<div class="ui segment">
-    		<a href="https://www.youtube.com">
-			<h4 class="ui header">
-				<i class="green file excel icon"></i> 
-				<div class="content">
-					Statistics: Dolores met sit lucomet pas lorem spreadsheet
-				</div>
-			</h4>
-			</a>
-    	</div>
-	</div>
-	<a href="index.html">
-		<div class="ui link raised segment center aligned">
-			<strong>Cancel</strong>
-		</div>
-	</a>
 
-  </div>
+	<div class="ui raised segments">
+		<div class="ui segment">
+						<a href="https://www.youtube.com">
+			<div class="ui grid files">
+			<div class="two wide column center aligned middle aligned">
+			<div class="ui mini image svg">
+		    			<img class="red" src="svg/file-powerpoint-solid.svg">
+		    </div></div>
+			<div class="fourteen wide column">
+						<h5>Engineering: Donec eget lacinia ligula, vitae faucibus quam. Curabitur dictum, ex ut luctus. presentation.</h5>
+			</div></div></a>
+		</div>
+		<div class="ui segment">
+						<a href="https://www.youtube.com">
+			<div class="ui grid files">
+			<div class="two wide column center aligned middle aligned">
+			<div class="ui mini image svg">
+		    			<img class="blue" src="svg/file-word-solid.svg">
+		    </div></div>
+			<div class="fourteen wide column">
+						<h5>Calculus: In condimentum, quam et efficitur cursus, leo felis lobortis nunc, vitae vestibulum nulla mi nec enim. Nunc.</h5>
+			</div></div></a>
+		</div>
+		<div class="ui segment">
+						<a href="https://www.youtube.com">
+			<div class="ui grid files">
+			<div class="two wide column center aligned middle aligned">
+			<div class="ui mini image svg">
+		    			<img class="green" src="svg/file-excel-solid.svg">
+		    </div></div>
+			<div class="fourteen wide column">
+						<h5>Statistics: Aliquam scelerisque imperdiet gravida. In hac habitasse platea dictumst. Phasellus nec ultrices purus, ut tincidunt sem. Etiam vitae aliquam dui, id mattis spreadsheet</h5>
+			</div></div></a>
+		</div>		
+		<div class="ui segment">
+						<a href="https://www.youtube.com">
+			<div class="ui grid files">
+			<div class="two wide column center aligned middle aligned">
+			<div class="ui mini image svg">
+		    			<img class="brown" src="svg/file-image-solid.svg">
+		    </div></div>
+			<div class="fourteen wide column">
+						<h5>Engineering: Donec eget lacinia ligula, vitae faucibus quam. Curabitur dictum, ex ut luctus. presentation.</h5>
+			</div></div></a>
+		</div>
+		<div class="ui segment">
+						<a href="https://www.youtube.com">
+			<div class="ui grid files">
+			<div class="two wide column center aligned middle aligned">
+			<div class="ui mini image svg">
+		    			<img class="teal" src="svg/file-audio-solid.svg">
+		    </div></div>
+			<div class="fourteen wide column">
+						<h5>Calculus: In condimentum, quam et efficitur cursus, leo felis lobortis nunc, vitae vestibulum nulla mi nec enim. Nunc.</h5>
+			</div></div></a>
+		</div>
+		<div class="ui segment">
+						<a href="https://www.youtube.com">
+			<div class="ui grid files">
+			<div class="two wide column center aligned middle aligned">
+			<div class="ui mini image svg">
+		    			<img class="violet" src="svg/file-video-solid.svg">
+		    </div></div>
+			<div class="fourteen wide column">
+						<h5>Calculus: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</h5>
+			</div></div></a>
+		</div>
+		<div class="ui segment">
+						<a href="https://www.youtube.com">
+			<div class="ui grid files">
+			<div class="two wide column center aligned middle aligned">
+			<div class="ui mini image svg">
+		    			<img class="gold" src="svg/file-code-solid.svg">
+		    </div></div>
+			<div class="fourteen wide column">
+						<h5>Calculus: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</h5>
+			</div></div></a>
+		</div>
+		<div class="ui segment">
+						<a href="https://www.youtube.com">
+			<div class="ui grid files">
+			<div class="two wide column center aligned middle aligned">
+			<div class="ui mini image svg">
+		    			<img class="" src="svg/file-archive-solid.svg">
+		    </div></div>
+			<div class="fourteen wide column">
+						<h5>Calculus: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</h5>
+			</div></div></a>
+		</div>
+		<div class="ui segment">
+						<a href="https://www.youtube.com">
+			<div class="ui grid files">
+			<div class="two wide column center aligned middle aligned">
+			<div class="ui mini image svg">
+		    			<img class="blue" src="svg/file-alt-solid.svg">
+		    </div></div>
+			<div class="fourteen wide column">
+						<h5>Calculus: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</h5>
+			</div></div></a>
+		</div>
+		<div class="ui segment">
+						<a href="https://www.youtube.com">
+			<div class="ui grid files">
+			<div class="two wide column center aligned middle aligned">
+			<div class="ui mini image svg">
+		    			<img class="red" src="svg/file-pdf-solid.svg">
+		    </div></div>
+			<div class="fourteen wide column">
+						<h5>Statistics: Aliquam scelerisque imperdiet gravida. In hac habitasse platea dictumst. Phasellus nec ultrices purus, ut tincidunt sem. Etiam vitae aliquam dui, id mattis spreadsheet</h5>
+			</div></div></a>
+		</div>
+ 	</div>
+
+	<a href="index.html"> <div class="ui link raised segment center aligned">
+		<strong>Cancel</strong>
+	</div></a>
+
+ </div>
 </div>	
 </body>
 </html>

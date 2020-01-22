@@ -19,7 +19,7 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/text.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/header.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/button.min.css">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/icon.min.css">
+	<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/icon.min.css">-->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/site.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/reset.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/container.min.css">
@@ -36,6 +36,8 @@
 			padding: 50px 20px;
 		}
 
+		h1, h2, h3, h4, h5, .ui.form input[type=text]{ font-family: 'Open Sans', sans-serif !important; }
+		
 		body{
 			background-color: #fafafa;
 			font-family: 'Open Sans', sans-serif !important;
@@ -54,12 +56,21 @@
 			padding: 15px;
 		}
 
+		.ui.svg {
+			width:80px;
+		}
+
+		img.green{
+			filter: invert(59%) sepia(10%) saturate(2408%) hue-rotate(72deg) brightness(97%) contrast(90%);
+		}
+
+
 	</style>
 
 	<script type="text/javascript">
 		$( document ).ready(function() {
-		    $('.circular.green.icon')
-		  	.transition('scale', '800ms');
+		    $('.ui.svg.image')
+		  	.transition('scale', '950ms');
 
 		});
 				
@@ -69,9 +80,11 @@
 <body>
 
 <div class="ui middle aligned center aligned grid">	<div class="column">
-		
-		  <div class="ui icon header" style="margin-bottom:25px">
-		    <i class="circular green inverted check icon" style="visibility: hidden;"></i>
+
+		  <div class="ui header" style="margin-bottom:25px">
+		    	<div class="ui image svg" style="visibility: hidden;width: 95px;">
+		    	<img class="green" style="" src="svg/check-circle-solid.svg">
+		    </div>
 		    <h2>Your message has been submitted!</h2>
 		    <p style="font-weight: 300;">I will try to reply as soon as possible.</p>
 		    <a href="index.html" class="ui blue button">Return to Hub</a>
