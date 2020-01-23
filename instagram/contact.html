@@ -91,7 +91,7 @@
                 },
                 {
                   type   : 'email',
-                  prompt : 'Please enter a valid email address'
+                  prompt : 'Please enter valid email and remove any spaces'
                 }
               ]
             },
@@ -108,9 +108,18 @@
               identifier  : 'entry.1172349478',
               rules: [
                 {
+		            type: 'empty',
+		            prompt: 'Please fill the human authentication'
+		        },
+				{
+		            type: 'maxLength[8]',
+		            prompt: 'Please retry and remove spaces if any'
+		        },
+                {
                   type   : 'isExactly[calculus]',
-                  prompt : 'Please retry authentication and remove spaces if any'
+                  prompt : 'Please enter exactly the word above'
                 }
+
               ]
             },
             
