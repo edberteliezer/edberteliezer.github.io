@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- Initialize Semantic UI -->		
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/grid.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/segment.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/transition.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/image.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/text.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/header.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/divider.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/site.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/reset.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/container.min.css">
+
+	<!-- Open Sans Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+
+	<title>Edbert - Documents</title>
+
+	<style>
+		div.page.content, div.ui.grid {
+			max-width: 450px;
+			margin:auto;
+			padding-top: 15px;
+		}
+
+		body{
+			background-color: #fafafa;
+			font-family: 'Open Sans', sans-serif !important;
+		}
+
+		h1, h2, h3, h4, h5 { font-family: 'Open Sans', sans-serif !important; }
+
+		h1.ui.header {
+			margin-bottom: 18px;
+		}
+
+		div.ui.grid{
+			height: 100%;
+		}
+
+		div.ui.segments {
+			margin-bottom: 40px;
+		}
+
+		img.red {
+			filter: invert(51%) sepia(47%) saturate(6679%) hue-rotate(334deg) brightness(115%) contrast(107%);
+		}
+
+		img.pink{
+			filter: invert(21%) sepia(41%) saturate(6951%) hue-rotate(328deg) brightness(94%) contrast(93%);
+		}
+
+		img.purple{
+			filter: invert(20%) sepia(30%) saturate(7403%) hue-rotate(280deg) brightness(93%) contrast(91%);
+		}
+		
+
+		img.violet{
+			filter: invert(24%) sepia(50%) saturate(3491%) hue-rotate(251deg) brightness(83%) contrast(87%);
+		}
+
+		img.gold{
+			filter: invert(80%) sepia(60%) saturate(2629%) hue-rotate(354deg) brightness(104%) contrast(101%);
+		}
+
+		img.blue{
+			filter: invert(48%) sepia(57%) saturate(1494%) hue-rotate(183deg) brightness(94%) contrast(103%);
+		}
+
+		img.green{
+			filter: invert(59%) sepia(10%) saturate(2408%) hue-rotate(72deg) brightness(97%) contrast(90%);
+		}
+
+		img.brown {
+			filter: invert(34%) sepia(23%) saturate(688%) hue-rotate(330deg) brightness(95%) contrast(86%);
+		}
+		
+		img.teal {
+			filter: invert(27%) sepia(100%) saturate(1791%) hue-rotate(157deg) brightness(100%) contrast(104%);
+		}
+		
+		.ui.mini.svg{
+			width:20px;		    
+		}
+
+		.ui.files.grid, .ui.files.grid > .wide.column{
+			padding: 0;
+		}
+
+		.ui.files.grid > .fourteen.wide.column {
+			padding: 0.3rem 0px 0.3rem 1rem;
+		}
+
+
+	</style>
+
+</head>
+<body>
+<div class="ui grid container" style="margin-left:auto;margin-right: auto;">
+ <div class="sixteen wide column middle aligned">
+
+	<h1 class="ui black header">
+		<div class="content">
+			Map Services
+		</div>
+	</h1>
+
+	<div class="ui raised segments">
+		<div class="ui segment center aligned link">
+			<a href="mapboxosm.html">
+			<h5 class="" style="vertical-align: middle;transform:translateY(1px);color:black; ">
+				<img class="red" src="../instagram/svg/circle-solid.svg" alt="Red circle icon" style="width: 18px;vertical-align: middle; margin-right: 5px;transform: translateY(-1px);">
+			Open Street Map
+			</h5>
+			</a>
+		</div>
+		<div class="ui segment center aligned link">
+			<a href="maptiler.html">
+			<h5 class="" style="vertical-align: middle;transform:translateY(1px);color:black; ">
+				<img class="teal" src="../instagram/svg/circle-solid.svg" alt="Red circle icon" style="width: 18px;vertical-align: middle; margin-right: 5px;transform: translateY(-1px);">
+			MapTiler
+			</h5>
+			</a>
+		</div>
+		<div class="ui segment center aligned link">
+			<a href="mapbox.html">
+			<h5 class="" style="vertical-align: middle;transform:translateY(1px);color:black; ">
+				<img class="gold" src="../instagram/svg/circle-solid.svg" alt="Red circle icon" style="width: 18px;vertical-align: middle; margin-right: 5px;transform: translateY(-1px);">
+			Mapbox
+			</h5>
+			</a>
+		</div>
+		<div class="ui segment center aligned link">
+			<a href="leaflet.html">
+			<h5 class="" style="vertical-align: middle;transform:translateY(1px);color:black; ">
+				<img class="blue" src="../instagram/svg/circle-solid.svg" alt="Red circle icon" style="width: 18px;vertical-align: middle; margin-right: 5px;transform: translateY(-1px);">
+			Leaflet
+			</h5>
+			</a>
+		</div>
+
+ 	</div>
+
+	<a href="../instagram/index.html"> <div class="ui link raised segment center aligned">
+		<strong>Cancel</strong>
+	</div></a>
+
+ </div>
+</div>	
+</body>
+</html>

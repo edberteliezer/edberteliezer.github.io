@@ -1,0 +1,212 @@
+<html style=""><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sakura JPEG (EPSG:3857) – MapTiler Cloud</title>
+  <script src="https://cdn.maptiler.com/mapbox-gl-js/v1.3.1/mapbox-gl.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://cdn.maptiler.com/mapbox-gl-js/v1.3.1/mapbox-gl.css">
+  <script src="https://cdn.maptiler.com/proj4js/v2.5.0/proj4.js"></script>
+  <script src="https://cdn.maptiler.com/ol/v6.0.1/ol.js"></script><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }
+body /shadow-deep/ [touch-action="none"]{ -ms-touch-action: none; touch-action: none; }
+[touch-action="auto"]{ -ms-touch-action: auto; touch-action: auto; }
+body /shadow-deep/ [touch-action="auto"]{ -ms-touch-action: auto; touch-action: auto; }
+[touch-action~="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }
+body /shadow-deep/ [touch-action~="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }
+[touch-action~="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }
+body /shadow-deep/ [touch-action~="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }
+[touch-action~="pan-up"]{ -ms-touch-action: pan-up; touch-action: pan-up; }
+body /shadow-deep/ [touch-action~="pan-up"]{ -ms-touch-action: pan-up; touch-action: pan-up; }
+[touch-action~="pan-down"]{ -ms-touch-action: pan-down; touch-action: pan-down; }
+body /shadow-deep/ [touch-action~="pan-down"]{ -ms-touch-action: pan-down; touch-action: pan-down; }
+[touch-action~="pan-left"]{ -ms-touch-action: pan-left; touch-action: pan-left; }
+body /shadow-deep/ [touch-action~="pan-left"]{ -ms-touch-action: pan-left; touch-action: pan-left; }
+[touch-action~="pan-right"]{ -ms-touch-action: pan-right; touch-action: pan-right; }
+body /shadow-deep/ [touch-action~="pan-right"]{ -ms-touch-action: pan-right; touch-action: pan-right; }
+</style>
+  <link rel="stylesheet" type="text/css" href="https://cdn.maptiler.com/ol/v6.0.1/ol.css">
+  <script src="https://cdn.maptiler.com/ol-mapbox-style/v5.0.2/olms.js"></script>
+  <script>// based on https://openlayers.org/en/latest/examples/permalink.html
+
+function olHashInit(map, projection) {
+  projection = projection || 'EPSG:3857';
+  if (window.location.hash !== '') {
+    // try to restore center, zoom-level and rotation from the URL
+    var hash = window.location.hash.replace('#', '');
+    var parts = hash.split('/');
+    if (parts.length >= 3) {
+      var view = map.getView();
+      view.setZoom(parseInt(parts[0], 10));
+      view.setCenter(ol.proj.transform([
+        parseFloat(parts[2]),
+        parseFloat(parts[1])
+      ], 'EPSG:4326', projection));
+      if (parts.length >= 4) {
+        map.getView().setRotation(parseFloat(parts[3]));
+      }
+    }
+  }
+
+  var shouldUpdate = true;
+  var view = map.getView();
+  var updatePermalink = function() {
+    if (!shouldUpdate) {
+      // do not update the URL when the view was changed in the 'popstate' handler
+      shouldUpdate = true;
+      return;
+    }
+
+    var center = ol.proj.transform(view.getCenter(), projection, 'EPSG:4326');
+    var hash = '#' +
+        view.getZoom() + '/' +
+        Math.round(center[1] * 1000) / 1000 + '/' +
+        Math.round(center[0] * 1000) / 1000;
+    if (view.getRotation() != 0) {
+      hash += '/' + view.getRotation();
+    }
+    var state = {
+      zoom: view.getZoom(),
+      center: view.getCenter(),
+      rotation: view.getRotation()
+    };
+    window.history.pushState(state, 'map', hash);
+  };
+
+  map.on('moveend', updatePermalink);
+
+  // restore the view state when navigating through the history, see
+  // https://developer.mozilla.org/en-US/docs/Web/API/WindowEventHandlers/onpopstate
+  window.addEventListener('popstate', function(event) {
+    if (event.state === null) {
+      return;
+    }
+    map.getView().setCenter(event.state.center);
+    map.getView().setZoom(event.state.zoom);
+    map.getView().setRotation(event.state.rotation);
+    shouldUpdate = false;
+  });
+};</script>
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+<body>
+  <div id="map" class="mapboxgl-map"><div class="mapboxgl-canary" style="visibility: hidden;"></div><div class="mapboxgl-canvas-container mapboxgl-interactive mapboxgl-touch-drag-pan mapboxgl-touch-zoom-rotate"><canvas class="mapboxgl-canvas" tabindex="0" aria-label="Map" width="3136" height="1764" style="position: absolute; width: 1568px; height: 882px;"></canvas></div></div>
+  <script>
+    var q = (location.search || '').substr(1).split('&');
+    var preference =
+      q.indexOf('vector') >= 0 ? 'vector' :
+        (q.indexOf('raster') >= 0 ? 'raster' : 'vector');
+
+    var canUseMapbox = true && mapboxgl.supported();
+
+    if (preference == 'vector' && canUseMapbox) {
+      mapboxgl.setRTLTextPlugin('https://cdn.klokantech.com/mapbox-gl-js/plugins/mapbox-gl-rtl-text/v0.1.2/mapbox-gl-rtl-text.js');
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'https://api.maptiler.com/maps/901f8863-8f4a-4ee9-bc16-427562122e3f/style.json?key=2hkyFy28XfBK6BpK4exB',
+        hash: true
+      });
+      // Hide Map Control
+      // map.addControl(new mapboxgl.NavigationControl());
+    } else {
+      var useRaster = preference == 'raster';
+
+      var projection = 'EPSG:3857';
+      var tilegrid = new ol.tilegrid.TileGrid({"extent":[-20037508.342789244,-20037508.342789244,20037508.342789244,20037508.342789244],"minZoom":0,"sizes":[[1,1],[2,2],[4,4],[8,8],[16,16],[32,32],[64,64],[128,128],[256,256],[512,512],[1024,1024],[2048,2048],[4096,4096],[8192,8192],[16384,16384],[32768,32768],[65536,65536],[131072,131072],[262144,262144],[524288,524288],[1048576,1048576],[2097152,2097152],[4194304,4194304]],"resolutions":[78271.51696402048,39135.75848201024,19567.87924100512,9783.93962050256,4891.96981025128,2445.98490512564,1222.99245256282,611.49622628141,305.748113140705,152.8740565703525,76.43702828517625,38.21851414258813,19.109257071294063,9.554628535647032,4.777314267823516,2.388657133911758,1.194328566955879,0.5971642834779395,0.29858214173896974,0.14929107086948487,0.07464553543474244,0.03732276771737122,0.01866138385868561],"tileSize":[512,512]});
+      var viewResolutions = [78271.51696402048,39135.75848201024,19567.87924100512,9783.93962050256,4891.96981025128,2445.98490512564,1222.99245256282,611.49622628141,305.748113140705,152.8740565703525,76.43702828517625,38.21851414258813,19.109257071294063,9.554628535647032,4.777314267823516,2.388657133911758,1.194328566955879,0.5971642834779395,0.29858214173896974,0.14929107086948487,0.07464553543474244,0.03732276771737122,0.01866138385868561];
+
+      var map = new ol.Map({
+        layers: [],
+        target: 'map',
+        view: new ol.View({
+          projection: projection,
+          minZoom: 0,
+          resolutions: viewResolutions,
+          center: ol.proj.transform([139.72850103458256, 35.71539598941082], 'EPSG:4326', projection),
+          zoom: 15.00555196698406
+        })
+      });
+      olHashInit(map, projection);
+
+      if (q.indexOf('debug') >= 0) {
+        map.addLayer(new ol.layer.Tile({
+          source: new ol.source.TileDebug({
+            projection: projection,
+            tileGrid: tilegrid
+          })
+        }));
+      }
+
+      if (useRaster) {
+        var useRetina = window.devicePixelRatio > 1;
+        var layer = new ol.layer.Tile({
+          source: new ol.source.XYZ({
+            projection: projection,
+            attributions: '',
+            tileGrid: tilegrid,
+            url: useRetina ? 'https://api.maptiler.com/maps/901f8863-8f4a-4ee9-bc16-427562122e3f/{z}/{x}/{y}@2x.jpg?key=2hkyFy28XfBK6BpK4exB' : 'https://api.maptiler.com/maps/901f8863-8f4a-4ee9-bc16-427562122e3f/{z}/{x}/{y}.jpg?key=2hkyFy28XfBK6BpK4exB',
+            tilePixelRatio: useRetina ? 2 : 1
+          })
+        });
+        map.getLayers().insertAt(0, layer);
+      } else {
+        var datatilegrid = new ol.tilegrid.TileGrid({"extent":[-20037508.342789244,-20037508.342789244,20037508.342789244,20037508.342789244],"minZoom":0,"sizes":[[1,1],[2,2],[4,4],[8,8],[16,16],[32,32],[64,64],[128,128],[256,256],[512,512],[1024,1024],[2048,2048],[4096,4096],[8192,8192],[16384,16384]],"resolutions":[156543.03392804097,78271.51696402048,39135.75848201024,19567.87924100512,9783.93962050256,4891.96981025128,2445.98490512564,1222.99245256282,611.49622628141,305.748113140705,152.8740565703525,76.43702828517625,38.21851414258813,19.109257071294063,9.554628535647032],"tileSize":[256,256]});
+
+        fetch('https://api.maptiler.com/maps/901f8863-8f4a-4ee9-bc16-427562122e3f/style.json?key=2hkyFy28XfBK6BpK4exB')
+        .then(function(response) { return response.json() })
+        .then(function(style) {
+          var layerPromises_ = [];
+          Object.keys(style.sources).forEach(function(sourceId) {
+            var source = style.sources[sourceId];
+            if (source && source.url) {
+              layerPromises_.push(
+                fetch(source.url)
+                .then(response => response.json())
+                .then(tileJSON => {
+                  if (source.type == 'vector') {
+                    var layer = new ol.layer.VectorTile({
+                      declutter: true,
+                      source: new ol.source.VectorTile({
+                        attributions: tileJSON.attribution,
+                        format: new ol.format.MVT(),
+                        projection: projection,
+                        tileGrid: datatilegrid,
+                        urls: tileJSON.tiles
+                      })
+                    });
+
+                    return olms.applyStyle(layer, style, sourceId, undefined, viewResolutions)
+                    .then(function() {
+                      return layer;
+                    });
+                  } else if (source.type == 'raster') {
+                    return new ol.layer.Tile({
+                      extent: mapExtent,
+                      source: new ol.source.XYZ({
+                        projection: projection,
+                        attributions: tileJSON.attribution,
+                        tileGrid: datatilegrid,
+                        urls: tileJSON.tiles
+                      })
+                    });
+                  }
+                })
+              );
+            }
+          });
+          olms.applyBackground(map, style);
+
+          Promise.all(layerPromises_)
+          .then(function(layers) {
+            layers = layers.filter(function(l) {return !!l;});
+            layers.forEach(function(layer) {
+              map.addLayer(layer);
+            });
+          });
+        });
+      }
+    }
+  </script>
+
+
+</body></html>
