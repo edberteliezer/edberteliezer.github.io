@@ -18,8 +18,8 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/site.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/reset.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/container.min.css">
-	<!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/semantic.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+	<!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/semantic.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/icon.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/transition.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/semantic.min.js"></script>-->
@@ -111,6 +111,107 @@
 		}
 	</style>
 
+	<script type="text/javascript">		
+	function displaytickets() {
+	  var $panel = $('<div/>').addClass('ui segment').append($('<a/>').addClass('file link').append($('<div/>').addClass('ui grid files').append($('<div/>').attr("class", 'two wide column center aligned middle aligned').append($('<div/>').addClass('ui mini image svg').append($('<img/>').addClass('file icon')))).append($('<div><h5 class="file name">Title</h5></div>').addClass('fourteen wide column'))))
+
+	  // File Data
+	  var data = {
+	    'files': [{
+	        'link': 'https://www.instagram.com',
+	        'icon': 'svg/file-powerpoint-solid.svg',
+	        'alt': 'PowerPoint document',
+	        'color': 'red',
+	        'name': 'Engineering: Donec eget lacinia ligula, vitae faucibus quam. Curabitur dictum, ex ut luctus. presentation.'
+	      },
+	      {
+	        'link': 'https://www.youtube.com',
+	        'icon': 'svg/file-word-solid.svg',
+	        'alt': 'Word document',
+	        'color': 'blue',
+	        'name': 'Calculus: In condimentum, quam et efficitur cursus, leo felis lobortis nunc, vitae vestibulum nulla mi nec enim. Nunc.'
+	      },
+	      {
+	        'link': 'https://www.facebook.com',
+	        'icon': 'svg/file-excel-solid.svg',
+	        'alt': 'Excel document',
+	        'color': 'green',
+	        'name': 'Statistics: Aliquam scelerisque imperdiet gravida. In hac habitasse platea dictumst. Phasellus nec ultrices purus, ut tincidunt sem. Etiam vitae aliquam dui, id mattis spreadsheet'
+	      },
+	      {
+	        'link': 'https://www.google.com',
+	        'icon': 'svg/file-image-solid.svg',
+	        'alt': 'Image file',
+	        'color': 'brown',
+	        'name': 'Engineering: Donec eget lacinia ligula, vitae faucibus quam. Curabitur dictum, ex ut luctus. presentation.'
+	      },
+	      {
+	        'link': 'https://www.google.com',
+	        'icon': 'svg/file-audio-solid.svg',
+	        'alt': 'Audio file',
+	        'color': 'teal',
+	        'name': 'Calculus: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.'
+	      },
+	      {
+	        'link': 'https://www.google.com',
+	        'icon': 'svg/file-video-solid.svg',
+	        'alt': 'Video file',
+	        'color': 'violet',
+	        'name': 'Engineering: Donec eget lacinia ligula, vitae faucibus quam. Curabitur dictum, ex ut luctus. presentation.'
+	      },
+	      {
+	        'link': 'https://www.google.com',
+	        'icon': 'svg/file-code-solid.svg',
+	        'alt': 'Image file',
+	        'color': 'gold',
+	        'name': 'Calculus: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.'
+	      },
+	      {
+	        'link': '../builds/sakura.zip',
+	        'icon': 'svg/file-archive-solid.svg',
+	        'alt': 'Archive file',
+	        'color': 'black',
+	        'name': 'OpenStreetMap'
+	      },
+	      {
+	        'link': 'https://www.google.com',
+	        'icon': 'svg/file-alt-solid.svg',
+	        'alt': 'Text file',
+	        'color': 'blue',
+	        'name': 'Calculus: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.'
+	      },
+	      {
+	        'link': 'https://www.google.com',
+	        'icon': 'svg/file-pdf-solid.svg',
+	        'alt': 'PDF file',
+	        'color': 'red',
+	        'name': 'Engineering: Donec eget lacinia ligula, vitae faucibus quam. Curabitur dictum, ex ut luctus. presentation.'
+	      },
+	      {
+	        'link': 'https://www.google.com',
+	        'icon': 'svg/file-image-solid.svg',
+	        'alt': 'Image file',
+	        'color': 'brown',
+	        'name': 'Engineering: Donec eget lacinia ligula, vitae faucibus quam. Curabitur dictum, ex ut luctus. presentation.'
+	      }
+	    ]
+	  };
+
+	  for (i = 0; i < data.files.length; i++) {
+	    var new_panel = $panel.clone(); // note the use of .clone()
+	    new_panel.find('.file.link').attr("href", data.files[i].link);
+	    new_panel.find('.file.icon').attr("src", data.files[i].icon).addClass(data.files[i].color).attr("alt", data.files[i].alt);
+	    new_panel.find('.file.name').text(data.files[i].name);
+	    $('.ui.raised.segments').append(new_panel);
+	  }
+	}
+
+	$(function() {
+    displaytickets();
+	});
+	
+	</script>
+
 </head>
 <body>
 <div class="ui grid container" style="margin-left:auto;margin-right: auto;">
@@ -122,118 +223,7 @@
 		</div>
 	</h1>
 
-	<div class="ui raised segments">
-		<div class="ui segment">
-						<a href="https://www.youtube.com">
-			<div class="ui grid files">
-			<div class="two wide column center aligned middle aligned">
-			<div class="ui mini image svg">
-		    			<img class="red" src="svg/file-powerpoint-solid.svg" alt="Powerpoint file icon">
-		    </div></div>
-			<div class="fourteen wide column">
-						<h5>Engineering: Donec eget lacinia ligula, vitae faucibus quam. Curabitur dictum, ex ut luctus. presentation.</h5>
-			</div></div></a>
-		</div>
-		<div class="ui segment">
-						<a href="https://www.youtube.com">
-			<div class="ui grid files">
-			<div class="two wide column center aligned middle aligned">
-			<div class="ui mini image svg">
-		    			<img class="blue" src="svg/file-word-solid.svg" alt="Word file icon">
-		    </div></div>
-			<div class="fourteen wide column">
-						<h5>Calculus: In condimentum, quam et efficitur cursus, leo felis lobortis nunc, vitae vestibulum nulla mi nec enim. Nunc.</h5>
-			</div></div></a>
-		</div>
-		<div class="ui segment">
-						<a href="https://www.youtube.com">
-			<div class="ui grid files">
-			<div class="two wide column center aligned middle aligned">
-			<div class="ui mini image svg">
-		    			<img class="green" src="svg/file-excel-solid.svg" alt="Excel file icon">
-		    </div></div>
-			<div class="fourteen wide column">
-						<h5>Statistics: Aliquam scelerisque imperdiet gravida. In hac habitasse platea dictumst. Phasellus nec ultrices purus, ut tincidunt sem. Etiam vitae aliquam dui, id mattis spreadsheet</h5>
-			</div></div></a>
-		</div>		
-		<div class="ui segment">
-						<a href="https://www.youtube.com">
-			<div class="ui grid files">
-			<div class="two wide column center aligned middle aligned">
-			<div class="ui mini image svg">
-		    			<img class="brown" src="svg/file-image-solid.svg" alt="Image file icon">
-		    </div></div>
-			<div class="fourteen wide column">
-						<h5>Engineering: Donec eget lacinia ligula, vitae faucibus quam. Curabitur dictum, ex ut luctus. presentation.</h5>
-			</div></div></a>
-		</div>
-		<div class="ui segment">
-						<a href="https://www.youtube.com">
-			<div class="ui grid files">
-			<div class="two wide column center aligned middle aligned">
-			<div class="ui mini image svg">
-		    			<img class="teal" src="svg/file-audio-solid.svg" alt="Audio file icon">
-		    </div></div>
-			<div class="fourteen wide column">
-						<h5>Calculus: In condimentum, quam et efficitur cursus, leo felis lobortis nunc, vitae vestibulum nulla mi nec enim. Nunc.</h5>
-			</div></div></a>
-		</div>
-		<div class="ui segment">
-						<a href="https://www.youtube.com">
-			<div class="ui grid files">
-			<div class="two wide column center aligned middle aligned">
-			<div class="ui mini image svg">
-		    			<img class="violet" src="svg/file-video-solid.svg" alt="Video file icon">
-		    </div></div>
-			<div class="fourteen wide column">
-						<h5>Calculus: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</h5>
-			</div></div></a>
-		</div>
-		<div class="ui segment">
-						<a href="https://www.youtube.com">
-			<div class="ui grid files">
-			<div class="two wide column center aligned middle aligned">
-			<div class="ui mini image svg">
-		    			<img class="gold" src="svg/file-code-solid.svg" alt="Code file icon">
-		    </div></div>
-			<div class="fourteen wide column">
-						<h5>Calculus: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</h5>
-			</div></div></a>
-		</div>
-		<div class="ui segment">
-						<a href="../builds/sakura.zip">
-			<div class="ui grid files">
-			<div class="two wide column center aligned middle aligned">
-			<div class="ui mini image svg">
-		    			<img class="" src="svg/file-archive-solid.svg" alt="Archive file icon">
-		    </div></div>
-			<div class="fourteen wide column">
-						<h5>Open Street Map</h5>
-			</div></div></a>
-		</div>
-		<div class="ui segment">
-						<a href="https://www.youtube.com">
-			<div class="ui grid files">
-			<div class="two wide column center aligned middle aligned">
-			<div class="ui mini image svg">
-		    			<img class="blue" src="svg/file-alt-solid.svg" alt="Alternate word file icon">
-		    </div></div>
-			<div class="fourteen wide column">
-						<h5>Calculus: Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</h5>
-			</div></div></a>
-		</div>
-		<div class="ui segment">
-						<a href="https://www.youtube.com">
-			<div class="ui grid files">
-			<div class="two wide column center aligned middle aligned">
-			<div class="ui mini image svg">
-		    			<img class="red" src="svg/file-pdf-solid.svg" alt="PDF file icon">
-		    </div></div>
-			<div class="fourteen wide column">
-						<h5>Statistics: Aliquam scelerisque imperdiet gravida. In hac habitasse platea dictumst. Phasellus nec ultrices purus, ut tincidunt sem. Etiam vitae aliquam dui, id mattis spreadsheet</h5>
-			</div></div></a>
-		</div>
- 	</div>
+	<div class="ui raised segments"></div>
 
 	<a href="index.html"> <div class="ui link raised segment center aligned">
 		<strong>Cancel</strong>
