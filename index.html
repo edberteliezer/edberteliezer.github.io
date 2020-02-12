@@ -7,136 +7,116 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
-	<!-- Initialize Semantic UI -->		
-	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/semantic.min.css">
-	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/semantic.min.js"></script>
-
 	<!-- Japanese Font -->
-	<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
 	<title>Edbert Hub</title>
 
 	<!-- Style -->
 	<style type="text/css">
-		body{
-			background-color: #fafafa;
-		}
-		.page-content {
-			max-width: 450px;
-			margin:auto;
-			padding: 100px 20px;
-		}
-
-		/* Prevent Extra Grey Extra Content*/
-		.ui.card>.extra.antihorizontal>a.header {
-			color:rgba(0,0,0,.85);
-		}
-
-		.extra.content.antihorizontal {
-			padding:20px;
-		}
-		
-		.ui.card>.image>img.no.radius {
-			border-radius: 0;
-		}
+body{
+  margin: 10px;
+}
+  
+html, body, .container {
+  height: 100%;
+  background-color: transparent;
+  font-family: 'Arial', sans-serif;
+  color:#393939;
+}
+html{
+  background-image: linear-gradient(175deg, #fdfcfb 0%, #e2d1c3 100%);;
+}
+.raised{
+      box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.container {
+  background-color: transparent;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0.9) 0%, rgba(222,222,222,0.9) 100%);
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  min-height: 90px;
+  border-radius: 20px;
+}
+.header, .link {
+  box-sizing: border-box;
+  
+}
+.header {
+  flex-direction: column;  
+  border-top-left-radius:inherit;
+  border-top-right-radius:inherit;
+  display: flex;
+  padding: 25px;
+  padding-top: 30px;
+  justify-content: center;
+  background-color: transparent;
+  flex-basis: 100%;
+  height: auto;
+  
+}
+.avatar{
+  width: calc(25% + 40px);
+  border-radius:50%;
+  margin: auto;
+}
+.link{
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  border-top: 1px solid #cfcfcf;
+  padding: 18px;
+  flex-basis: 100%;
+  background-color: tansparent;
+}
+.link h3 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin:0;
+  vertical-align: middle;
+}
 	</style>
 </head>
 
 <body>
-<div class="page-content">
-	<div class="ui grid">
-		<!-- Deprecated
-		<div class="row">
-		<div class="column">
-			<div class="ui fluid card">
-
-			  <div class="content">
-				<h2 class="ui header">
-				  <img class="ui circular image" src="avatar/molly.png">
-				  <div class="content">
-				    Edbert Eliezer
-				    <div class="sub header">エベト・エリエザ</div>
-				  </div>
-				</h2>
-				<div class="meta"> 
-					Friends of Veronika	</div>
-				<div class="description">
-				Elliot requested permission to view your contact details
-				</div>
-			  </div>
-
-			  <div class="content">
-			    <a class="center aligned header" href="https://www.youtube.com">
-			    	<i class="youtube icon"></i> YouTube </a> </div>
-			  <div class="content">
-			    <a class="center aligned header" href="https://www.instagram.com">
-			    	<i class="instagram icon"></i> Instagram</a> </div>
-			  <div class="content">
-			    <a class="center aligned header" href="contact.html">
-			    	<i class="envelope outline icon"></i> Contact</a> </div>
-			</div>
-		</div>
-		</div>  -->
-
-		<div class="row">
-			<div class="column">
-				<div class="ui horizontal raised card">
-				  <div class="image">
-				    <img class="no radius" src="avatar/molly.png">
-				  </div>
-				  <div class="content">
-				    <div class="header">Edbert Eliezer</div>
-				    <div class="meta">
-				      <span class="category" style="font-family: 'Noto Sans JP', sans-serif;">エベト・エリエザ</span>
-				    </div>
-				    <div class="description">
-				      <p>
-				      <i class="sith icon"></i> Dark Lord of the Sith </p>
-				      <p>
-				      <i class="galactic senate icon"></i> Earth Galactic Senate </p>
-				      <p>
-				      <i class="map marker alternate icon"></i> SUB - ID </p>
-				    </div>
-				  </div>
-
-
-			  <!-- Reserved Link 1 
-			  <div class="extra content antihorizontal">
-			    <a class="center aligned header" href="contact.html">
-			    	<i class="orange circle icon"></i> Link 1</a> </div>-->
-
-			  <!-- Reserved Link 2 
-			  <div class="extra content antihorizontal">
-			    <a class="center aligned header" href="contact.html">
-			    	<i class="orange circle icon"></i> Link 2</a> </div>-->
-
-			  <!-- Reserved Link 3 
-			  <div class="extra content antihorizontal">
-			    <a class="center aligned header" href="contact.html">
-			    	<i class="orange circle icon"></i> Link 3</a> </div>-->
-
-			  <div class="extra content antihorizontal">
-			    <a class="center aligned header" href="https://www.youtube.com">
-			    	<i class="red youtube icon"></i> YouTube </a> </div>
-
-			  <div class="extra content antihorizontal">
-			    <a class="center aligned header" href="https://www.instagram.com">
-			    	<i class="purple instagram icon"></i> Instagram</a> </div>
-
-			  <div class="extra content antihorizontal">
-			    <a class="center aligned header" href="contact.html">
-			    	<i class="google drive yellow icon"></i> Documents</a> </div>
-
-			  <div class="extra content antihorizontal">
-			    <a class="center aligned header" href="contact.html">
-			    	<i class="blue envelope icon"></i> Contact</a> </div>
-
-				</div>
-			</div>
-		</div>
-
-	</div>
+<div class="container">
+  <div class="card raised">
+    <div class="header">
+      <img src="https://semantic-ui.com/images/avatar2/large/kristy.png" alt="Avatar" class="avatar">
+      <h1 style="text-align: center;margin:0; margin-top:20px;text-transform: uppercase;font-size: 25px;color:#424242;">
+        Edbert Eliezer</h1>
+      <h2 style="text-align: center;margin:0;font-size: 18px;color:#3b3b3b;">エベト・エリエザ</h2>
+    </div>
+    <a class="link" href="https://www.instagram.com/edberteliezer/">
+      <h3><i class="fab fa-instagram" style="margin-right:9px;color:purple;font-size:20px;"></i>Instagram</h3>
+    </a>
+    <a class="link" href="https://www.youtube.com">
+      <h3><i class="fab fa-youtube" style="margin-right:9px;color:red;"></i>YouTube</h3>
+    </a>
+    <a class="link" href="instagram/contact.html">
+      <h3><i class="fas fa-envelope" style="margin-right:9px;color:steelblue;"></i>Contact</h3>
+    </a>
+    <a class="link" href="instagram/document.html">
+      <h3><i class="fas fa-folder" style="margin-right:9px;color:teal;"></i>Document</h3>
+    </a>
+  </div>
 </div>
 </body>
 </html>
