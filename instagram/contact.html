@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+	<!-- Initialize Semantic UI -->		
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+	<!--<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/semantic.min.css">-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/grid.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/segment.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/transition.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/image.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/text.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/header.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/icon.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/form.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/button.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/message.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/input.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/label.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/loader.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/list.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/divider.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/site.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/reset.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/container.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/checkbox.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/checkbox.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/site.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/form.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/components/transition.min.js"></script>
+	<!--<script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.3/dist/semantic.min.js"></script>-->
+
+	<!-- Open Sans Font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+
+	<title>Edbert - Contact</title>
+
+	<style>
+		div.page.content, div.ui.grid {
+			max-width: 450px;
+			margin:auto;
+			padding-top: 15px;
+		}
+
+		h1, h2, h3, h4, h5, .ui.form input[type=text]{ font-family: 'Open Sans', sans-serif !important; }
+
+		body{
+			background-color: #fafafa;
+			font-family: 'Open Sans', sans-serif !important;
+		}
+		h1.ui.header {
+			margin-bottom: 18px;
+		}
+
+		body > .grid {height: 100%;}
+
+	</style>
+
+	<script type="text/javascript">
+
+ $(document)
+    .ready(function() {
+      $('.ui.form')
+        .form({
+          transition: 'scale',
+          inline : true,
+          on: 'blur',
+          shouldTrim : false,
+          fields: {
+
+            name: {
+              identifier  : 'entry.2005620554',
+              rules: [
+                {
+                  type   : 'empty',
+                  prompt : 'Please enter your name'
+                }
+              ]
+            },
+            email: {
+              identifier  : 'entry.397634601',
+              rules: [
+                {
+                  type   : 'empty',
+                  prompt : 'Please enter your email'
+                },
+                {
+                  type   : 'email',
+                  prompt : 'Please enter valid email and remove any spaces'
+                }
+              ]
+            },
+            mail: {
+              identifier  : 'entry.839337160',
+              rules: [
+                {
+                  type   : 'empty',
+                  prompt : 'Please enter your message'
+                }
+              ]
+            },
+            robot: {
+              identifier  : 'entry.1172349478',
+              rules: [
+                {
+		            type: 'empty',
+		            prompt: 'Please fill the human authentication'
+		        },
+				{
+		            type: 'maxLength[8]',
+		            prompt: 'Please retry and remove spaces if any'
+		        },
+                {
+                  type   : 'isExactly[calculus]',
+                  prompt : 'Please enter exactly the word above'
+                }
+
+              ]
+            },
+            
+          },
+          onFailure 	 : 	function() {
+            					console.log("Invalid");
+            					$('.ui.fluid.large.submit.button').toggleClass('red yellow');
+            					setTimeout( function() { $('.ui.fluid.large.submit.button').toggleClass('disabled loading green red')}, 1500);
+            					return false;
+        					}, 
+          onSuccess 	 : 	function() {
+            					console.log("Valid");
+            					return true;
+        					}, 
+        })
+
+    })
+  ;
+
+  
+
+	</script>
+
+
+</head>
+<body>
+<div class="ui grid middle aligned">
+
+		<div class="row">
+		<div class="column">
+
+    <h1 class="ui black header aligned">
+      <div class="content">
+        Contact Page
+      </div>
+    </h1>
+
+    	<script type="text/javascript">var submitted=false;</script>
+     	<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  { window.location='thankyou.html';}"></iframe>
+
+		<div class="ui segment">
+			<form class="ui form" action="https://docs.google.com/forms/u/2/d/e/1FAIpQLSeSjTLqK6MQ6iqB0iT5AjNy0Z082BjbQ7Ifn9RlBEUeT5ReEA/formResponse" target="hidden_iframe" onsubmit="submitted=true;" method="POST" id="mG61Hd" _lpchecked="1">
+			  <div class="required field">
+			    <label>Name</label>
+			    <input type="text" autocapitalize="words" name="entry.2005620554" placeholder="Your name">
+			  </div>
+			  <div class="required field">
+			    <label>Email</label>
+			    <input type="text" inputmode="email" name="entry.397634601" placeholder="Your email address">
+			  </div>
+			  <div class="field">
+			    <label>LINE ID</label>
+			    <input type="text" autocorrect="off" autocapitalize="off" name="entry.1166974658" placeholder="Your LINE ID">
+			  </div>
+			  <div class="required field">
+				<label>Message</label>
+				<textarea name="entry.839337160"></textarea>
+			  </div>
+
+			  <div class="field">
+			    <div class="ui checkbox reply">
+			      <input type="checkbox" tabindex="0" id="reply">
+			      <label>I am expecting a reply</label>
+			      <input type="text" name="entry.698872371" id="greply" value="No" style="display: none;">
+			    </div>
+			  </div>
+				<br>
+			  <div class="required field">
+			  	<label>Human authentication</label>
+			  	<img src="https://raw.githubusercontent.com/edberteliezer/edberteliezer.github.io/master/avatar/robot.gif" alt="c4lcuLu$">
+			  	
+			  	<input type="text" autocorrect="off" autocapitalize="off" name="entry.1172349478" placeholder="Enter the word above">
+			  </div>
+
+			  <button class="ui fluid large green submit button" type="submit" onclick="$('.ui.fluid.large.submit.button').toggleClass('disabled loading yellow green');">Submit</button>
+			  <div class="ui error message"></div>
+			</form>
+		</div>
+		</div>
+		</div>
+
+		<div class="row">
+			<div class="column">
+				<a href="index.html">
+				<div class="ui segment center aligned">
+					<span class="ui blue text"> <strong>Cancel</strong></span>
+				</div>
+				</a>
+			</div>
+		</div>
+
+</div>
+</div>
+
+	<script type="text/javascript">
+		$('.reply.checkbox')
+		.checkbox({
+			// check all children
+			onChecked: function() {
+				$('#greply').attr('value','Yes');;
+			},
+			// uncheck all children
+			onUnchecked: function() {
+				$('#greply').attr('value','No');;
+			}
+		});
+
+
+	</script>
+</body>
+</html>
