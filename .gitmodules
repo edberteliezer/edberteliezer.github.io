@@ -1,0 +1,3 @@
+[submodule "kanjigen"]
+	path = kanjigen
+	url = https://github.com/edberteliezer/animCJK
